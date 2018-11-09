@@ -10,6 +10,7 @@
 		2954238BC9C639FAC5E22354 /* libPods-MyInsight_BlogTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92174ACA54A94C4C928959A8 /* libPods-MyInsight_BlogTests.a */; };
 		653D6981866E543698C29D8E /* libPods-MyInsight_Blog.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AC3BBEF1039F9753738B8C9 /* libPods-MyInsight_Blog.a */; };
 		DA161D53383A754084952C49 /* libPods-MyInsight_BlogUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C11CAE0DEF3CF2AEAABF7410 /* libPods-MyInsight_BlogUITests.a */; };
+		E21AEFCA2195278C00BD6C96 /* NameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E21AEFC92195278C00BD6C96 /* NameViewController.m */; };
 		E227E7582193C44900989DF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E227E7572193C44900989DF8 /* AppDelegate.m */; };
 		E227E75B2193C44900989DF8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E227E75A2193C44900989DF8 /* ViewController.m */; };
 		E227E75E2193C44900989DF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E227E75C2193C44900989DF8 /* Main.storyboard */; };
@@ -47,6 +48,8 @@
 		A55775551D0400D819C96D28 /* Pods-MyInsight_BlogUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyInsight_BlogUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyInsight_BlogUITests/Pods-MyInsight_BlogUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		AAF58D9284E096246C06E8AC /* Pods-MyInsight_BlogTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyInsight_BlogTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyInsight_BlogTests/Pods-MyInsight_BlogTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C11CAE0DEF3CF2AEAABF7410 /* libPods-MyInsight_BlogUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyInsight_BlogUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E21AEFC82195278C00BD6C96 /* NameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NameViewController.h; sourceTree = "<group>"; };
+		E21AEFC92195278C00BD6C96 /* NameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NameViewController.m; sourceTree = "<group>"; };
 		E227E7532193C44900989DF8 /* MyInsight_Blog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyInsight_Blog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E227E7562193C44900989DF8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E227E7572193C44900989DF8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -145,6 +148,8 @@
 				E227E7572193C44900989DF8 /* AppDelegate.m */,
 				E227E7592193C44900989DF8 /* ViewController.h */,
 				E227E75A2193C44900989DF8 /* ViewController.m */,
+				E21AEFC82195278C00BD6C96 /* NameViewController.h */,
+				E21AEFC92195278C00BD6C96 /* NameViewController.m */,
 				E227E75C2193C44900989DF8 /* Main.storyboard */,
 				E227E75F2193C44A00989DF8 /* Assets.xcassets */,
 				E227E7612193C44A00989DF8 /* LaunchScreen.storyboard */,
@@ -365,6 +370,7 @@
 				E227E75B2193C44900989DF8 /* ViewController.m in Sources */,
 				E227E7662193C44A00989DF8 /* main.m in Sources */,
 				E227E7582193C44900989DF8 /* AppDelegate.m in Sources */,
+				E21AEFCA2195278C00BD6C96 /* NameViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
