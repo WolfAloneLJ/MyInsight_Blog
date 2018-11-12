@@ -68,3 +68,5 @@ Xcode工程清除缓存路径
 ### 参考:
 [Homebrew介绍和使用](https://www.jianshu.com/p/de6f1d2d37bf)
 
+[MAC 下查看.a 以及 .framework 支持的架构](https://blog.csdn.net/u012224226/article/details/50848311)
+

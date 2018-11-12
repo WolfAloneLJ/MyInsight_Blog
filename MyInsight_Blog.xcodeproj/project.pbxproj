@@ -1,0 +1,1148 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2954238BC9C639FAC5E22354 /* libPods-MyInsight_BlogTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92174ACA54A94C4C928959A8 /* libPods-MyInsight_BlogTests.a */; };
+		653D6981866E543698C29D8E /* libPods-MyInsight_Blog.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AC3BBEF1039F9753738B8C9 /* libPods-MyInsight_Blog.a */; };
+		DA161D53383A754084952C49 /* libPods-MyInsight_BlogUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C11CAE0DEF3CF2AEAABF7410 /* libPods-MyInsight_BlogUITests.a */; };
+		E227E7582193C44900989DF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E227E7572193C44900989DF8 /* AppDelegate.m */; };
+		E227E75E2193C44900989DF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E227E75C2193C44900989DF8 /* Main.storyboard */; };
+		E227E7602193C44A00989DF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E227E75F2193C44A00989DF8 /* Assets.xcassets */; };
+		E227E7632193C44A00989DF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E227E7612193C44A00989DF8 /* LaunchScreen.storyboard */; };
+		E227E7662193C44A00989DF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E227E7652193C44A00989DF8 /* main.m */; };
+		E227E7702193C44A00989DF8 /* MyInsight_BlogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E227E76F2193C44A00989DF8 /* MyInsight_BlogTests.m */; };
+		E227E77B2193C44A00989DF8 /* MyInsight_BlogUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E227E77A2193C44A00989DF8 /* MyInsight_BlogUITests.m */; };
+		E2DF0014219925C7000B59D7 /* Poetry.md in Resources */ = {isa = PBXBuildFile; fileRef = E2DFFFBB219925C7000B59D7 /* Poetry.md */; };
+		E2DF0015219925C7000B59D7 /* Python算法.md in Resources */ = {isa = PBXBuildFile; fileRef = E2DFFFBD219925C7000B59D7 /* Python算法.md */; };
+		E2DF0016219925C7000B59D7 /* PythonWeb框架.md in Resources */ = {isa = PBXBuildFile; fileRef = E2DFFFBE219925C7000B59D7 /* PythonWeb框架.md */; };
+		E2DF0017219925C7000B59D7 /* Python爬虫.md in Resources */ = {isa = PBXBuildFile; fileRef = E2DFFFBF219925C7000B59D7 /* Python爬虫.md */; };
+		E2DF0018219925C7000B59D7 /* 系统设计题的框架.png in Resources */ = {isa = PBXBuildFile; fileRef = E2DFFFC2219925C7000B59D7 /* 系统设计题的框架.png */; };
+		E2DF0019219925C7000B59D7 /* 消息转发执行流程.png in Resources */ = {isa = PBXBuildFile; fileRef = E2DFFFC3219925C7000B59D7 /* 消息转发执行流程.png */; };
+		E2DF001A219925C7000B59D7 /* 复盘流程.png in Resources */ = {isa = PBXBuildFile; fileRef = E2DFFFC4219925C7000B59D7 /* 复盘流程.png */; };
+		E2DF001B219925C7000B59D7 /* 返回参数.png in Resources */ = {isa = PBXBuildFile; fileRef = E2DFFFC5219925C7000B59D7 /* 返回参数.png */; };
+		E2DF001C219925C7000B59D7 /* Class结构.png in Resources */ = {isa = PBXBuildFile; fileRef = E2DFFFC6219925C7000B59D7 /* Class结构.png */; };
+		E2DF001D219925C7000B59D7 /* class_ro_t结构.png in Resources */ = {isa = PBXBuildFile; fileRef = E2DFFFC7219925C7000B59D7 /* class_ro_t结构.png */; };
+		E2DF001E219925C7000B59D7 /* 耦合严重.png in Resources */ = {isa = PBXBuildFile; fileRef = E2DFFFC8219925C7000B59D7 /* 耦合严重.png */; };
+		E2DF001F219925C7000B59D7 /* AppID-AccessWiFiInfomation.png in Resources */ = {isa = PBXBuildFile; fileRef = E2DFFFC9219925C7000B59D7 /* AppID-AccessWiFiInfomation.png */; };
+		E2DF0020219925C7000B59D7 /* 正确解耦.png in Resources */ = {isa = PBXBuildFile; fileRef = E2DFFFCA219925C7000B59D7 /* 正确解耦.png */; };
+		E2DF0021219925C7000B59D7 /* 面试流程图.png in Resources */ = {isa = PBXBuildFile; fileRef = E2DFFFCB219925C7000B59D7 /* 面试流程图.png */; };
+		E2DF0022219925C7000B59D7 /* 错误解耦.png in Resources */ = {isa = PBXBuildFile; fileRef = E2DFFFCC219925C7000B59D7 /* 错误解耦.png */; };
+		E2DF0023219925C7000B59D7 /* 动态解析流程.png in Resources */ = {isa = PBXBuildFile; fileRef = E2DFFFCD219925C7000B59D7 /* 动态解析流程.png */; };
+		E2DF0024219925C7000B59D7 /* 消息发送执行流程.png in Resources */ = {isa = PBXBuildFile; fileRef = E2DFFFCE219925C7000B59D7 /* 消息发送执行流程.png */; };
+		E2DF0025219925C7000B59D7 /* 简历的准备.png in Resources */ = {isa = PBXBuildFile; fileRef = E2DFFFCF219925C7000B59D7 /* 简历的准备.png */; };
+		E2DF0026219925C7000B59D7 /* TypeEncoding编码表2.png in Resources */ = {isa = PBXBuildFile; fileRef = E2DFFFD0219925C7000B59D7 /* TypeEncoding编码表2.png */; };
+		E2DF0027219925C7000B59D7 /* TypeEncoding编码表1.png in Resources */ = {isa = PBXBuildFile; fileRef = E2DFFFD1219925C7000B59D7 /* TypeEncoding编码表1.png */; };
+		E2DF0028219925C7000B59D7 /* Xcode-AccessWiFiInfomation.png in Resources */ = {isa = PBXBuildFile; fileRef = E2DFFFD2219925C7000B59D7 /* Xcode-AccessWiFiInfomation.png */; };
+		E2DF0029219925C7000B59D7 /* cache_t结构.png in Resources */ = {isa = PBXBuildFile; fileRef = E2DFFFD3219925C7000B59D7 /* cache_t结构.png */; };
+		E2DF002A219925C7000B59D7 /* class_rw_t结构.png in Resources */ = {isa = PBXBuildFile; fileRef = E2DFFFD4219925C7000B59D7 /* class_rw_t结构.png */; };
+		E2DF002B219925C7000B59D7 /* Markdown.md in Resources */ = {isa = PBXBuildFile; fileRef = E2DFFFD6219925C7000B59D7 /* Markdown.md */; };
+		E2DF002C219925C7000B59D7 /* VUE.md in Resources */ = {isa = PBXBuildFile; fileRef = E2DFFFD7219925C7000B59D7 /* VUE.md */; };
+		E2DF002D219925C7000B59D7 /* HTML5.md in Resources */ = {isa = PBXBuildFile; fileRef = E2DFFFD8219925C7000B59D7 /* HTML5.md */; };
+		E2DF002E219925C7000B59D7 /* Java算法.md in Resources */ = {isa = PBXBuildFile; fileRef = E2DFFFDA219925C7000B59D7 /* Java算法.md */; };
+		E2DF002F219925C7000B59D7 /* iOS-OpenGL.md in Resources */ = {isa = PBXBuildFile; fileRef = E2DFFFDC219925C7000B59D7 /* iOS-OpenGL.md */; };
+		E2DF0030219925C7000B59D7 /* iOS第三方库工具.md in Resources */ = {isa = PBXBuildFile; fileRef = E2DFFFDD219925C7000B59D7 /* iOS第三方库工具.md */; };
+		E2DF0031219925C7000B59D7 /* iOS区块链.md in Resources */ = {isa = PBXBuildFile; fileRef = E2DFFFDE219925C7000B59D7 /* iOS区块链.md */; };
+		E2DF0032219925C7000B59D7 /* iOS多target.md in Resources */ = {isa = PBXBuildFile; fileRef = E2DFFFDF219925C7000B59D7 /* iOS多target.md */; };
+		E2DF0033219925C7000B59D7 /* iOS组件化.md in Resources */ = {isa = PBXBuildFile; fileRef = E2DFFFE0219925C7000B59D7 /* iOS组件化.md */; };
+		E2DF0034219925C7000B59D7 /* Mac常见指令.md in Resources */ = {isa = PBXBuildFile; fileRef = E2DFFFE1219925C7000B59D7 /* Mac常见指令.md */; };
+		E2DF0035219925C7000B59D7 /* OC-NSDictionary.md in Resources */ = {isa = PBXBuildFile; fileRef = E2DFFFE2219925C7000B59D7 /* OC-NSDictionary.md */; };
+		E2DF0036219925C7000B59D7 /* iOS常见报错.md in Resources */ = {isa = PBXBuildFile; fileRef = E2DFFFE3219925C7000B59D7 /* iOS常见报错.md */; };
+		E2DF0037219925C7000B59D7 /* iOS进制转换.md in Resources */ = {isa = PBXBuildFile; fileRef = E2DFFFE4219925C7000B59D7 /* iOS进制转换.md */; };
+		E2DF0038219925C7000B59D7 /* iOS面试题.md in Resources */ = {isa = PBXBuildFile; fileRef = E2DFFFE5219925C7000B59D7 /* iOS面试题.md */; };
+		E2DF0039219925C7000B59D7 /* iOS的GitHub接口.md in Resources */ = {isa = PBXBuildFile; fileRef = E2DFFFE6219925C7000B59D7 /* iOS的GitHub接口.md */; };
+		E2DF003A219925C7000B59D7 /* iOS蓝牙.md in Resources */ = {isa = PBXBuildFile; fileRef = E2DFFFE7219925C7000B59D7 /* iOS蓝牙.md */; };
+		E2DF003B219925C7000B59D7 /* OC-Category.md in Resources */ = {isa = PBXBuildFile; fileRef = E2DFFFE8219925C7000B59D7 /* OC-Category.md */; };
+		E2DF003C219925C7000B59D7 /* iOS调试技巧.md in Resources */ = {isa = PBXBuildFile; fileRef = E2DFFFE9219925C7000B59D7 /* iOS调试技巧.md */; };
+		E2DF003D219925C7000B59D7 /* OC-RunTime.md in Resources */ = {isa = PBXBuildFile; fileRef = E2DFFFEA219925C7000B59D7 /* OC-RunTime.md */; };
+		E2DF003E219925C7000B59D7 /* iOS传感器.md in Resources */ = {isa = PBXBuildFile; fileRef = E2DFFFEB219925C7000B59D7 /* iOS传感器.md */; };
+		E2DF003F219925C7000B59D7 /* iOS-Swift.md in Resources */ = {isa = PBXBuildFile; fileRef = E2DFFFEC219925C7000B59D7 /* iOS-Swift.md */; };
+		E2DF0040219925C7000B59D7 /* OC-NSRunLoop.md in Resources */ = {isa = PBXBuildFile; fileRef = E2DFFFED219925C7000B59D7 /* OC-NSRunLoop.md */; };
+		E2DF0041219925C7000B59D7 /* iOS统计工具.md in Resources */ = {isa = PBXBuildFile; fileRef = E2DFFFEE219925C7000B59D7 /* iOS统计工具.md */; };
+		E2DF0042219925C7000B59D7 /* Blog.md in Resources */ = {isa = PBXBuildFile; fileRef = E2DFFFEF219925C7000B59D7 /* Blog.md */; };
+		E2DF0043219925C7000B59D7 /* SVN工具.md in Resources */ = {isa = PBXBuildFile; fileRef = E2DFFFF0219925C7000B59D7 /* SVN工具.md */; };
+		E2DF0044219925C7000B59D7 /* iOS的OC和Swift混编.md in Resources */ = {isa = PBXBuildFile; fileRef = E2DFFFF1219925C7000B59D7 /* iOS的OC和Swift混编.md */; };
+		E2DF0045219925C7000B59D7 /* iOS地图.md in Resources */ = {isa = PBXBuildFile; fileRef = E2DFFFF2219925C7000B59D7 /* iOS地图.md */; };
+		E2DF0046219925C7000B59D7 /* iOS跨平台.md in Resources */ = {isa = PBXBuildFile; fileRef = E2DFFFF3219925C7000B59D7 /* iOS跨平台.md */; };
+		E2DF0047219925C7000B59D7 /* iOS硬件信息.md in Resources */ = {isa = PBXBuildFile; fileRef = E2DFFFF4219925C7000B59D7 /* iOS硬件信息.md */; };
+		E2DF0048219925C7000B59D7 /* iOS图片缓存.md in Resources */ = {isa = PBXBuildFile; fileRef = E2DFFFF5219925C7000B59D7 /* iOS图片缓存.md */; };
+		E2DF0049219925C7000B59D7 /* OC-Block.md in Resources */ = {isa = PBXBuildFile; fileRef = E2DFFFF6219925C7000B59D7 /* OC-Block.md */; };
+		E2DF004A219925C7000B59D7 /* iOS启动流程.md in Resources */ = {isa = PBXBuildFile; fileRef = E2DFFFF7219925C7000B59D7 /* iOS启动流程.md */; };
+		E2DF004B219925C7000B59D7 /* iOS面试之道.md in Resources */ = {isa = PBXBuildFile; fileRef = E2DFFFF8219925C7000B59D7 /* iOS面试之道.md */; };
+		E2DF004C219925C7000B59D7 /* iOS加密.md in Resources */ = {isa = PBXBuildFile; fileRef = E2DFFFF9219925C7000B59D7 /* iOS加密.md */; };
+		E2DF004D219925C7000B59D7 /* iOS布局.md in Resources */ = {isa = PBXBuildFile; fileRef = E2DFFFFA219925C7000B59D7 /* iOS布局.md */; };
+		E2DF004E219925C7000B59D7 /* GIT工具.md in Resources */ = {isa = PBXBuildFile; fileRef = E2DFFFFB219925C7000B59D7 /* GIT工具.md */; };
+		E2DF004F219925C7000B59D7 /* iOS制作Framework.md in Resources */ = {isa = PBXBuildFile; fileRef = E2DFFFFC219925C7000B59D7 /* iOS制作Framework.md */; };
+		E2DF0050219925C7000B59D7 /* OC-进制转换.md in Resources */ = {isa = PBXBuildFile; fileRef = E2DFFFFD219925C7000B59D7 /* OC-进制转换.md */; };
+		E2DF0051219925C7000B59D7 /* iOS代码块CodeSnippet.md in Resources */ = {isa = PBXBuildFile; fileRef = E2DFFFFE219925C7000B59D7 /* iOS代码块CodeSnippet.md */; };
+		E2DF0052219925C7000B59D7 /* iOS设计模式.md in Resources */ = {isa = PBXBuildFile; fileRef = E2DFFFFF219925C7000B59D7 /* iOS设计模式.md */; };
+		E2DF0053219925C7000B59D7 /* iOS数据存储.md in Resources */ = {isa = PBXBuildFile; fileRef = E2DF0000219925C7000B59D7 /* iOS数据存储.md */; };
+		E2DF0054219925C7000B59D7 /* iOS横竖屏.md in Resources */ = {isa = PBXBuildFile; fileRef = E2DF0001219925C7000B59D7 /* iOS横竖屏.md */; };
+		E2DF0055219925C7000B59D7 /* OC-算法.md in Resources */ = {isa = PBXBuildFile; fileRef = E2DF0002219925C7000B59D7 /* OC-算法.md */; };
+		E2DF0056219925C7000B59D7 /* iOS网络请求.md in Resources */ = {isa = PBXBuildFile; fileRef = E2DF0003219925C7000B59D7 /* iOS网络请求.md */; };
+		E2DF0057219925C7000B59D7 /* iOS-APP优化.md in Resources */ = {isa = PBXBuildFile; fileRef = E2DF0004219925C7000B59D7 /* iOS-APP优化.md */; };
+		E2DF0058219925C7000B59D7 /* iOS-OpenCV.md in Resources */ = {isa = PBXBuildFile; fileRef = E2DF0005219925C7000B59D7 /* iOS-OpenCV.md */; };
+		E2DF0059219925C7000B59D7 /* iOS-FunSDK集成.md in Resources */ = {isa = PBXBuildFile; fileRef = E2DF0006219925C7000B59D7 /* iOS-FunSDK集成.md */; };
+		E2DF005A219925C7000B59D7 /* OC-MultiThread.md in Resources */ = {isa = PBXBuildFile; fileRef = E2DF0007219925C7000B59D7 /* OC-MultiThread.md */; };
+		E2DF005B219925C7000B59D7 /* CPP设计模式.md in Resources */ = {isa = PBXBuildFile; fileRef = E2DF0009219925C7000B59D7 /* CPP设计模式.md */; };
+		E2DF005C219925C7000B59D7 /* CPP算法.md in Resources */ = {isa = PBXBuildFile; fileRef = E2DF000A219925C7000B59D7 /* CPP算法.md */; };
+		E2DF005D219925C7000B59D7 /* Linxu常见指令.md in Resources */ = {isa = PBXBuildFile; fileRef = E2DF000C219925C7000B59D7 /* Linxu常见指令.md */; };
+		E2DF005E219925C7000B59D7 /* Android内存管理.md in Resources */ = {isa = PBXBuildFile; fileRef = E2DF000E219925C7000B59D7 /* Android内存管理.md */; };
+		E2DF005F219925C7000B59D7 /* Android网络请求.md in Resources */ = {isa = PBXBuildFile; fileRef = E2DF000F219925C7000B59D7 /* Android网络请求.md */; };
+		E2DF0060219925C7000B59D7 /* Android蓝牙.md in Resources */ = {isa = PBXBuildFile; fileRef = E2DF0010219925C7000B59D7 /* Android蓝牙.md */; };
+		E2DF0061219925C7000B59D7 /* Android学习之旅.md in Resources */ = {isa = PBXBuildFile; fileRef = E2DF0011219925C7000B59D7 /* Android学习之旅.md */; };
+		E2DF0062219925C7000B59D7 /* C算法.md in Resources */ = {isa = PBXBuildFile; fileRef = E2DF0013219925C7000B59D7 /* C算法.md */; };
+		E2EC109121968B3C008DD807 /* BlogListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E2EC109021968B3C008DD807 /* BlogListVC.m */; };
+		E2EC109421968B4C008DD807 /* MyBlogVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E2EC109321968B4C008DD807 /* MyBlogVC.m */; };
+		E2EC109A21968DAD008DD807 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = E2EC109621968DAD008DD807 /* index.html */; };
+		E2EC109B21968DAD008DD807 /* MarkdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EC109721968DAD008DD807 /* MarkdownView.swift */; };
+		E2EC109C21968DAD008DD807 /* main.css in Resources */ = {isa = PBXBuildFile; fileRef = E2EC109821968DAD008DD807 /* main.css */; };
+		E2EC109D21968DAD008DD807 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = E2EC109921968DAD008DD807 /* main.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E227E76C2193C44A00989DF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E227E74B2193C44900989DF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E227E7522193C44900989DF8;
+			remoteInfo = MyInsight_Blog;
+		};
+		E227E7772193C44A00989DF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E227E74B2193C44900989DF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E227E7522193C44900989DF8;
+			remoteInfo = MyInsight_Blog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F5505B657720FDABFBBB193 /* Pods-MyInsight_Blog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyInsight_Blog.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyInsight_Blog/Pods-MyInsight_Blog.release.xcconfig"; sourceTree = "<group>"; };
+		2A32375CFC479213D5BD7352 /* Pods-MyInsight_BlogUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyInsight_BlogUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyInsight_BlogUITests/Pods-MyInsight_BlogUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2AC3BBEF1039F9753738B8C9 /* libPods-MyInsight_Blog.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyInsight_Blog.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C9BC150B8C5AAE134BB1AF6 /* Pods-MyInsight_BlogTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyInsight_BlogTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyInsight_BlogTests/Pods-MyInsight_BlogTests.release.xcconfig"; sourceTree = "<group>"; };
+		39EEE5F37C3B45B841AB2C56 /* Pods-MyInsight_Blog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyInsight_Blog.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyInsight_Blog/Pods-MyInsight_Blog.debug.xcconfig"; sourceTree = "<group>"; };
+		92174ACA54A94C4C928959A8 /* libPods-MyInsight_BlogTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyInsight_BlogTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A55775551D0400D819C96D28 /* Pods-MyInsight_BlogUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyInsight_BlogUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyInsight_BlogUITests/Pods-MyInsight_BlogUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AAF58D9284E096246C06E8AC /* Pods-MyInsight_BlogTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyInsight_BlogTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyInsight_BlogTests/Pods-MyInsight_BlogTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C11CAE0DEF3CF2AEAABF7410 /* libPods-MyInsight_BlogUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyInsight_BlogUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E227E7532193C44900989DF8 /* MyInsight_Blog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyInsight_Blog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E227E7562193C44900989DF8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E227E7572193C44900989DF8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E227E75D2193C44900989DF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E227E75F2193C44A00989DF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E227E7622193C44A00989DF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E227E7642193C44A00989DF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E227E7652193C44A00989DF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E227E76B2193C44A00989DF8 /* MyInsight_BlogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyInsight_BlogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E227E76F2193C44A00989DF8 /* MyInsight_BlogTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyInsight_BlogTests.m; sourceTree = "<group>"; };
+		E227E7712193C44A00989DF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E227E7762193C44A00989DF8 /* MyInsight_BlogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyInsight_BlogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E227E77A2193C44A00989DF8 /* MyInsight_BlogUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyInsight_BlogUITests.m; sourceTree = "<group>"; };
+		E227E77C2193C44A00989DF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2DF0000219925C7000B59D7 /* iOS数据存储.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "iOS数据存储.md"; sourceTree = "<group>"; };
+		E2DF0001219925C7000B59D7 /* iOS横竖屏.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "iOS横竖屏.md"; sourceTree = "<group>"; };
+		E2DF0002219925C7000B59D7 /* OC-算法.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "OC-算法.md"; sourceTree = "<group>"; };
+		E2DF0003219925C7000B59D7 /* iOS网络请求.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "iOS网络请求.md"; sourceTree = "<group>"; };
+		E2DF0004219925C7000B59D7 /* iOS-APP优化.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "iOS-APP优化.md"; sourceTree = "<group>"; };
+		E2DF0005219925C7000B59D7 /* iOS-OpenCV.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "iOS-OpenCV.md"; sourceTree = "<group>"; };
+		E2DF0006219925C7000B59D7 /* iOS-FunSDK集成.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "iOS-FunSDK集成.md"; sourceTree = "<group>"; };
+		E2DF0007219925C7000B59D7 /* OC-MultiThread.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "OC-MultiThread.md"; sourceTree = "<group>"; };
+		E2DF0009219925C7000B59D7 /* CPP设计模式.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "CPP设计模式.md"; sourceTree = "<group>"; };
+		E2DF000A219925C7000B59D7 /* CPP算法.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "CPP算法.md"; sourceTree = "<group>"; };
+		E2DF000C219925C7000B59D7 /* Linxu常见指令.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Linxu常见指令.md"; sourceTree = "<group>"; };
+		E2DF000E219925C7000B59D7 /* Android内存管理.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Android内存管理.md"; sourceTree = "<group>"; };
+		E2DF000F219925C7000B59D7 /* Android网络请求.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Android网络请求.md"; sourceTree = "<group>"; };
+		E2DF0010219925C7000B59D7 /* Android蓝牙.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Android蓝牙.md"; sourceTree = "<group>"; };
+		E2DF0011219925C7000B59D7 /* Android学习之旅.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Android学习之旅.md"; sourceTree = "<group>"; };
+		E2DF0013219925C7000B59D7 /* C算法.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "C算法.md"; sourceTree = "<group>"; };
+		E2DFFFBB219925C7000B59D7 /* Poetry.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Poetry.md; sourceTree = "<group>"; };
+		E2DFFFBD219925C7000B59D7 /* Python算法.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Python算法.md"; sourceTree = "<group>"; };
+		E2DFFFBE219925C7000B59D7 /* PythonWeb框架.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "PythonWeb框架.md"; sourceTree = "<group>"; };
+		E2DFFFBF219925C7000B59D7 /* Python爬虫.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Python爬虫.md"; sourceTree = "<group>"; };
+		E2DFFFC2219925C7000B59D7 /* 系统设计题的框架.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "系统设计题的框架.png"; sourceTree = "<group>"; };
+		E2DFFFC3219925C7000B59D7 /* 消息转发执行流程.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "消息转发执行流程.png"; sourceTree = "<group>"; };
+		E2DFFFC4219925C7000B59D7 /* 复盘流程.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "复盘流程.png"; sourceTree = "<group>"; };
+		E2DFFFC5219925C7000B59D7 /* 返回参数.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回参数.png"; sourceTree = "<group>"; };
+		E2DFFFC6219925C7000B59D7 /* Class结构.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Class结构.png"; sourceTree = "<group>"; };
+		E2DFFFC7219925C7000B59D7 /* class_ro_t结构.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "class_ro_t结构.png"; sourceTree = "<group>"; };
+		E2DFFFC8219925C7000B59D7 /* 耦合严重.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "耦合严重.png"; sourceTree = "<group>"; };
+		E2DFFFC9219925C7000B59D7 /* AppID-AccessWiFiInfomation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppID-AccessWiFiInfomation.png"; sourceTree = "<group>"; };
+		E2DFFFCA219925C7000B59D7 /* 正确解耦.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "正确解耦.png"; sourceTree = "<group>"; };
+		E2DFFFCB219925C7000B59D7 /* 面试流程图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "面试流程图.png"; sourceTree = "<group>"; };
+		E2DFFFCC219925C7000B59D7 /* 错误解耦.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "错误解耦.png"; sourceTree = "<group>"; };
+		E2DFFFCD219925C7000B59D7 /* 动态解析流程.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "动态解析流程.png"; sourceTree = "<group>"; };
+		E2DFFFCE219925C7000B59D7 /* 消息发送执行流程.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "消息发送执行流程.png"; sourceTree = "<group>"; };
+		E2DFFFCF219925C7000B59D7 /* 简历的准备.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "简历的准备.png"; sourceTree = "<group>"; };
+		E2DFFFD0219925C7000B59D7 /* TypeEncoding编码表2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TypeEncoding编码表2.png"; sourceTree = "<group>"; };
+		E2DFFFD1219925C7000B59D7 /* TypeEncoding编码表1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TypeEncoding编码表1.png"; sourceTree = "<group>"; };
+		E2DFFFD2219925C7000B59D7 /* Xcode-AccessWiFiInfomation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Xcode-AccessWiFiInfomation.png"; sourceTree = "<group>"; };
+		E2DFFFD3219925C7000B59D7 /* cache_t结构.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cache_t结构.png"; sourceTree = "<group>"; };
+		E2DFFFD4219925C7000B59D7 /* class_rw_t结构.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "class_rw_t结构.png"; sourceTree = "<group>"; };
+		E2DFFFD6219925C7000B59D7 /* Markdown.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Markdown.md; sourceTree = "<group>"; };
+		E2DFFFD7219925C7000B59D7 /* VUE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = VUE.md; sourceTree = "<group>"; };
+		E2DFFFD8219925C7000B59D7 /* HTML5.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = HTML5.md; sourceTree = "<group>"; };
+		E2DFFFDA219925C7000B59D7 /* Java算法.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Java算法.md"; sourceTree = "<group>"; };
+		E2DFFFDC219925C7000B59D7 /* iOS-OpenGL.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "iOS-OpenGL.md"; sourceTree = "<group>"; };
+		E2DFFFDD219925C7000B59D7 /* iOS第三方库工具.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "iOS第三方库工具.md"; sourceTree = "<group>"; };
+		E2DFFFDE219925C7000B59D7 /* iOS区块链.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "iOS区块链.md"; sourceTree = "<group>"; };
+		E2DFFFDF219925C7000B59D7 /* iOS多target.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "iOS多target.md"; sourceTree = "<group>"; };
+		E2DFFFE0219925C7000B59D7 /* iOS组件化.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "iOS组件化.md"; sourceTree = "<group>"; };
+		E2DFFFE1219925C7000B59D7 /* Mac常见指令.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Mac常见指令.md"; sourceTree = "<group>"; };
+		E2DFFFE2219925C7000B59D7 /* OC-NSDictionary.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "OC-NSDictionary.md"; sourceTree = "<group>"; };
+		E2DFFFE3219925C7000B59D7 /* iOS常见报错.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "iOS常见报错.md"; sourceTree = "<group>"; };
+		E2DFFFE4219925C7000B59D7 /* iOS进制转换.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "iOS进制转换.md"; sourceTree = "<group>"; };
+		E2DFFFE5219925C7000B59D7 /* iOS面试题.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "iOS面试题.md"; sourceTree = "<group>"; };
+		E2DFFFE6219925C7000B59D7 /* iOS的GitHub接口.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "iOS的GitHub接口.md"; sourceTree = "<group>"; };
+		E2DFFFE7219925C7000B59D7 /* iOS蓝牙.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "iOS蓝牙.md"; sourceTree = "<group>"; };
+		E2DFFFE8219925C7000B59D7 /* OC-Category.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "OC-Category.md"; sourceTree = "<group>"; };
+		E2DFFFE9219925C7000B59D7 /* iOS调试技巧.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "iOS调试技巧.md"; sourceTree = "<group>"; };
+		E2DFFFEA219925C7000B59D7 /* OC-RunTime.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "OC-RunTime.md"; sourceTree = "<group>"; };
+		E2DFFFEB219925C7000B59D7 /* iOS传感器.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "iOS传感器.md"; sourceTree = "<group>"; };
+		E2DFFFEC219925C7000B59D7 /* iOS-Swift.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "iOS-Swift.md"; sourceTree = "<group>"; };
+		E2DFFFED219925C7000B59D7 /* OC-NSRunLoop.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "OC-NSRunLoop.md"; sourceTree = "<group>"; };
+		E2DFFFEE219925C7000B59D7 /* iOS统计工具.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "iOS统计工具.md"; sourceTree = "<group>"; };
+		E2DFFFEF219925C7000B59D7 /* Blog.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Blog.md; sourceTree = "<group>"; };
+		E2DFFFF0219925C7000B59D7 /* SVN工具.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "SVN工具.md"; sourceTree = "<group>"; };
+		E2DFFFF1219925C7000B59D7 /* iOS的OC和Swift混编.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "iOS的OC和Swift混编.md"; sourceTree = "<group>"; };
+		E2DFFFF2219925C7000B59D7 /* iOS地图.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "iOS地图.md"; sourceTree = "<group>"; };
+		E2DFFFF3219925C7000B59D7 /* iOS跨平台.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "iOS跨平台.md"; sourceTree = "<group>"; };
+		E2DFFFF4219925C7000B59D7 /* iOS硬件信息.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "iOS硬件信息.md"; sourceTree = "<group>"; };
+		E2DFFFF5219925C7000B59D7 /* iOS图片缓存.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "iOS图片缓存.md"; sourceTree = "<group>"; };
+		E2DFFFF6219925C7000B59D7 /* OC-Block.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "OC-Block.md"; sourceTree = "<group>"; };
+		E2DFFFF7219925C7000B59D7 /* iOS启动流程.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "iOS启动流程.md"; sourceTree = "<group>"; };
+		E2DFFFF8219925C7000B59D7 /* iOS面试之道.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "iOS面试之道.md"; sourceTree = "<group>"; };
+		E2DFFFF9219925C7000B59D7 /* iOS加密.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "iOS加密.md"; sourceTree = "<group>"; };
+		E2DFFFFA219925C7000B59D7 /* iOS布局.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "iOS布局.md"; sourceTree = "<group>"; };
+		E2DFFFFB219925C7000B59D7 /* GIT工具.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "GIT工具.md"; sourceTree = "<group>"; };
+		E2DFFFFC219925C7000B59D7 /* iOS制作Framework.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "iOS制作Framework.md"; sourceTree = "<group>"; };
+		E2DFFFFD219925C7000B59D7 /* OC-进制转换.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "OC-进制转换.md"; sourceTree = "<group>"; };
+		E2DFFFFE219925C7000B59D7 /* iOS代码块CodeSnippet.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "iOS代码块CodeSnippet.md"; sourceTree = "<group>"; };
+		E2DFFFFF219925C7000B59D7 /* iOS设计模式.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "iOS设计模式.md"; sourceTree = "<group>"; };
+		E2EC108A21968AD8008DD807 /* MyInsight_Blog-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyInsight_Blog-Bridging-Header.h"; sourceTree = "<group>"; };
+		E2EC108F21968B3C008DD807 /* BlogListVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlogListVC.h; sourceTree = "<group>"; };
+		E2EC109021968B3C008DD807 /* BlogListVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlogListVC.m; sourceTree = "<group>"; };
+		E2EC109221968B4C008DD807 /* MyBlogVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyBlogVC.h; sourceTree = "<group>"; };
+		E2EC109321968B4C008DD807 /* MyBlogVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyBlogVC.m; sourceTree = "<group>"; };
+		E2EC109621968DAD008DD807 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		E2EC109721968DAD008DD807 /* MarkdownView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkdownView.swift; sourceTree = "<group>"; };
+		E2EC109821968DAD008DD807 /* main.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = main.css; sourceTree = "<group>"; };
+		E2EC109921968DAD008DD807 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E227E7502193C44900989DF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				653D6981866E543698C29D8E /* libPods-MyInsight_Blog.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E227E7682193C44A00989DF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2954238BC9C639FAC5E22354 /* libPods-MyInsight_BlogTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E227E7732193C44A00989DF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA161D53383A754084952C49 /* libPods-MyInsight_BlogUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4324294C3D7C5A5E274267A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2AC3BBEF1039F9753738B8C9 /* libPods-MyInsight_Blog.a */,
+				92174ACA54A94C4C928959A8 /* libPods-MyInsight_BlogTests.a */,
+				C11CAE0DEF3CF2AEAABF7410 /* libPods-MyInsight_BlogUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7BFF27C87EAD1504843F43AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39EEE5F37C3B45B841AB2C56 /* Pods-MyInsight_Blog.debug.xcconfig */,
+				0F5505B657720FDABFBBB193 /* Pods-MyInsight_Blog.release.xcconfig */,
+				AAF58D9284E096246C06E8AC /* Pods-MyInsight_BlogTests.debug.xcconfig */,
+				2C9BC150B8C5AAE134BB1AF6 /* Pods-MyInsight_BlogTests.release.xcconfig */,
+				A55775551D0400D819C96D28 /* Pods-MyInsight_BlogUITests.debug.xcconfig */,
+				2A32375CFC479213D5BD7352 /* Pods-MyInsight_BlogUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E227E74A2193C44900989DF8 = {
+			isa = PBXGroup;
+			children = (
+				E2DFFFB9219925C7000B59D7 /* Blog */,
+				E227E7552193C44900989DF8 /* MyInsight_Blog */,
+				E227E76E2193C44A00989DF8 /* MyInsight_BlogTests */,
+				E227E7792193C44A00989DF8 /* MyInsight_BlogUITests */,
+				E227E7542193C44900989DF8 /* Products */,
+				7BFF27C87EAD1504843F43AD /* Pods */,
+				4324294C3D7C5A5E274267A0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E227E7542193C44900989DF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E227E7532193C44900989DF8 /* MyInsight_Blog.app */,
+				E227E76B2193C44A00989DF8 /* MyInsight_BlogTests.xctest */,
+				E227E7762193C44A00989DF8 /* MyInsight_BlogUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E227E7552193C44900989DF8 /* MyInsight_Blog */ = {
+			isa = PBXGroup;
+			children = (
+				E227E7562193C44900989DF8 /* AppDelegate.h */,
+				E227E7572193C44900989DF8 /* AppDelegate.m */,
+				E2EC108F21968B3C008DD807 /* BlogListVC.h */,
+				E2EC109021968B3C008DD807 /* BlogListVC.m */,
+				E2EC109221968B4C008DD807 /* MyBlogVC.h */,
+				E2EC109321968B4C008DD807 /* MyBlogVC.m */,
+				E2EC108A21968AD8008DD807 /* MyInsight_Blog-Bridging-Header.h */,
+				E2EC109521968DAD008DD807 /* MarkdownView */,
+				E227E75C2193C44900989DF8 /* Main.storyboard */,
+				E227E75F2193C44A00989DF8 /* Assets.xcassets */,
+				E227E7612193C44A00989DF8 /* LaunchScreen.storyboard */,
+				E227E7642193C44A00989DF8 /* Info.plist */,
+				E227E7652193C44A00989DF8 /* main.m */,
+			);
+			path = MyInsight_Blog;
+			sourceTree = "<group>";
+		};
+		E227E76E2193C44A00989DF8 /* MyInsight_BlogTests */ = {
+			isa = PBXGroup;
+			children = (
+				E227E76F2193C44A00989DF8 /* MyInsight_BlogTests.m */,
+				E227E7712193C44A00989DF8 /* Info.plist */,
+			);
+			path = MyInsight_BlogTests;
+			sourceTree = "<group>";
+		};
+		E227E7792193C44A00989DF8 /* MyInsight_BlogUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E227E77A2193C44A00989DF8 /* MyInsight_BlogUITests.m */,
+				E227E77C2193C44A00989DF8 /* Info.plist */,
+			);
+			path = MyInsight_BlogUITests;
+			sourceTree = "<group>";
+		};
+		E2DF0008219925C7000B59D7 /* CPP */ = {
+			isa = PBXGroup;
+			children = (
+				E2DF0009219925C7000B59D7 /* CPP设计模式.md */,
+				E2DF000A219925C7000B59D7 /* CPP算法.md */,
+			);
+			path = CPP;
+			sourceTree = "<group>";
+		};
+		E2DF000B219925C7000B59D7 /* Linux */ = {
+			isa = PBXGroup;
+			children = (
+				E2DF000C219925C7000B59D7 /* Linxu常见指令.md */,
+			);
+			path = Linux;
+			sourceTree = "<group>";
+		};
+		E2DF000D219925C7000B59D7 /* Android */ = {
+			isa = PBXGroup;
+			children = (
+				E2DF000E219925C7000B59D7 /* Android内存管理.md */,
+				E2DF000F219925C7000B59D7 /* Android网络请求.md */,
+				E2DF0010219925C7000B59D7 /* Android蓝牙.md */,
+				E2DF0011219925C7000B59D7 /* Android学习之旅.md */,
+			);
+			path = Android;
+			sourceTree = "<group>";
+		};
+		E2DF0012219925C7000B59D7 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				E2DF0013219925C7000B59D7 /* C算法.md */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		E2DFFFB9219925C7000B59D7 /* Blog */ = {
+			isa = PBXGroup;
+			children = (
+				E2DFFFBA219925C7000B59D7 /* Essays */,
+				E2DFFFBC219925C7000B59D7 /* Python */,
+				E2DFFFC0219925C7000B59D7 /* images */,
+				E2DFFFD5219925C7000B59D7 /* Web */,
+				E2DFFFD9219925C7000B59D7 /* Java */,
+				E2DFFFDB219925C7000B59D7 /* iOS */,
+				E2DF0008219925C7000B59D7 /* CPP */,
+				E2DF000B219925C7000B59D7 /* Linux */,
+				E2DF000D219925C7000B59D7 /* Android */,
+				E2DF0012219925C7000B59D7 /* C */,
+			);
+			path = Blog;
+			sourceTree = "<group>";
+		};
+		E2DFFFBA219925C7000B59D7 /* Essays */ = {
+			isa = PBXGroup;
+			children = (
+				E2DFFFBB219925C7000B59D7 /* Poetry.md */,
+			);
+			path = Essays;
+			sourceTree = "<group>";
+		};
+		E2DFFFBC219925C7000B59D7 /* Python */ = {
+			isa = PBXGroup;
+			children = (
+				E2DFFFBD219925C7000B59D7 /* Python算法.md */,
+				E2DFFFBE219925C7000B59D7 /* PythonWeb框架.md */,
+				E2DFFFBF219925C7000B59D7 /* Python爬虫.md */,
+			);
+			path = Python;
+			sourceTree = "<group>";
+		};
+		E2DFFFC0219925C7000B59D7 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				E2DFFFC1219925C7000B59D7 /* iOS */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		E2DFFFC1219925C7000B59D7 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E2DFFFC2219925C7000B59D7 /* 系统设计题的框架.png */,
+				E2DFFFC3219925C7000B59D7 /* 消息转发执行流程.png */,
+				E2DFFFC4219925C7000B59D7 /* 复盘流程.png */,
+				E2DFFFC5219925C7000B59D7 /* 返回参数.png */,
+				E2DFFFC6219925C7000B59D7 /* Class结构.png */,
+				E2DFFFC7219925C7000B59D7 /* class_ro_t结构.png */,
+				E2DFFFC8219925C7000B59D7 /* 耦合严重.png */,
+				E2DFFFC9219925C7000B59D7 /* AppID-AccessWiFiInfomation.png */,
+				E2DFFFCA219925C7000B59D7 /* 正确解耦.png */,
+				E2DFFFCB219925C7000B59D7 /* 面试流程图.png */,
+				E2DFFFCC219925C7000B59D7 /* 错误解耦.png */,
+				E2DFFFCD219925C7000B59D7 /* 动态解析流程.png */,
+				E2DFFFCE219925C7000B59D7 /* 消息发送执行流程.png */,
+				E2DFFFCF219925C7000B59D7 /* 简历的准备.png */,
+				E2DFFFD0219925C7000B59D7 /* TypeEncoding编码表2.png */,
+				E2DFFFD1219925C7000B59D7 /* TypeEncoding编码表1.png */,
+				E2DFFFD2219925C7000B59D7 /* Xcode-AccessWiFiInfomation.png */,
+				E2DFFFD3219925C7000B59D7 /* cache_t结构.png */,
+				E2DFFFD4219925C7000B59D7 /* class_rw_t结构.png */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		E2DFFFD5219925C7000B59D7 /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				E2DFFFD6219925C7000B59D7 /* Markdown.md */,
+				E2DFFFD7219925C7000B59D7 /* VUE.md */,
+				E2DFFFD8219925C7000B59D7 /* HTML5.md */,
+			);
+			path = Web;
+			sourceTree = "<group>";
+		};
+		E2DFFFD9219925C7000B59D7 /* Java */ = {
+			isa = PBXGroup;
+			children = (
+				E2DFFFDA219925C7000B59D7 /* Java算法.md */,
+			);
+			path = Java;
+			sourceTree = "<group>";
+		};
+		E2DFFFDB219925C7000B59D7 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E2DFFFDC219925C7000B59D7 /* iOS-OpenGL.md */,
+				E2DFFFDD219925C7000B59D7 /* iOS第三方库工具.md */,
+				E2DFFFDE219925C7000B59D7 /* iOS区块链.md */,
+				E2DFFFDF219925C7000B59D7 /* iOS多target.md */,
+				E2DFFFE0219925C7000B59D7 /* iOS组件化.md */,
+				E2DFFFE1219925C7000B59D7 /* Mac常见指令.md */,
+				E2DFFFE2219925C7000B59D7 /* OC-NSDictionary.md */,
+				E2DFFFE3219925C7000B59D7 /* iOS常见报错.md */,
+				E2DFFFE4219925C7000B59D7 /* iOS进制转换.md */,
+				E2DFFFE5219925C7000B59D7 /* iOS面试题.md */,
+				E2DFFFE6219925C7000B59D7 /* iOS的GitHub接口.md */,
+				E2DFFFE7219925C7000B59D7 /* iOS蓝牙.md */,
+				E2DFFFE8219925C7000B59D7 /* OC-Category.md */,
+				E2DFFFE9219925C7000B59D7 /* iOS调试技巧.md */,
+				E2DFFFEA219925C7000B59D7 /* OC-RunTime.md */,
+				E2DFFFEB219925C7000B59D7 /* iOS传感器.md */,
+				E2DFFFEC219925C7000B59D7 /* iOS-Swift.md */,
+				E2DFFFED219925C7000B59D7 /* OC-NSRunLoop.md */,
+				E2DFFFEE219925C7000B59D7 /* iOS统计工具.md */,
+				E2DFFFEF219925C7000B59D7 /* Blog.md */,
+				E2DFFFF0219925C7000B59D7 /* SVN工具.md */,
+				E2DFFFF1219925C7000B59D7 /* iOS的OC和Swift混编.md */,
+				E2DFFFF2219925C7000B59D7 /* iOS地图.md */,
+				E2DFFFF3219925C7000B59D7 /* iOS跨平台.md */,
+				E2DFFFF4219925C7000B59D7 /* iOS硬件信息.md */,
+				E2DFFFF5219925C7000B59D7 /* iOS图片缓存.md */,
+				E2DFFFF6219925C7000B59D7 /* OC-Block.md */,
+				E2DFFFF7219925C7000B59D7 /* iOS启动流程.md */,
+				E2DFFFF8219925C7000B59D7 /* iOS面试之道.md */,
+				E2DFFFF9219925C7000B59D7 /* iOS加密.md */,
+				E2DFFFFA219925C7000B59D7 /* iOS布局.md */,
+				E2DFFFFB219925C7000B59D7 /* GIT工具.md */,
+				E2DFFFFC219925C7000B59D7 /* iOS制作Framework.md */,
+				E2DFFFFD219925C7000B59D7 /* OC-进制转换.md */,
+				E2DFFFFE219925C7000B59D7 /* iOS代码块CodeSnippet.md */,
+				E2DFFFFF219925C7000B59D7 /* iOS设计模式.md */,
+				E2DF0000219925C7000B59D7 /* iOS数据存储.md */,
+				E2DF0001219925C7000B59D7 /* iOS横竖屏.md */,
+				E2DF0002219925C7000B59D7 /* OC-算法.md */,
+				E2DF0003219925C7000B59D7 /* iOS网络请求.md */,
+				E2DF0004219925C7000B59D7 /* iOS-APP优化.md */,
+				E2DF0005219925C7000B59D7 /* iOS-OpenCV.md */,
+				E2DF0006219925C7000B59D7 /* iOS-FunSDK集成.md */,
+				E2DF0007219925C7000B59D7 /* OC-MultiThread.md */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		E2EC109521968DAD008DD807 /* MarkdownView */ = {
+			isa = PBXGroup;
+			children = (
+				E2EC109621968DAD008DD807 /* index.html */,
+				E2EC109721968DAD008DD807 /* MarkdownView.swift */,
+				E2EC109821968DAD008DD807 /* main.css */,
+				E2EC109921968DAD008DD807 /* main.js */,
+			);
+			path = MarkdownView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E227E7522193C44900989DF8 /* MyInsight_Blog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E227E77F2193C44B00989DF8 /* Build configuration list for PBXNativeTarget "MyInsight_Blog" */;
+			buildPhases = (
+				9BE9BE371BE05E48E6ABF2D7 /* [CP] Check Pods Manifest.lock */,
+				E227E74F2193C44900989DF8 /* Sources */,
+				E227E7502193C44900989DF8 /* Frameworks */,
+				E227E7512193C44900989DF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyInsight_Blog;
+			productName = MyInsight_Blog;
+			productReference = E227E7532193C44900989DF8 /* MyInsight_Blog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E227E76A2193C44A00989DF8 /* MyInsight_BlogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E227E7822193C44B00989DF8 /* Build configuration list for PBXNativeTarget "MyInsight_BlogTests" */;
+			buildPhases = (
+				D628AB6E77F5F9AF9B7EE14B /* [CP] Check Pods Manifest.lock */,
+				E227E7672193C44A00989DF8 /* Sources */,
+				E227E7682193C44A00989DF8 /* Frameworks */,
+				E227E7692193C44A00989DF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E227E76D2193C44A00989DF8 /* PBXTargetDependency */,
+			);
+			name = MyInsight_BlogTests;
+			productName = MyInsight_BlogTests;
+			productReference = E227E76B2193C44A00989DF8 /* MyInsight_BlogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E227E7752193C44A00989DF8 /* MyInsight_BlogUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E227E7852193C44B00989DF8 /* Build configuration list for PBXNativeTarget "MyInsight_BlogUITests" */;
+			buildPhases = (
+				40BF55993D05CD083652D908 /* [CP] Check Pods Manifest.lock */,
+				E227E7722193C44A00989DF8 /* Sources */,
+				E227E7732193C44A00989DF8 /* Frameworks */,
+				E227E7742193C44A00989DF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E227E7782193C44A00989DF8 /* PBXTargetDependency */,
+			);
+			name = MyInsight_BlogUITests;
+			productName = MyInsight_BlogUITests;
+			productReference = E227E7762193C44A00989DF8 /* MyInsight_BlogUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E227E74B2193C44900989DF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = gemvary;
+				TargetAttributes = {
+					E227E7522193C44900989DF8 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+					E227E76A2193C44A00989DF8 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = E227E7522193C44900989DF8;
+					};
+					E227E7752193C44A00989DF8 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = E227E7522193C44900989DF8;
+					};
+				};
+			};
+			buildConfigurationList = E227E74E2193C44900989DF8 /* Build configuration list for PBXProject "MyInsight_Blog" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E227E74A2193C44900989DF8;
+			productRefGroup = E227E7542193C44900989DF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E227E7522193C44900989DF8 /* MyInsight_Blog */,
+				E227E76A2193C44A00989DF8 /* MyInsight_BlogTests */,
+				E227E7752193C44A00989DF8 /* MyInsight_BlogUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E227E7512193C44900989DF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2DF0050219925C7000B59D7 /* OC-进制转换.md in Resources */,
+				E2DF0015219925C7000B59D7 /* Python算法.md in Resources */,
+				E227E7632193C44A00989DF8 /* LaunchScreen.storyboard in Resources */,
+				E2DF0042219925C7000B59D7 /* Blog.md in Resources */,
+				E2DF0044219925C7000B59D7 /* iOS的OC和Swift混编.md in Resources */,
+				E2EC109C21968DAD008DD807 /* main.css in Resources */,
+				E2DF001D219925C7000B59D7 /* class_ro_t结构.png in Resources */,
+				E2DF0059219925C7000B59D7 /* iOS-FunSDK集成.md in Resources */,
+				E2DF0061219925C7000B59D7 /* Android学习之旅.md in Resources */,
+				E2DF002C219925C7000B59D7 /* VUE.md in Resources */,
+				E2DF0030219925C7000B59D7 /* iOS第三方库工具.md in Resources */,
+				E2DF004A219925C7000B59D7 /* iOS启动流程.md in Resources */,
+				E2DF0057219925C7000B59D7 /* iOS-APP优化.md in Resources */,
+				E2DF0031219925C7000B59D7 /* iOS区块链.md in Resources */,
+				E2EC109A21968DAD008DD807 /* index.html in Resources */,
+				E2DF0053219925C7000B59D7 /* iOS数据存储.md in Resources */,
+				E2DF001A219925C7000B59D7 /* 复盘流程.png in Resources */,
+				E2DF002F219925C7000B59D7 /* iOS-OpenGL.md in Resources */,
+				E2DF0049219925C7000B59D7 /* OC-Block.md in Resources */,
+				E2DF001E219925C7000B59D7 /* 耦合严重.png in Resources */,
+				E2DF0034219925C7000B59D7 /* Mac常见指令.md in Resources */,
+				E2DF003F219925C7000B59D7 /* iOS-Swift.md in Resources */,
+				E2DF0058219925C7000B59D7 /* iOS-OpenCV.md in Resources */,
+				E2DF0033219925C7000B59D7 /* iOS组件化.md in Resources */,
+				E2DF001C219925C7000B59D7 /* Class结构.png in Resources */,
+				E2EC109D21968DAD008DD807 /* main.js in Resources */,
+				E2DF003D219925C7000B59D7 /* OC-RunTime.md in Resources */,
+				E2DF0060219925C7000B59D7 /* Android蓝牙.md in Resources */,
+				E2DF004D219925C7000B59D7 /* iOS布局.md in Resources */,
+				E2DF0023219925C7000B59D7 /* 动态解析流程.png in Resources */,
+				E227E7602193C44A00989DF8 /* Assets.xcassets in Resources */,
+				E2DF0038219925C7000B59D7 /* iOS面试题.md in Resources */,
+				E2DF0025219925C7000B59D7 /* 简历的准备.png in Resources */,
+				E2DF0048219925C7000B59D7 /* iOS图片缓存.md in Resources */,
+				E2DF0020219925C7000B59D7 /* 正确解耦.png in Resources */,
+				E2DF0028219925C7000B59D7 /* Xcode-AccessWiFiInfomation.png in Resources */,
+				E2DF003C219925C7000B59D7 /* iOS调试技巧.md in Resources */,
+				E2DF005B219925C7000B59D7 /* CPP设计模式.md in Resources */,
+				E2DF0047219925C7000B59D7 /* iOS硬件信息.md in Resources */,
+				E2DF0022219925C7000B59D7 /* 错误解耦.png in Resources */,
+				E2DF0037219925C7000B59D7 /* iOS进制转换.md in Resources */,
+				E2DF0032219925C7000B59D7 /* iOS多target.md in Resources */,
+				E2DF004E219925C7000B59D7 /* GIT工具.md in Resources */,
+				E2DF005E219925C7000B59D7 /* Android内存管理.md in Resources */,
+				E2DF0019219925C7000B59D7 /* 消息转发执行流程.png in Resources */,
+				E2DF0046219925C7000B59D7 /* iOS跨平台.md in Resources */,
+				E2DF0054219925C7000B59D7 /* iOS横竖屏.md in Resources */,
+				E2DF0035219925C7000B59D7 /* OC-NSDictionary.md in Resources */,
+				E2DF003B219925C7000B59D7 /* OC-Category.md in Resources */,
+				E2DF0055219925C7000B59D7 /* OC-算法.md in Resources */,
+				E2DF004F219925C7000B59D7 /* iOS制作Framework.md in Resources */,
+				E2DF002D219925C7000B59D7 /* HTML5.md in Resources */,
+				E227E75E2193C44900989DF8 /* Main.storyboard in Resources */,
+				E2DF0039219925C7000B59D7 /* iOS的GitHub接口.md in Resources */,
+				E2DF002E219925C7000B59D7 /* Java算法.md in Resources */,
+				E2DF003A219925C7000B59D7 /* iOS蓝牙.md in Resources */,
+				E2DF0026219925C7000B59D7 /* TypeEncoding编码表2.png in Resources */,
+				E2DF0041219925C7000B59D7 /* iOS统计工具.md in Resources */,
+				E2DF0056219925C7000B59D7 /* iOS网络请求.md in Resources */,
+				E2DF0021219925C7000B59D7 /* 面试流程图.png in Resources */,
+				E2DF0014219925C7000B59D7 /* Poetry.md in Resources */,
+				E2DF001F219925C7000B59D7 /* AppID-AccessWiFiInfomation.png in Resources */,
+				E2DF0016219925C7000B59D7 /* PythonWeb框架.md in Resources */,
+				E2DF0029219925C7000B59D7 /* cache_t结构.png in Resources */,
+				E2DF0024219925C7000B59D7 /* 消息发送执行流程.png in Resources */,
+				E2DF003E219925C7000B59D7 /* iOS传感器.md in Resources */,
+				E2DF001B219925C7000B59D7 /* 返回参数.png in Resources */,
+				E2DF0043219925C7000B59D7 /* SVN工具.md in Resources */,
+				E2DF0045219925C7000B59D7 /* iOS地图.md in Resources */,
+				E2DF0052219925C7000B59D7 /* iOS设计模式.md in Resources */,
+				E2DF005F219925C7000B59D7 /* Android网络请求.md in Resources */,
+				E2DF004C219925C7000B59D7 /* iOS加密.md in Resources */,
+				E2DF005C219925C7000B59D7 /* CPP算法.md in Resources */,
+				E2DF002B219925C7000B59D7 /* Markdown.md in Resources */,
+				E2DF0040219925C7000B59D7 /* OC-NSRunLoop.md in Resources */,
+				E2DF0036219925C7000B59D7 /* iOS常见报错.md in Resources */,
+				E2DF002A219925C7000B59D7 /* class_rw_t结构.png in Resources */,
+				E2DF0051219925C7000B59D7 /* iOS代码块CodeSnippet.md in Resources */,
+				E2DF0018219925C7000B59D7 /* 系统设计题的框架.png in Resources */,
+				E2DF0027219925C7000B59D7 /* TypeEncoding编码表1.png in Resources */,
+				E2DF0062219925C7000B59D7 /* C算法.md in Resources */,
+				E2DF0017219925C7000B59D7 /* Python爬虫.md in Resources */,
+				E2DF005A219925C7000B59D7 /* OC-MultiThread.md in Resources */,
+				E2DF004B219925C7000B59D7 /* iOS面试之道.md in Resources */,
+				E2DF005D219925C7000B59D7 /* Linxu常见指令.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E227E7692193C44A00989DF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E227E7742193C44A00989DF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		40BF55993D05CD083652D908 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyInsight_BlogUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BE9BE371BE05E48E6ABF2D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyInsight_Blog-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D628AB6E77F5F9AF9B7EE14B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyInsight_BlogTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E227E74F2193C44900989DF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2EC109421968B4C008DD807 /* MyBlogVC.m in Sources */,
+				E227E7662193C44A00989DF8 /* main.m in Sources */,
+				E2EC109121968B3C008DD807 /* BlogListVC.m in Sources */,
+				E2EC109B21968DAD008DD807 /* MarkdownView.swift in Sources */,
+				E227E7582193C44900989DF8 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E227E7672193C44A00989DF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E227E7702193C44A00989DF8 /* MyInsight_BlogTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E227E7722193C44A00989DF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E227E77B2193C44A00989DF8 /* MyInsight_BlogUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E227E76D2193C44A00989DF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E227E7522193C44900989DF8 /* MyInsight_Blog */;
+			targetProxy = E227E76C2193C44A00989DF8 /* PBXContainerItemProxy */;
+		};
+		E227E7782193C44A00989DF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E227E7522193C44900989DF8 /* MyInsight_Blog */;
+			targetProxy = E227E7772193C44A00989DF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E227E75C2193C44900989DF8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E227E75D2193C44900989DF8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E227E7612193C44A00989DF8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E227E7622193C44A00989DF8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E227E77D2193C44B00989DF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E227E77E2193C44B00989DF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E227E7802193C44B00989DF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39EEE5F37C3B45B841AB2C56 /* Pods-MyInsight_Blog.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LYW4U2TVKK;
+				INFOPLIST_FILE = MyInsight_Blog/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.happylong.MyInsight-Blog";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyInsight_Blog/MyInsight_Blog-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E227E7812193C44B00989DF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F5505B657720FDABFBBB193 /* Pods-MyInsight_Blog.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LYW4U2TVKK;
+				INFOPLIST_FILE = MyInsight_Blog/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.happylong.MyInsight-Blog";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyInsight_Blog/MyInsight_Blog-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E227E7832193C44B00989DF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAF58D9284E096246C06E8AC /* Pods-MyInsight_BlogTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7UA78HHHB8;
+				INFOPLIST_FILE = MyInsight_BlogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gemvary.MyInsight-BlogTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyInsight_Blog.app/MyInsight_Blog";
+			};
+			name = Debug;
+		};
+		E227E7842193C44B00989DF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C9BC150B8C5AAE134BB1AF6 /* Pods-MyInsight_BlogTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7UA78HHHB8;
+				INFOPLIST_FILE = MyInsight_BlogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gemvary.MyInsight-BlogTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyInsight_Blog.app/MyInsight_Blog";
+			};
+			name = Release;
+		};
+		E227E7862193C44B00989DF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A55775551D0400D819C96D28 /* Pods-MyInsight_BlogUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7UA78HHHB8;
+				INFOPLIST_FILE = MyInsight_BlogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gemvary.MyInsight-BlogUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyInsight_Blog;
+			};
+			name = Debug;
+		};
+		E227E7872193C44B00989DF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A32375CFC479213D5BD7352 /* Pods-MyInsight_BlogUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7UA78HHHB8;
+				INFOPLIST_FILE = MyInsight_BlogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gemvary.MyInsight-BlogUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyInsight_Blog;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E227E74E2193C44900989DF8 /* Build configuration list for PBXProject "MyInsight_Blog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E227E77D2193C44B00989DF8 /* Debug */,
+				E227E77E2193C44B00989DF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E227E77F2193C44B00989DF8 /* Build configuration list for PBXNativeTarget "MyInsight_Blog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E227E7802193C44B00989DF8 /* Debug */,
+				E227E7812193C44B00989DF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E227E7822193C44B00989DF8 /* Build configuration list for PBXNativeTarget "MyInsight_BlogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E227E7832193C44B00989DF8 /* Debug */,
+				E227E7842193C44B00989DF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E227E7852193C44B00989DF8 /* Build configuration list for PBXNativeTarget "MyInsight_BlogUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E227E7862193C44B00989DF8 /* Debug */,
+				E227E7872193C44B00989DF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E227E74B2193C44900989DF8 /* Project object */;
+}
