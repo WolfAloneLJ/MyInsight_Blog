@@ -10,13 +10,17 @@
 
 @interface BlogListVC ()
 
+@property (nonatomic,strong) UITableView *tableView;
+
 @end
 
 @implementation BlogListVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    
+    
 }
 
 /*
