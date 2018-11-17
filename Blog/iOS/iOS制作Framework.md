@@ -20,5 +20,6 @@
 [iOS 完整项目制作Framework ](https://www.jianshu.com/p/7452db9e37bd)
 [iOS Framework制作流程](https://www.jianshu.com/p/f2bb038db637)
 
+[原创：iOS 打包.framework(包括第三方、图片、xib、plist文件)](https://www.jianshu.com/p/e056fde1be17)
 
 
