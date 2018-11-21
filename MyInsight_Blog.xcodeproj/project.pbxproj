@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		A21D7DCB21A2DB64007C97D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21D7DCA21A2DB64007C97D8 /* AppDelegate.swift */; };
-		A21D7DCD21A2DB64007C97D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21D7DCC21A2DB64007C97D8 /* ViewController.swift */; };
 		A21D7DD021A2DB64007C97D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A21D7DCE21A2DB64007C97D8 /* Main.storyboard */; };
 		A21D7DD221A2DB67007C97D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A21D7DD121A2DB67007C97D8 /* Assets.xcassets */; };
 		A21D7DD521A2DB67007C97D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A21D7DD321A2DB67007C97D8 /* LaunchScreen.storyboard */; };
@@ -97,6 +96,14 @@
 		A21D7E9221A2DCA8007C97D8 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = A21D7E8E21A2DCA8007C97D8 /* main.js */; };
 		A21D7E9421A2DD19007C97D8 /* QT开发.md in Resources */ = {isa = PBXBuildFile; fileRef = A21D7E9321A2DD19007C97D8 /* QT开发.md */; };
 		DF85E6322C1A6DFBE3ACCD9B /* Pods_MyInsight_Blog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F9ABB43E916CF2D56B7F8E3 /* Pods_MyInsight_Blog.framework */; };
+		E2124E0C21A57A2A00F17037 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2124E0B21A57A2A00F17037 /* TabBarVC.swift */; };
+		E2124E0E21A57A8C00F17037 /* BasicVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2124E0D21A57A8C00F17037 /* BasicVC.swift */; };
+		E2124E1021A57A9C00F17037 /* AdvanceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2124E0F21A57A9C00F17037 /* AdvanceVC.swift */; };
+		E2124E1221A57AAB00F17037 /* SeniorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2124E1121A57AAB00F17037 /* SeniorVC.swift */; };
+		E2124E1421A57AB600F17037 /* OtherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2124E1321A57AB600F17037 /* OtherVC.swift */; };
+		E2124E1621A57B2D00F17037 /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2124E1521A57B2D00F17037 /* WelcomeVC.swift */; };
+		E2124E1821A57BF100F17037 /* BlogsListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2124E1721A57BF100F17037 /* BlogsListVC.swift */; };
+		E2124E1A21A57C1600F17037 /* MarkDownShowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2124E1921A57C1600F17037 /* MarkDownShowVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -105,7 +112,6 @@
 		A0E9E77E02F4C6BA61FE4856 /* Pods-MyInsight_Blog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyInsight_Blog.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyInsight_Blog/Pods-MyInsight_Blog.debug.xcconfig"; sourceTree = "<group>"; };
 		A21D7DC721A2DB64007C97D8 /* MyInsight_Blog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyInsight_Blog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A21D7DCA21A2DB64007C97D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A21D7DCC21A2DB64007C97D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A21D7DCF21A2DB64007C97D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A21D7DD121A2DB67007C97D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A21D7DD421A2DB67007C97D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -195,6 +201,14 @@
 		A21D7E8D21A2DCA8007C97D8 /* main.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = main.css; sourceTree = "<group>"; };
 		A21D7E8E21A2DCA8007C97D8 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
 		A21D7E9321A2DD19007C97D8 /* QT开发.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "QT开发.md"; sourceTree = "<group>"; };
+		E2124E0B21A57A2A00F17037 /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
+		E2124E0D21A57A8C00F17037 /* BasicVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicVC.swift; sourceTree = "<group>"; };
+		E2124E0F21A57A9C00F17037 /* AdvanceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvanceVC.swift; sourceTree = "<group>"; };
+		E2124E1121A57AAB00F17037 /* SeniorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeniorVC.swift; sourceTree = "<group>"; };
+		E2124E1321A57AB600F17037 /* OtherVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherVC.swift; sourceTree = "<group>"; };
+		E2124E1521A57B2D00F17037 /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
+		E2124E1721A57BF100F17037 /* BlogsListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogsListVC.swift; sourceTree = "<group>"; };
+		E2124E1921A57C1600F17037 /* MarkDownShowVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkDownShowVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -241,7 +255,14 @@
 			isa = PBXGroup;
 			children = (
 				A21D7DCA21A2DB64007C97D8 /* AppDelegate.swift */,
-				A21D7DCC21A2DB64007C97D8 /* ViewController.swift */,
+				E2124E1521A57B2D00F17037 /* WelcomeVC.swift */,
+				E2124E0B21A57A2A00F17037 /* TabBarVC.swift */,
+				E2124E0D21A57A8C00F17037 /* BasicVC.swift */,
+				E2124E0F21A57A9C00F17037 /* AdvanceVC.swift */,
+				E2124E1121A57AAB00F17037 /* SeniorVC.swift */,
+				E2124E1321A57AB600F17037 /* OtherVC.swift */,
+				E2124E1721A57BF100F17037 /* BlogsListVC.swift */,
+				E2124E1921A57C1600F17037 /* MarkDownShowVC.swift */,
 				A21D7E8A21A2DCA8007C97D8 /* MarkdownView */,
 				A21D7DCE21A2DB64007C97D8 /* Main.storyboard */,
 				A21D7DD121A2DB67007C97D8 /* Assets.xcassets */,
@@ -627,9 +648,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2124E1421A57AB600F17037 /* OtherVC.swift in Sources */,
+				E2124E1221A57AAB00F17037 /* SeniorVC.swift in Sources */,
+				E2124E1A21A57C1600F17037 /* MarkDownShowVC.swift in Sources */,
+				E2124E1821A57BF100F17037 /* BlogsListVC.swift in Sources */,
 				A21D7E9021A2DCA8007C97D8 /* MarkdownView.swift in Sources */,
-				A21D7DCD21A2DB64007C97D8 /* ViewController.swift in Sources */,
+				E2124E1021A57A9C00F17037 /* AdvanceVC.swift in Sources */,
+				E2124E0C21A57A2A00F17037 /* TabBarVC.swift in Sources */,
 				A21D7DCB21A2DB64007C97D8 /* AppDelegate.swift in Sources */,
+				E2124E0E21A57A8C00F17037 /* BasicVC.swift in Sources */,
+				E2124E1621A57B2D00F17037 /* WelcomeVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -780,6 +808,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LYW4U2TVKK;
 				INFOPLIST_FILE = MyInsight_Blog/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -802,6 +831,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LYW4U2TVKK;
 				INFOPLIST_FILE = MyInsight_Blog/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
