@@ -102,7 +102,6 @@
 		E2124E1221A57AAB00F17037 /* SeniorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2124E1121A57AAB00F17037 /* SeniorVC.swift */; };
 		E2124E1421A57AB600F17037 /* OtherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2124E1321A57AB600F17037 /* OtherVC.swift */; };
 		E2124E1621A57B2D00F17037 /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2124E1521A57B2D00F17037 /* WelcomeVC.swift */; };
-		E2124E1821A57BF100F17037 /* BlogsListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2124E1721A57BF100F17037 /* BlogsListVC.swift */; };
 		E2124E1A21A57C1600F17037 /* MarkDownShowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2124E1921A57C1600F17037 /* MarkDownShowVC.swift */; };
 /* End PBXBuildFile section */
 
@@ -207,7 +206,6 @@
 		E2124E1121A57AAB00F17037 /* SeniorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeniorVC.swift; sourceTree = "<group>"; };
 		E2124E1321A57AB600F17037 /* OtherVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherVC.swift; sourceTree = "<group>"; };
 		E2124E1521A57B2D00F17037 /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
-		E2124E1721A57BF100F17037 /* BlogsListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogsListVC.swift; sourceTree = "<group>"; };
 		E2124E1921A57C1600F17037 /* MarkDownShowVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkDownShowVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -261,7 +259,6 @@
 				E2124E0F21A57A9C00F17037 /* AdvanceVC.swift */,
 				E2124E1121A57AAB00F17037 /* SeniorVC.swift */,
 				E2124E1321A57AB600F17037 /* OtherVC.swift */,
-				E2124E1721A57BF100F17037 /* BlogsListVC.swift */,
 				E2124E1921A57C1600F17037 /* MarkDownShowVC.swift */,
 				A21D7E8A21A2DCA8007C97D8 /* MarkdownView */,
 				A21D7DCE21A2DB64007C97D8 /* Main.storyboard */,
@@ -651,7 +648,6 @@
 				E2124E1421A57AB600F17037 /* OtherVC.swift in Sources */,
 				E2124E1221A57AAB00F17037 /* SeniorVC.swift in Sources */,
 				E2124E1A21A57C1600F17037 /* MarkDownShowVC.swift in Sources */,
-				E2124E1821A57BF100F17037 /* BlogsListVC.swift in Sources */,
 				A21D7E9021A2DCA8007C97D8 /* MarkdownView.swift in Sources */,
 				E2124E1021A57A9C00F17037 /* AdvanceVC.swift in Sources */,
 				E2124E0C21A57A2A00F17037 /* TabBarVC.swift in Sources */,
