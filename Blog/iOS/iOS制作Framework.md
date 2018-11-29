@@ -30,7 +30,10 @@
 
 [原创：iOS 打包.framework(包括第三方、图片、xib、plist文件)](https://www.jianshu.com/p/e056fde1be17)
 
-
-
+### 架构
+[iOS armv7, armv7s, arm64区别与应用32位、64位配置](https://www.jianshu.com/p/567d3b730608)
+[iOS armv7,armv7s, arm64](https://blog.csdn.net/qcx321/article/details/81871778)
+[Xcode 6制作动态及静态通用Framework（解决不支持 armv7s arm64 armv7）](https://blog.csdn.net/hcb1230/article/details/43530765)
+[iOS开发～制作同时支持armv7,armv7s,arm64,i386,x86_64的静态库.a以及 FrameWork 的创建](https://www.cnblogs.com/lurenq/p/7068468.html)
 
 

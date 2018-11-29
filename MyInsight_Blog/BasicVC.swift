@@ -47,8 +47,6 @@ class BasicVC: UIViewController {
 
 //MARK: - 扩展
 extension BasicVC: UITableViewDelegate, UITableViewDataSource {
-    // 实现代理协议
-    
     // setction个数
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
