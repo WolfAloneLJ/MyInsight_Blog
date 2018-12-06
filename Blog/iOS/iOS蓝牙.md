@@ -56,3 +56,5 @@
 
 [<iOS开发>之蓝牙使用](https://www.jianshu.com/p/b62081c427a4)
 
+[iOS Bluetooth 蓝牙(1)- 蓝牙基本原理](https://www.jianshu.com/p/a72a005190c7)
+[iOS 蓝牙开发（三）app作为外设被连接的实现](http://www.cocoachina.com/ios/20151105/14071.html)
