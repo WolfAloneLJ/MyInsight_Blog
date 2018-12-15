@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A20CA54021BBBFDB002140C7 /* DeepLearn.md in Resources */ = {isa = PBXBuildFile; fileRef = A20CA53F21BBBFDB002140C7 /* DeepLearn.md */; };
 		A21D7DCB21A2DB64007C97D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21D7DCA21A2DB64007C97D8 /* AppDelegate.swift */; };
 		A21D7DD021A2DB64007C97D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A21D7DCE21A2DB64007C97D8 /* Main.storyboard */; };
 		A21D7DD221A2DB67007C97D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A21D7DD121A2DB67007C97D8 /* Assets.xcassets */; };
@@ -109,6 +110,7 @@
 		3D6D66A29FF2DA0D2613DE2F /* Pods-MyInsight_Blog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyInsight_Blog.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyInsight_Blog/Pods-MyInsight_Blog.release.xcconfig"; sourceTree = "<group>"; };
 		6F9ABB43E916CF2D56B7F8E3 /* Pods_MyInsight_Blog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyInsight_Blog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0E9E77E02F4C6BA61FE4856 /* Pods-MyInsight_Blog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyInsight_Blog.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyInsight_Blog/Pods-MyInsight_Blog.debug.xcconfig"; sourceTree = "<group>"; };
+		A20CA53F21BBBFDB002140C7 /* DeepLearn.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = DeepLearn.md; sourceTree = "<group>"; };
 		A21D7DC721A2DB64007C97D8 /* MyInsight_Blog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyInsight_Blog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A21D7DCA21A2DB64007C97D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A21D7DCF21A2DB64007C97D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -301,6 +303,7 @@
 				A21D7DE421A2DC72007C97D8 /* Python算法.md */,
 				A21D7DE521A2DC72007C97D8 /* PythonWeb框架.md */,
 				A21D7DE621A2DC72007C97D8 /* Python爬虫.md */,
+				A20CA53F21BBBFDB002140C7 /* DeepLearn.md */,
 			);
 			path = Python;
 			sourceTree = "<group>";
@@ -545,6 +548,7 @@
 				A21D7E6E21A2DC72007C97D8 /* iOS硬件信息.md in Resources */,
 				A21D7E5321A2DC72007C97D8 /* VUE.md in Resources */,
 				A21D7E8721A2DC72007C97D8 /* Android蓝牙.md in Resources */,
+				A20CA54021BBBFDB002140C7 /* DeepLearn.md in Resources */,
 				A21D7E7521A2DC72007C97D8 /* GIT工具.md in Resources */,
 				A21D7E7B21A2DC72007C97D8 /* iOS横竖屏.md in Resources */,
 				A21D7E8521A2DC72007C97D8 /* Android内存管理.md in Resources */,

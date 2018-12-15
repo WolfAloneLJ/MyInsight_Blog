@@ -71,7 +71,7 @@ extension BasicVC: UITableViewDelegate, UITableViewDataSource {
         //let cellStr: String = self.dataArray[indexPath.row]
         
         let markdownStr: String = dataArray[indexPath.row]
-        debugPrint("滚滚长江东逝水 " + markdownStr)
+        //debugPrint("滚滚长江东逝水 " + markdownStr)
         let markDownShowVC : MarkDownShowVC = MarkDownShowVC()
         markDownShowVC.hidesBottomBarWhenPushed = true
         markDownShowVC.markdownStr = markdownStr

@@ -17,52 +17,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        // 设置3D Touch
-        setup3DTouch()
-        
-        // 判断应用是否是第一次启动
-        isRightFirstLaunched()
+        // 设置根视图
+        let tabBarVC: TabBarVC = TabBarVC()
+        self.window?.rootViewController = tabBarVC
         
         return true
     }
     
-    
-    //MARK: - 判断是否为首次启动
-    func isRightFirstLaunched() -> Void {
-        /*
-         若是第一次加载，进入欢迎页面，若不是直接进入主页面
-         */
-        let userDefaults: UserDefaults = UserDefaults.standard;
-        debugPrint("是不是第一次启动")
-        
-        if (userDefaults.string(forKey: "LauchAgree") == nil) {
-            userDefaults.set(true, forKey: "LauchAgree")
-            debugPrint("首次启动 进入欢迎页面")
-            
-            let welcomeVC: WelcomeVC = WelcomeVC()
-            self.window?.rootViewController = welcomeVC
-        } else {
-            debugPrint("不是首次启动 进入主页面")
-            let tabBarVC: TabBarVC = TabBarVC()
-            self.window?.rootViewController = tabBarVC
-        }
-    }
-    
-    func setup3DTouch() {
-        debugPrint("你说是啥就是啥")
-        // Swift开发之3DTouch实用演练 http://www.sohu.com/a/200417763_208051
-        let homeIcon = UIApplicationShortcutIcon(type: UIApplicationShortcutIcon.IconType.compose)
-        let homeItem = UIApplicationShortcutItem(type: "homeAnchor", localizedTitle: "首页", localizedSubtitle: "点击进入首页", icon: homeIcon, userInfo: nil)
-        
-        let playIcon = UIApplicationShortcutIcon(type: UIApplicationShortcutIcon.IconType.play)
-        let playItem = UIApplicationShortcutItem(type: "homeAnchor", localizedTitle: "播放", localizedSubtitle: "开始点播了", icon: playIcon, userInfo: nil)
-        
-        let userIcon = UIApplicationShortcutIcon(type: UIApplicationShortcutIcon.IconType.search)
-        let userItem = UIApplicationShortcutItem(type: "homeAnchor", localizedTitle: "用户名", localizedSubtitle: "你爸爸是谁", icon: userIcon, userInfo: nil)
-        
-        UIApplication.shared.shortcutItems = [homeItem, playItem, userItem]
-    }
-
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
