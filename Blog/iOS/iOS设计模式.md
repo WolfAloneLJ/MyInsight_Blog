@@ -17,6 +17,8 @@
 8. 代理模式
 
 9. 单例模式
+[Swift、Objective-C 单例模式 (Singleton)](https://www.cnblogs.com/silence-cnblogs/p/6776217.html)
+
 
 10. 备忘录模式
 

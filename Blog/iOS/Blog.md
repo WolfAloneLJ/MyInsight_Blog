@@ -38,6 +38,8 @@
 
 [iOS-Swift-Demos](https://github.com/Lax/iOS-Swift-Demos)
 
+[记录下 OC 和 Swift各自实现链式编程](https://www.jianshu.com/p/28a3987a8be1)
+
 #### 一些电子书
 
 音视频开发进阶指南
