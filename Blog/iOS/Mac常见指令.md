@@ -65,6 +65,38 @@ Xcode工程清除缓存路径
 ~/Library/Developer/Xcode/DerivedData/
 ```
 
+
+
+### Mac完全卸载AndroidStudio
+步骤1:
+```
+rm -Rf /Applications/Android\ Studio.app
+rm -Rf ~/Library/Preferences/AndroidStudio*
+rm ~/Library/Preferences/com.google.android.studio.plist
+rm -Rf ~/Library/Application\ Support/AndroidStudio*
+rm -Rf ~/Library/Logs/AndroidStudio*
+rm -Rf ~/Library/Caches/AndroidStudio*
+```
+
+步骤2:
+```
+rm -Rf ~/AndroidStudioProjects
+```
+步骤3:
+```
+rm -Rf ~/.gradle
+```
+
+步骤4:
+```
+rm -Rf ~/.android
+```
+
+步骤5:
+```
+rm -Rf ~/Library/Android*
+```
+
 ### 参考:
 [Homebrew介绍和使用](https://www.jianshu.com/p/de6f1d2d37bf)
 
