@@ -1,5 +1,8 @@
 ##  Linux常见指令
 
+### VMWare共享文件夹
+重装VMWare Tools，在`mnt/hgfs`文件夹下就可以看到共享文件夹
+
 ### 网络请求工具 Curl
 
 ### 下载工具 Axel
