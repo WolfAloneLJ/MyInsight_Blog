@@ -98,6 +98,8 @@
 		A21D7E9421A2DD19007C97D8 /* QT开发.md in Resources */ = {isa = PBXBuildFile; fileRef = A21D7E9321A2DD19007C97D8 /* QT开发.md */; };
 		A281A3D721D110A5003DCF10 /* MySQL.md in Resources */ = {isa = PBXBuildFile; fileRef = A281A3D621D110A5003DCF10 /* MySQL.md */; };
 		A281A3D921D3C75D003DCF10 /* Java学习.md in Resources */ = {isa = PBXBuildFile; fileRef = A281A3D821D3C75D003DCF10 /* Java学习.md */; };
+		A281A3DB21D9138A003DCF10 /* Ubuntu安装软件方法.md in Resources */ = {isa = PBXBuildFile; fileRef = A281A3DA21D9138A003DCF10 /* Ubuntu安装软件方法.md */; };
+		A281A3DD21D913B8003DCF10 /* Ubuntu下zip解压中文乱码.md in Resources */ = {isa = PBXBuildFile; fileRef = A281A3DC21D913B8003DCF10 /* Ubuntu下zip解压中文乱码.md */; };
 		DF85E6322C1A6DFBE3ACCD9B /* Pods_MyInsight_Blog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F9ABB43E916CF2D56B7F8E3 /* Pods_MyInsight_Blog.framework */; };
 		E2124E0C21A57A2A00F17037 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2124E0B21A57A2A00F17037 /* TabBarVC.swift */; };
 		E2124E0E21A57A8C00F17037 /* BasicVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2124E0D21A57A8C00F17037 /* BasicVC.swift */; };
@@ -206,6 +208,8 @@
 		A21D7E9321A2DD19007C97D8 /* QT开发.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "QT开发.md"; sourceTree = "<group>"; };
 		A281A3D621D110A5003DCF10 /* MySQL.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = MySQL.md; sourceTree = "<group>"; };
 		A281A3D821D3C75D003DCF10 /* Java学习.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Java学习.md"; sourceTree = "<group>"; };
+		A281A3DA21D9138A003DCF10 /* Ubuntu安装软件方法.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Ubuntu安装软件方法.md"; sourceTree = "<group>"; };
+		A281A3DC21D913B8003DCF10 /* Ubuntu下zip解压中文乱码.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Ubuntu下zip解压中文乱码.md"; sourceTree = "<group>"; };
 		E2124E0B21A57A2A00F17037 /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
 		E2124E0D21A57A8C00F17037 /* BasicVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicVC.swift; sourceTree = "<group>"; };
 		E2124E0F21A57A9C00F17037 /* AdvanceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvanceVC.swift; sourceTree = "<group>"; };
@@ -430,6 +434,8 @@
 			isa = PBXGroup;
 			children = (
 				A21D7E3321A2DC72007C97D8 /* Linxu常见指令.md */,
+				A281A3DA21D9138A003DCF10 /* Ubuntu安装软件方法.md */,
+				A281A3DC21D913B8003DCF10 /* Ubuntu下zip解压中文乱码.md */,
 				A281A3D621D110A5003DCF10 /* MySQL.md */,
 			);
 			path = Linux;
@@ -554,6 +560,7 @@
 				A21D7E7321A2DC72007C97D8 /* iOS加密.md in Resources */,
 				A21D7E6E21A2DC72007C97D8 /* iOS硬件信息.md in Resources */,
 				A21D7E5321A2DC72007C97D8 /* VUE.md in Resources */,
+				A281A3DD21D913B8003DCF10 /* Ubuntu下zip解压中文乱码.md in Resources */,
 				A21D7E8721A2DC72007C97D8 /* Android蓝牙.md in Resources */,
 				A20CA54021BBBFDB002140C7 /* DeepLearn.md in Resources */,
 				A21D7E7521A2DC72007C97D8 /* GIT工具.md in Resources */,
@@ -561,6 +568,7 @@
 				A21D7E8521A2DC72007C97D8 /* Android内存管理.md in Resources */,
 				A21D7E4221A2DC72007C97D8 /* 返回参数.png in Resources */,
 				A21D7E6421A2DC72007C97D8 /* OC-RunTime.md in Resources */,
+				A281A3DB21D9138A003DCF10 /* Ubuntu安装软件方法.md in Resources */,
 				A21D7E4721A2DC72007C97D8 /* 正确解耦.png in Resources */,
 				A21D7E5121A2DC72007C97D8 /* class_rw_t结构.png in Resources */,
 				A21D7E7F21A2DC72007C97D8 /* iOS-OpenCV.md in Resources */,
