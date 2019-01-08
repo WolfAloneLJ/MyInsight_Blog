@@ -108,6 +108,7 @@
 		E2124E1421A57AB600F17037 /* OtherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2124E1321A57AB600F17037 /* OtherVC.swift */; };
 		E2124E1621A57B2D00F17037 /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2124E1521A57B2D00F17037 /* WelcomeVC.swift */; };
 		E2124E1A21A57C1600F17037 /* MarkDownShowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2124E1921A57C1600F17037 /* MarkDownShowVC.swift */; };
+		E2E3C75F21E435D900C94F6B /* iOS-PushKit.md in Resources */ = {isa = PBXBuildFile; fileRef = E2E3C75E21E435D900C94F6B /* iOS-PushKit.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -217,6 +218,7 @@
 		E2124E1321A57AB600F17037 /* OtherVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherVC.swift; sourceTree = "<group>"; };
 		E2124E1521A57B2D00F17037 /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
 		E2124E1921A57C1600F17037 /* MarkDownShowVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkDownShowVC.swift; sourceTree = "<group>"; };
+		E2E3C75E21E435D900C94F6B /* iOS-PushKit.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "iOS-PushKit.md"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -376,6 +378,7 @@
 				A21D7E0421A2DC72007C97D8 /* iOS第三方库工具.md */,
 				A21D7E0521A2DC72007C97D8 /* iOS区块链.md */,
 				A21D7E0621A2DC72007C97D8 /* iOS多target.md */,
+				E2E3C75E21E435D900C94F6B /* iOS-PushKit.md */,
 				A21D7E0721A2DC72007C97D8 /* iOS组件化.md */,
 				A21D7E0821A2DC72007C97D8 /* Mac常见指令.md */,
 				A21D7E0921A2DC72007C97D8 /* OC-NSDictionary.md */,
@@ -588,6 +591,7 @@
 				A21D7E6521A2DC72007C97D8 /* iOS传感器.md in Resources */,
 				A21D7E6621A2DC72007C97D8 /* iOS-Swift.md in Resources */,
 				A21D7E3C21A2DC72007C97D8 /* Python算法.md in Resources */,
+				E2E3C75F21E435D900C94F6B /* iOS-PushKit.md in Resources */,
 				A21D7E8221A2DC72007C97D8 /* CPP设计模式.md in Resources */,
 				A21D7E4821A2DC72007C97D8 /* 面试流程图.png in Resources */,
 				A21D7E5721A2DC72007C97D8 /* iOS第三方库工具.md in Resources */,
