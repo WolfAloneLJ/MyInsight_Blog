@@ -18,3 +18,6 @@
 [iOS原生APNS推送之PHP后台的pem证书制作流程](https://www.jianshu.com/p/d97074434f11)
 
 [iOS VoIP PushKit 的问题](https://www.cnblogs.com/windsSunShine/p/9399515.html)
+
+[检测苹果推送证书有效性](https://blog.csdn.net/nogodoss/article/details/42142205)
+[IOS Push 证书的重新生成](https://blog.csdn.net/think12/article/details/8863411)
