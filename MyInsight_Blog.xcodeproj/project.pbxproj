@@ -108,6 +108,8 @@
 		E2124E1421A57AB600F17037 /* OtherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2124E1321A57AB600F17037 /* OtherVC.swift */; };
 		E2124E1621A57B2D00F17037 /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2124E1521A57B2D00F17037 /* WelcomeVC.swift */; };
 		E2124E1A21A57C1600F17037 /* MarkDownShowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2124E1921A57C1600F17037 /* MarkDownShowVC.swift */; };
+		E2CBC16C21E73EC1000E8003 /* voip_2.png in Resources */ = {isa = PBXBuildFile; fileRef = E2CBC16B21E73EC1000E8003 /* voip_2.png */; };
+		E2CBC17021E73EE8000E8003 /* voip_1.png in Resources */ = {isa = PBXBuildFile; fileRef = E2CBC16F21E73EE8000E8003 /* voip_1.png */; };
 		E2E3C75F21E435D900C94F6B /* iOS-PushKit.md in Resources */ = {isa = PBXBuildFile; fileRef = E2E3C75E21E435D900C94F6B /* iOS-PushKit.md */; };
 /* End PBXBuildFile section */
 
@@ -218,6 +220,8 @@
 		E2124E1321A57AB600F17037 /* OtherVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherVC.swift; sourceTree = "<group>"; };
 		E2124E1521A57B2D00F17037 /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
 		E2124E1921A57C1600F17037 /* MarkDownShowVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkDownShowVC.swift; sourceTree = "<group>"; };
+		E2CBC16B21E73EC1000E8003 /* voip_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voip_2.png; sourceTree = "<group>"; };
+		E2CBC16F21E73EE8000E8003 /* voip_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voip_1.png; sourceTree = "<group>"; };
 		E2E3C75E21E435D900C94F6B /* iOS-PushKit.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "iOS-PushKit.md"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -329,6 +333,8 @@
 		A21D7DE821A2DC72007C97D8 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				E2CBC16F21E73EE8000E8003 /* voip_1.png */,
+				E2CBC16B21E73EC1000E8003 /* voip_2.png */,
 				A21D7DE921A2DC72007C97D8 /* 系统设计题的框架.png */,
 				A21D7DEA21A2DC72007C97D8 /* 消息转发执行流程.png */,
 				A21D7DEB21A2DC72007C97D8 /* 复盘流程.png */,
@@ -571,7 +577,9 @@
 				A21D7E8521A2DC72007C97D8 /* Android内存管理.md in Resources */,
 				A21D7E4221A2DC72007C97D8 /* 返回参数.png in Resources */,
 				A21D7E6421A2DC72007C97D8 /* OC-RunTime.md in Resources */,
+				E2CBC17021E73EE8000E8003 /* voip_1.png in Resources */,
 				A281A3DB21D9138A003DCF10 /* Ubuntu安装软件方法.md in Resources */,
+				E2CBC16C21E73EC1000E8003 /* voip_2.png in Resources */,
 				A21D7E4721A2DC72007C97D8 /* 正确解耦.png in Resources */,
 				A21D7E5121A2DC72007C97D8 /* class_rw_t结构.png in Resources */,
 				A21D7E7F21A2DC72007C97D8 /* iOS-OpenCV.md in Resources */,
