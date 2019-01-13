@@ -100,6 +100,7 @@
 		A281A3D921D3C75D003DCF10 /* Java学习.md in Resources */ = {isa = PBXBuildFile; fileRef = A281A3D821D3C75D003DCF10 /* Java学习.md */; };
 		A281A3DB21D9138A003DCF10 /* Ubuntu安装软件方法.md in Resources */ = {isa = PBXBuildFile; fileRef = A281A3DA21D9138A003DCF10 /* Ubuntu安装软件方法.md */; };
 		A281A3DD21D913B8003DCF10 /* Ubuntu下zip解压中文乱码.md in Resources */ = {isa = PBXBuildFile; fileRef = A281A3DC21D913B8003DCF10 /* Ubuntu下zip解压中文乱码.md */; };
+		A296497421E0B44200AE4B08 /* SQL.md in Resources */ = {isa = PBXBuildFile; fileRef = A296497321E0B44100AE4B08 /* SQL.md */; };
 		DF85E6322C1A6DFBE3ACCD9B /* Pods_MyInsight_Blog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F9ABB43E916CF2D56B7F8E3 /* Pods_MyInsight_Blog.framework */; };
 		E2124E0C21A57A2A00F17037 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2124E0B21A57A2A00F17037 /* TabBarVC.swift */; };
 		E2124E0E21A57A8C00F17037 /* BasicVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2124E0D21A57A8C00F17037 /* BasicVC.swift */; };
@@ -210,6 +211,7 @@
 		A281A3D821D3C75D003DCF10 /* Java学习.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Java学习.md"; sourceTree = "<group>"; };
 		A281A3DA21D9138A003DCF10 /* Ubuntu安装软件方法.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Ubuntu安装软件方法.md"; sourceTree = "<group>"; };
 		A281A3DC21D913B8003DCF10 /* Ubuntu下zip解压中文乱码.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Ubuntu下zip解压中文乱码.md"; sourceTree = "<group>"; };
+		A296497321E0B44100AE4B08 /* SQL.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = SQL.md; sourceTree = "<group>"; };
 		E2124E0B21A57A2A00F17037 /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
 		E2124E0D21A57A8C00F17037 /* BasicVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicVC.swift; sourceTree = "<group>"; };
 		E2124E0F21A57A9C00F17037 /* AdvanceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvanceVC.swift; sourceTree = "<group>"; };
@@ -437,6 +439,7 @@
 				A281A3DA21D9138A003DCF10 /* Ubuntu安装软件方法.md */,
 				A281A3DC21D913B8003DCF10 /* Ubuntu下zip解压中文乱码.md */,
 				A281A3D621D110A5003DCF10 /* MySQL.md */,
+				A296497321E0B44100AE4B08 /* SQL.md */,
 			);
 			path = Linux;
 			sourceTree = "<group>";
@@ -600,6 +603,7 @@
 				A21D7E7C21A2DC72007C97D8 /* OC-算法.md in Resources */,
 				A21D7E5F21A2DC72007C97D8 /* iOS面试题.md in Resources */,
 				A21D7E5A21A2DC72007C97D8 /* iOS组件化.md in Resources */,
+				A296497421E0B44200AE4B08 /* SQL.md in Resources */,
 				A21D7E6C21A2DC72007C97D8 /* iOS地图.md in Resources */,
 				A21D7E4421A2DC72007C97D8 /* class_ro_t结构.png in Resources */,
 				A21D7E7A21A2DC72007C97D8 /* iOS数据存储.md in Resources */,
