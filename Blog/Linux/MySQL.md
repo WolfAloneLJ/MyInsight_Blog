@@ -56,7 +56,6 @@ ps -aux | grep mysqld
 
 
 ### 参考：
-[ubuntu16.04下安装mysql详细步骤](https://blog.csdn.net/itxiaolong3/article/details/77905923)
-
-[数据库一般不用来存储图片](https://www.cnblogs.com/mlgjb/p/8794659.html)
+[ubuntu16.04下安装mysql详细步骤](https://blog.csdn.net/itxiaolong3/article/details/77905923)  
+[数据库一般不用来存储图片](https://www.cnblogs.com/mlgjb/p/8794659.html)  
 

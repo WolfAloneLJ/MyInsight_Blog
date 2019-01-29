@@ -274,20 +274,12 @@
 
 
 #### 参考
-[探索 Block (一) (手把手讲解Block 底层实现原理)](https://www.cnblogs.com/chenxianming/p/5554395.html)
-
-[如何在 block 中修改外部变量](https://blog.csdn.net/a_ellisa/article/details/51523646)
-
-[理解__unsafe_unretained](https://blog.csdn.net/junjun150013652/article/details/53148711)
-
-[有一种 Block 叫 Callback，有一种 Callback 叫 CompletionHandler](https://www.jianshu.com/p/061c393d6c9d)
-
-[到底什么时候才需要在ObjC的Block中使用weakSelf/strongSelf](http://blog.lessfun.com/blog/2014/11/22/when-should-use-weakself-and-strongself-in-objc-block/)
-
-[正确使用Block避免Cycle Retain和Crash](http://tanqisen.github.io/blog/2013/04/19/gcd-block-cycle-retain/)
-
-[iOS Block用法和实现原理](https://www.jianshu.com/p/d28a5633b963)
-
-[iOS中Block的用法，举例，解析与底层原理（这可能是最详细的Block解析）](https://www.jianshu.com/p/bcd494ba0e22)
-
-[Block的内存管理，看这里就够了](https://www.jianshu.com/p/4a6dca34d980)
+[探索 Block (一) (手把手讲解Block 底层实现原理)](https://www.cnblogs.com/chenxianming/p/5554395.html)  
+[如何在 block 中修改外部变量](https://blog.csdn.net/a_ellisa/article/details/51523646)  
+[理解__unsafe_unretained](https://blog.csdn.net/junjun150013652/article/details/53148711)  
+[有一种 Block 叫 Callback，有一种 Callback 叫 CompletionHandler](https://www.jianshu.com/p/061c393d6c9d)  
+[到底什么时候才需要在ObjC的Block中使用weakSelf/strongSelf](http://blog.lessfun.com/blog/2014/11/22/when-should-use-weakself-and-strongself-in-objc-block/)  
+[正确使用Block避免Cycle Retain和Crash](http://tanqisen.github.io/blog/2013/04/19/gcd-block-cycle-retain/)  
+[iOS Block用法和实现原理](https://www.jianshu.com/p/d28a5633b963)  
+[iOS中Block的用法，举例，解析与底层原理（这可能是最详细的Block解析）](https://www.jianshu.com/p/bcd494ba0e22)  
+[Block的内存管理，看这里就够了](https://www.jianshu.com/p/4a6dca34d980)  

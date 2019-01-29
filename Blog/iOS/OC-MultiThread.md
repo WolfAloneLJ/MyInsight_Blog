@@ -54,12 +54,11 @@ NSOperation 的使用相较于GCD是面向对象的，OC实现的，而GCD应该
 
 
 ### 参考:
-[在iOS中有几种方法来解决多线程访问同一个内存地址的互斥同步问题](https://blog.csdn.net/a_ellisa/article/details/51506233)
-[iOS － 关于dispatch_sync(dispatch_get_main_queue(), ^{...;}); 死锁问题的解释](https://blog.csdn.net/icefishlily/article/details/52596802)
-[GCD:嵌套dispatch_async时__block对象的一个内存陷阱](https://blog.csdn.net/fg313071405/article/details/25962939)
-[ios-多线程访问共享资源](https://blog.csdn.net/ZCMUCZX/article/details/76974068)
-[iOS开发多线程篇—线程安全](https://www.cnblogs.com/wendingding/p/3805841.html)
-
-[iOS开发笔记之五十七——__weak与__strong是如何解决循环引用的](https://blog.csdn.net/lizitao/article/details/54845974)
+[在iOS中有几种方法来解决多线程访问同一个内存地址的互斥同步问题](https://blog.csdn.net/a_ellisa/article/details/51506233)  
+[iOS － 关于dispatch_sync(dispatch_get_main_queue(), ^{...;}); 死锁问题的解释](https://blog.csdn.net/icefishlily/article/details/52596802)  
+[GCD:嵌套dispatch_async时__block对象的一个内存陷阱](https://blog.csdn.net/fg313071405/article/details/25962939)  
+[ios-多线程访问共享资源](https://blog.csdn.net/ZCMUCZX/article/details/76974068)  
+[iOS开发多线程篇—线程安全](https://www.cnblogs.com/wendingding/p/3805841.html)  
+[iOS开发笔记之五十七——__weak与__strong是如何解决循环引用的](https://blog.csdn.net/lizitao/article/details/54845974)  
 
 
