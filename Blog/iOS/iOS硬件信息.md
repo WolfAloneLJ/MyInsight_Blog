@@ -141,7 +141,6 @@ To use this function in iOS 12 and later, enable the Access WiFi Information cap
 
 
 ### 参考
-[iOS获取硬件信息(全部)](https://www.jianshu.com/p/6d85416fb494)
-
+[iOS获取硬件信息(全部)](https://www.jianshu.com/p/6d85416fb494)  
 [ios开发常用硬件信息获取方法汇总](https://www.cnblogs.com/fantasy940155655/p/5708317.html)
 

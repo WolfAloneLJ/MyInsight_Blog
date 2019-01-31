@@ -18,8 +18,8 @@ SDWebImage底层实现有沙盒缓存机制，主要由三块组成：
 
 ##### 三、缓存策略
 
-SDWebImage支持URL不变时更新图片内容
-[SDWebImage支持URL不变时更新图片内容](https://www.cnblogs.com/renshengruozhiruchujian/p/5886382.html)
+SDWebImage支持URL不变时更新图片内容  
+[SDWebImage支持URL不变时更新图片内容](https://www.cnblogs.com/renshengruozhiruchujian/p/5886382.html)  
 
 SDWebImage在iOS项目中是一个很常用的开源库，而且众所周知的是，它是基于URL作为Key来实现图片缓存机制的。在90%左右的情况下，
 图片与URL是一一对应的，即使服务器修改了图片也会相应的变更URL。但是在少数情况下，服务器修改了图片后不会变更相应的URL，也就是

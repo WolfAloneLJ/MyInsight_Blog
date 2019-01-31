@@ -55,8 +55,6 @@
 
 
 #### 参考
-[iOS最实用的13种设计模式（全部有github代码）](https://www.jianshu.com/p/9c4a219e9cf9)
-
-[设计模式的基本原则](https://www.jianshu.com/p/a65c23b1de00)
-
+[iOS最实用的13种设计模式（全部有github代码）](https://www.jianshu.com/p/9c4a219e9cf9)  
+[设计模式的基本原则](https://www.jianshu.com/p/a65c23b1de00)  
 [iOS 中的 21 种设计模式](https://www.jianshu.com/p/6b302c7fe987)

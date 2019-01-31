@@ -14,5 +14,5 @@
 
 
 ### 参考
-[iOS多个Target配置详情操作](https://www.jianshu.com/p/18db54655246)
+[iOS多个Target配置详情操作](https://www.jianshu.com/p/18db54655246)  
 [iOS多Target开发相似App](https://dreamcoffeezs.github.io/2018/02/10/iOS多Target开发相似App/)

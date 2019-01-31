@@ -70,15 +70,12 @@ RunTime相关术语
 ##### runloop
 
 
-[iOS开发笔记之五十七——__weak与__strong是如何解决循环引用的](https://blog.csdn.net/lizitao/article/details/54845974)
-[IOS高级编程之三：IOS 多线程编程](https://www.cnblogs.com/chengzi/p/4536608.html)
-[iOS开发之多线程编程总结（二）](https://www.jianshu.com/p/2a614531187f)
-
-[PYPhotoBrowser iOS 中使用简单的图片浏览器](https://github.com/ko1o/PYPhotoBrowser)
-
-[KVO原理分析及使用进阶](https://www.jianshu.com/p/badf5cac0130)
-
-[iOS-KVO 实现原理](https://www.jianshu.com/p/0e75d99c3480)
+[iOS开发笔记之五十七——__weak与__strong是如何解决循环引用的](https://blog.csdn.net/lizitao/article/details/54845974)  
+[IOS高级编程之三：IOS 多线程编程](https://www.cnblogs.com/chengzi/p/4536608.html)  
+[iOS开发之多线程编程总结（二）](https://www.jianshu.com/p/2a614531187f)  
+[PYPhotoBrowser iOS 中使用简单的图片浏览器](https://github.com/ko1o/PYPhotoBrowser)  
+[KVO原理分析及使用进阶](https://www.jianshu.com/p/badf5cac0130)   
+[iOS-KVO 实现原理](https://www.jianshu.com/p/0e75d99c3480)  
 
 
 
@@ -396,10 +393,9 @@ strong是强引用，是ARC新引入的对象变量属性，简单讲strong等�
 
 
 ### 参考：
-[iOS面试笔试题（2018年8月）](https://www.jianshu.com/p/f441188cad49)
-[面试官自述：面向高级开发人员的iOS面试问题](https://www.jianshu.com/p/66d6a8b89aa5)
-[iOS 开发刷题系列三：NSString 引用计数](https://www.jianshu.com/p/ae4976ca92eb)
+[iOS面试笔试题（2018年8月）](https://www.jianshu.com/p/f441188cad49)  
+[面试官自述：面向高级开发人员的iOS面试问题](https://www.jianshu.com/p/66d6a8b89aa5)  
+[iOS 开发刷题系列三：NSString 引用计数](https://www.jianshu.com/p/ae4976ca92eb)  
 [iOS高级开发面试题整理](https://www.jianshu.com/c/c75e45b08d4b)
-[iOS 面试宝典 没有比这更全的了（持续更新）](https://www.jianshu.com/p/3b7f3f596bcb?utm_campaign=maleskine&utm_content=note&utm_medium=seo_notes&utm_source=recommendation)
-
-[InterviewQuestion](https://github.com/muzipiao/iOS-InterviewQuestion-collection)
+[iOS 面试宝典 没有比这更全的了（持续更新）](https://www.jianshu.com/p/3b7f3f596bcb?utm_campaign=maleskine&utm_content=note&utm_medium=seo_notes&utm_source=recommendation)  
+[InterviewQuestion](https://github.com/muzipiao/iOS-InterviewQuestion-collection)  

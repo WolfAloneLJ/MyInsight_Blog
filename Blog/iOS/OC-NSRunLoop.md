@@ -21,8 +21,6 @@ NSRunLoop类不具有线程安装性。如果你使用NSRunLoop类来修改 Run 
 
 
 #### 参考
-[《iOS面试之道》读书笔记 - NSRunLoop](https://www.jianshu.com/p/4edcb2ab18d4)
-
-[深入理解RunLoop](https://blog.ibireme.com/2015/05/18/runloop/)
-
+[《iOS面试之道》读书笔记 - NSRunLoop](https://www.jianshu.com/p/4edcb2ab18d4)  
+[深入理解RunLoop](https://blog.ibireme.com/2015/05/18/runloop/)  
 [iOS RunLoop详解](https://www.jianshu.com/p/b80a8d4484e6)
