@@ -10,12 +10,6 @@
 ### FrameWork里面使用StoryBoard、图片
 
 
-
-
-
-
-
-
 ### 参考
 [iOS封装功能生成 .framework](https://www.cnblogs.com/oc-bowen/p/7478461.html)       
 [iOS Framework制作流程](https://www.jianshu.com/p/f2bb038db637)  

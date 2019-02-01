@@ -2,7 +2,7 @@
 
 ### 常见的代码块
 1、属性
-
+```
 @property(nonatomic,strong) <#Class#> *<#object#>;
 
 @property(nonatomic,assign) <#Class#> <#property#>;
@@ -14,11 +14,12 @@
 @property(nonatomic,copy) <#Block#> <#block#>;
 
 @property(nonatomic,copy) <#class#> (^<#block#>)(id<#object1#>,...);
+```
 
 2、类的创建
 
 2.1  单例
-
+```
 static<#class#> *singleClass =nil;
 
 + (instancetype)shareInstance{
@@ -34,8 +35,9 @@ dispatch_once(&onceToken, ^{
 return<#expression#>
 
 }
+```
 2.2  cell的创建
-
+```
 staticNSString *reuseID = <#property#>;
 
 <#class#> *cell = [tableView dequeueReusableCellWithIdentifier:reuseID];
@@ -45,8 +47,9 @@ if(!cell) {
 cell = [[<#class#> alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:reuseID];
 
 }
+```
 2.3  tableView快捷创建
-
+```
 -(UITableView *)tableView {
 
 if(!<#tableview#>) {
@@ -100,9 +103,9 @@ returncell;
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 
 }
-
+```
 2.4  button的创建
-
+```
 UIButton *<#btn#> = [UIButton buttonWithType:UIButtonTypeCustom];
 
 <#btn#>.frame = CGRectMake(100,100,100,50);
@@ -112,14 +115,14 @@ UIButton *<#btn#> = [UIButton buttonWithType:UIButtonTypeCustom];
 [<#btn#> addTarget:selfaction:@selector(<#btnClick#>:) forControlEvents:UIControlEventTouchUpInside];
 
 [self.view addSubview:<#btn#>];
-
+```
 
 三、书签、注释类
-
+```
 `#pragma mark - <#gmark#>`
 
 //TODO:<#info#>
-
+```
 
 
 
