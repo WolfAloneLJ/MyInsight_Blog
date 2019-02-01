@@ -32,5 +32,11 @@ Xftp的连接
 [基于Tomcat使用servlet实现后台（响应前端的post请求，对数据库进行修改并反馈到界面）](https://blog.csdn.net/mm1030533738/article/details/81105665)    
 
 [Servlet 表单数据](https://www.cnblogs.com/yanghongfei/p/6972735.html)    
-[IDEA的Tomcat配置Web的项目创建以及Servlet简单运行](https://www.cnblogs.com/liusong-funtime/p/9144275.html)    
+[IDEA的Tomcat配置Web的项目创建以及Servlet简单运行](https://www.cnblogs.com/liusong-funtime/p/9144275.html)     
+[上传的图片怎么存储？（Tomcat 服务器映射目录配置）](https://blog.csdn.net/q563730343/article/details/78800864)  
+[JAVA上传文件图片到服务器保存](https://blog.csdn.net/qq_34469943/article/details/69945158)  
+[Java实现图片上传到服务器，并把上传的图片读取出来](https://blog.csdn.net/weixin_36380516/article/details/58594664)  
+[java客户端与服务器Servlet Json数据传输](https://www.cnblogs.com/xPluto/p/4952262.html)  
 
+
+[Java中最常见的5种Web服务器介绍](https://blog.csdn.net/singit/article/details/70991542)  

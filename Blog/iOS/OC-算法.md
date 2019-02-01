@@ -18,6 +18,7 @@
 
 
 ### 参考:
-[二叉树-你必须要懂！（二叉树相关算法实现-iOS）](http://www.cnblogs.com/manji/p/4903990.html#3347022)  
+[二叉树-你必须要懂！（二叉树相关算法实现-iOS）](http://www.cnblogs.com/manji/p/4903990.html#3347022)    
+[什么是二叉树？](https://www.cnblogs.com/menchao/p/5266286.html)  
 
 
