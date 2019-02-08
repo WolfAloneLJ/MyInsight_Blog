@@ -39,16 +39,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
 ### 参考:
 [基于MultipeerConnectivity Framework的文件传输](https://www.jianshu.com/p/181ed32b9e92)  
 [iOS开发拓展篇—蓝牙之GameKit使用](https://www.cnblogs.com/zengshuilin/p/5780712.html)  
@@ -56,3 +46,4 @@
 [<iOS开发>之蓝牙使用](https://www.jianshu.com/p/b62081c427a4)   
 [iOS Bluetooth 蓝牙(1)- 蓝牙基本原理](https://www.jianshu.com/p/a72a005190c7)  
 [iOS 蓝牙开发（三）app作为外设被连接的实现](http://www.cocoachina.com/ios/20151105/14071.html)
+[Multipeer Connectivity Framework](https://www.jianshu.com/p/592deb40e7de)  
