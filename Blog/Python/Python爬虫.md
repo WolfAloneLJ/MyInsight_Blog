@@ -32,7 +32,6 @@ Scrapy运行流程大概如下：
 解析出实体（Item）,则交给实体管道进行进一步的处理  
 解析出的是链接（URL）,则把URL交给调度器等待抓取  
  
-
 一、安装
 ```
 1、安装wheel
@@ -48,23 +47,17 @@ https://sourceforge.net/projects/pywin32/files/
 6、安装scrapy
 pip install scrapy
 ```
- 注：windows平台需要依赖pywin32，请根据自己系统32/64位选择下载安装，https://sourceforge.net/projects/pywin32/
-
+ 注：windows平台需要依赖pywin32，请根据自己系统32/64位选择下载安装，https://sourceforge.net/projects/pywin32/  
  
-
 二、爬虫举例
-
- 
 
 入门篇：美剧天堂前100最新（http://www.meijutt.com/new100.html）
 
 1、创建工程
-
 ```
 scrapy startproject movie
 ```
 2、创建爬虫程序
-
 ```
 cd movie
 scrapy genspider meiju meijutt.com
@@ -82,8 +75,6 @@ scrapy genspider meiju meijutt.com
 
 注意：一般创建爬虫文件时，以网站域名命名
 
- 
-
 5、设置数据存储模板  
 items.py
 ```
@@ -94,7 +85,6 @@ class MovieItem(scrapy.Item):
     # name = scrapy.Field()
     name = scrapy.Field()    
 ```
-
 6、编写爬虫  
 meiju.py
 ```
@@ -115,14 +105,11 @@ class MeijuSpider(scrapy.Spider):
             yield item
  
 ```
-
 7、设置配置文件  
 settings.py增加如下内容
 ```
 ITEM_PIPELINES = {'movie.pipelines.MoviePipeline':100}
 ```
- 
-
 8、编写数据处理脚本  
 pipelines.py
 ```

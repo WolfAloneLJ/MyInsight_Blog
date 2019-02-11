@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28887f6f-075e-4c9b-9d14-5dd5ee8998dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Blog/images/Python/Scrapy_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Blog/images/Python/Scrapy_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Blog/images/Python/pachong_jieguo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Blog/Python/Python爬虫.md" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/Python/Python爬虫.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/iOS/iOS蓝牙.md" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/iOS/iOS蓝牙.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +19,7 @@
         <entry file="file://$PROJECT_DIR$/Blog/Essays/Poetry.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="15">
+              <first_editor relative-caret-position="255">
                 <caret line="17" column="26" selection-start-line="17" selection-end-line="18" />
               </first_editor>
               <second_editor />
@@ -36,8 +31,8 @@
         <entry file="file://$PROJECT_DIR$/Blog/iOS/iOS蓝牙.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="407">
-                <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+              <first_editor relative-caret-position="585">
+                <caret line="39" selection-start-line="39" selection-end-line="39" />
               </first_editor>
               <second_editor />
             </state>
@@ -47,9 +42,9 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Blog/Python/Python爬虫.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="270">
-                <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+            <state split_layout="SECOND">
+              <first_editor relative-caret-position="1965">
+                <caret line="131" selection-start-line="131" selection-end-line="131" />
               </first_editor>
               <second_editor />
             </state>
@@ -92,9 +87,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1095" />
+    <option name="width" value="1280" />
     <option name="height" value="777" />
   </component>
   <component name="ProjectView">
@@ -181,7 +176,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549620753970" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549628863982" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build.tools" />
@@ -215,18 +210,19 @@
       <option name="presentableId" value="Default" />
       <updated>1548921348618</updated>
       <workItem from="1548921350172" duration="9731000" />
-      <workItem from="1549426119201" duration="6322000" />
+      <workItem from="1549426119201" duration="7438000" />
+      <workItem from="1549724149128" duration="6000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16053000" />
+    <option name="totallyTimeSpent" value="17175000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49927008" visible="true" weight="0.09289176" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49927008" weight="0.09289176" />
       <window_info id="Structure" order="1" sideWeight="0.5007299" side_tool="true" weight="0.24959612" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -410,16 +406,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/iOS/iOS蓝牙.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="407">
-            <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Blog/iOS/Blog.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -450,16 +436,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/Essays/Poetry.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="15">
-            <caret line="17" column="26" selection-start-line="17" selection-end-line="18" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Blog/iOS/Mac常见指令.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -470,11 +446,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/Python/Python爬虫.md">
+    <entry file="file://$PROJECT_DIR$/Blog/Essays/Poetry.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="270">
-            <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+          <first_editor relative-caret-position="255">
+            <caret line="17" column="26" selection-start-line="17" selection-end-line="18" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/iOS/iOS蓝牙.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="585">
+            <caret line="39" selection-start-line="39" selection-end-line="39" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/Python/Python爬虫.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="1965">
+            <caret line="131" selection-start-line="131" selection-end-line="131" />
           </first_editor>
           <second_editor />
         </state>
