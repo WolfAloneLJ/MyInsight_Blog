@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="2c9ca30a-6f1b-4afb-9e40-3c51d50e8ecf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+    <list default="true" id="28887f6f-075e-4c9b-9d14-5dd5ee8998dc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Blog/Python/Python爬虫.md" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/Python/Python爬虫.md" afterDir="false" />
+>>>>>>> 313b13286a72a399b462a018ea1a0ce2aa5c51c4
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,8 +15,57 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="MyInsight_Blog" />
+  </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Blog/Essays/Poetry.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="255">
+                <caret line="17" column="26" selection-start-line="17" selection-end-line="18" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Blog/iOS/iOS蓝牙.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="585">
+                <caret line="39" selection-start-line="39" selection-end-line="39" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Blog/Python/Python爬虫.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SECOND">
+              <first_editor relative-caret-position="1965">
+                <caret line="131" selection-start-line="131" selection-end-line="131" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+>>>>>>> 313b13286a72a399b462a018ea1a0ce2aa5c51c4
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>GCD实践（一）使用GCD保护property</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -19,51 +73,38 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Blog/Java/IDEA创建maven项目.md" />
+        <option value="$PROJECT_DIR$/Blog/iOS/iOS启动流程.md" />
+        <option value="$PROJECT_DIR$/Blog/iOS/OC-MultiThread.md" />
+        <option value="$PROJECT_DIR$/Blog/iOS/iOS调试技巧.md" />
+        <option value="$PROJECT_DIR$/Blog/iOS/iOS布局.md" />
+        <option value="$PROJECT_DIR$/Blog/iOS/iOS通讯.md" />
+        <option value="$PROJECT_DIR$/Blog/iOS/OC-算法.md" />
+        <option value="$PROJECT_DIR$/Blog/CPP/QT开发.md" />
+        <option value="$PROJECT_DIR$/Blog/Java/Java算法.md" />
+        <option value="$PROJECT_DIR$/Blog/Android/Android蓝牙.md" />
+        <option value="$PROJECT_DIR$/Blog/Java/Java服务器.md" />
+        <option value="$PROJECT_DIR$/Blog/Linux/虚拟机.md" />
         <option value="$PROJECT_DIR$/Blog/iOS/iOS代码块CodeSnippet.md" />
         <option value="$PROJECT_DIR$/Blog/iOS/iOS制作Framework.md" />
-        <option value="$PROJECT_DIR$/Blog/iOS/iOS加密.md" />
-        <option value="$PROJECT_DIR$/Blog/iOS/iOS区块链.md" />
-        <option value="$PROJECT_DIR$/Blog/iOS/iOS图片缓存.md" />
-        <option value="$PROJECT_DIR$/Blog/iOS/iOS地图.md" />
-        <option value="$PROJECT_DIR$/Blog/iOS/iOS多target.md" />
-        <option value="$PROJECT_DIR$/Blog/iOS/iOS常见报错.md" />
-        <option value="$PROJECT_DIR$/Blog/iOS/iOS数据存储.md" />
-        <option value="$PROJECT_DIR$/Blog/iOS/iOS的GitHub接口.md" />
-        <option value="$PROJECT_DIR$/Blog/iOS/iOS硬件信息.md" />
-        <option value="$PROJECT_DIR$/Blog/iOS/iOS第三方库工具.md" />
-        <option value="$PROJECT_DIR$/Blog/iOS/iOS组件化.md" />
-        <option value="$PROJECT_DIR$/Blog/iOS/iOS网络请求.md" />
-        <option value="$PROJECT_DIR$/Blog/iOS/iOS蓝牙.md" />
-        <option value="$PROJECT_DIR$/Blog/iOS/iOS设计模式.md" />
-        <option value="$PROJECT_DIR$/Blog/iOS/iOS调试技巧.md" />
-        <option value="$PROJECT_DIR$/Blog/iOS/iOS跨平台.md" />
-        <option value="$PROJECT_DIR$/Blog/iOS/iOS面试之道.md" />
-        <option value="$PROJECT_DIR$/Blog/iOS/iOS面试题.md" />
-        <option value="$PROJECT_DIR$/Blog/iOS/OC-Block.md" />
-        <option value="$PROJECT_DIR$/Blog/iOS/OC-Category.md" />
-        <option value="$PROJECT_DIR$/Blog/iOS/OC-MultiThread.md" />
-        <option value="$PROJECT_DIR$/Blog/iOS/OC-NSDictionary.md" />
-        <option value="$PROJECT_DIR$/Blog/iOS/OC-NSRunLoop.md" />
-        <option value="$PROJECT_DIR$/Blog/iOS/OC-RunTime.md" />
-        <option value="$PROJECT_DIR$/Blog/iOS/OC-算法.md" />
-        <option value="$PROJECT_DIR$/Blog/iOS/SVN工具.md" />
+        <option value="$PROJECT_DIR$/Blog/Linux/GIT服务器.md" />
         <option value="$PROJECT_DIR$/Blog/iOS/Blog.md" />
-        <option value="$PROJECT_DIR$/Blog/iOS/GIT工具.md" />
-        <option value="$PROJECT_DIR$/Blog/Linux/MySQL.md" />
-        <option value="$PROJECT_DIR$/Blog/Python/PythonWeb框架.md" />
-        <option value="$PROJECT_DIR$/Blog/Python/Python算法.md" />
-        <option value="$PROJECT_DIR$/Blog/Web/Markdown.md" />
         <option value="$PROJECT_DIR$/Blog/Essays/Poetry.md" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/Blog/CPP/QT开发.md" />
         <option value="$PROJECT_DIR$/Blog/CPP/CPP算法.md" />
+=======
+        <option value="$PROJECT_DIR$/Blog/iOS/iOS组件化.md" />
+        <option value="$PROJECT_DIR$/Blog/iOS/iOS蓝牙.md" />
+        <option value="$PROJECT_DIR$/Blog/Python/Python爬虫.md" />
+>>>>>>> 313b13286a72a399b462a018ea1a0ce2aa5c51c4
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="1057" />
+    <option name="width" value="1280" />
+    <option name="height" value="777" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -71,7 +112,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -112,13 +152,14 @@
               <item name="MyInsight_Blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyInsight_Blog" type="462c0819:PsiDirectoryNode" />
               <item name="Blog" type="462c0819:PsiDirectoryNode" />
-              <item name="iOS" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyInsight_Blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyInsight_Blog" type="462c0819:PsiDirectoryNode" />
               <item name="Blog" type="462c0819:PsiDirectoryNode" />
-              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyInsight_Blog" type="b2602c69:ProjectViewProjectNode" />
@@ -142,18 +183,22 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548662341342" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549628863982" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build.tools" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Blog/images/Python" />
+      <recent name="$PROJECT_DIR$/Blog/images/Essays" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -173,25 +218,25 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2c9ca30a-6f1b-4afb-9e40-3c51d50e8ecf" name="Default Changelist" comment="" />
-      <created>1548637430536</created>
+      <changelist id="28887f6f-075e-4c9b-9d14-5dd5ee8998dc" name="Default Changelist" comment="" />
+      <created>1548921348618</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
+<<<<<<< HEAD
       <updated>1548637430536</updated>
       <workItem from="1548637432001" duration="4649000" />
       <workItem from="1548725500063" duration="2704000" />
+=======
+      <updated>1548921348618</updated>
+      <workItem from="1548921350172" duration="9731000" />
+      <workItem from="1549426119201" duration="7438000" />
+      <workItem from="1549724149128" duration="6000" />
+>>>>>>> 313b13286a72a399b462a018ea1a0ce2aa5c51c4
     </task>
-    <task id="LOCAL-00001" summary="markdown 颜色">
-      <created>1548644957706</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1548644957706</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="7353000" />
   </component>
   <component name="ToolWindowManager">
@@ -199,11 +244,21 @@
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.12726304" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+=======
+    <option name="totallyTimeSpent" value="17175000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="777" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49927008" weight="0.09289176" />
+      <window_info id="Structure" order="1" sideWeight="0.5007299" side_tool="true" weight="0.24959612" />
+>>>>>>> 313b13286a72a399b462a018ea1a0ce2aa5c51c4
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Favorites" order="6" sideWeight="0.5007299" side_tool="true" weight="0.24959612" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -230,120 +285,24 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="markdown 颜色" />
-    <option name="LAST_COMMIT_MESSAGE" value="markdown 颜色" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Blog/iOS/iOS布局.md">
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/Blog/Java/IDEA创建maven项目.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/iOS/iOS常见报错.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="763">
-            <caret line="56" column="7" lean-forward="true" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
+          <first_editor relative-caret-position="45">
+            <caret line="3" selection-start-line="3" selection-end-line="3" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/iOS/iOS数据存储.md">
+    <entry file="file://$PROJECT_DIR$/Blog/iOS/iOS启动流程.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="210">
-            <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/iOS/iOS横竖屏.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/iOS/iOS的GitHub接口.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="240">
-            <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/iOS/iOS硬件信息.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="763">
-            <caret line="143" column="57" selection-start-line="143" selection-start-column="57" selection-end-line="143" selection-end-column="57" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/iOS/iOS第三方库工具.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="808">
-            <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/iOS/iOS组件化.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="688">
-            <caret line="217" column="49" selection-start-line="217" selection-start-column="49" selection-end-line="217" selection-end-column="49" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/iOS/iOS统计工具.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/iOS/iOS网络请求.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="345">
-            <caret line="23" column="76" selection-start-line="23" selection-start-column="76" selection-end-line="23" selection-end-column="76" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/iOS/iOS蓝牙.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="808">
-            <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/iOS/iOS设计模式.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="808">
-            <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+          <first_editor relative-caret-position="706">
+            <caret line="55" column="103" selection-start-line="55" selection-start-column="103" selection-end-line="55" selection-end-column="103" />
           </first_editor>
           <second_editor />
         </state>
@@ -352,106 +311,59 @@
     <entry file="file://$PROJECT_DIR$/Blog/iOS/iOS调试技巧.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="450">
-            <caret line="30" column="98" selection-start-line="30" selection-start-column="98" selection-end-line="30" selection-end-column="98" />
+          <first_editor relative-caret-position="540">
+            <caret line="36" column="88" selection-start-line="36" selection-start-column="88" selection-end-line="36" selection-end-column="88" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/iOS/iOS跨平台.md">
+>>>>>>> 313b13286a72a399b462a018ea1a0ce2aa5c51c4
+    <entry file="file://$PROJECT_DIR$/Blog/iOS/iOS布局.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="285">
-            <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <first_editor relative-caret-position="120">
+            <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/iOS/iOS进制转换.md">
+    <entry file="file://$PROJECT_DIR$/Blog/iOS/iOS制作Framework.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/iOS/iOS面试之道.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="793">
-            <caret line="528" column="69" selection-start-line="528" selection-start-column="69" selection-end-line="528" selection-end-column="69" />
+          <first_editor relative-caret-position="120">
+            <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/iOS/iOS面试题.md">
+    <entry file="file://$PROJECT_DIR$/Blog/iOS/iOS代码块CodeSnippet.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="115">
-            <caret line="72" column="98" selection-start-line="72" selection-start-column="98" selection-end-line="72" selection-end-column="98" />
+          <first_editor relative-caret-position="1850">
+            <caret line="124" column="3" selection-start-line="124" selection-start-column="3" selection-end-line="124" selection-end-column="3" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/iOS/OC-Block.md">
+    <entry file="file://$PROJECT_DIR$/Blog/Linux/虚拟机.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="808">
-            <caret line="285" lean-forward="true" selection-start-line="285" selection-end-line="285" />
+          <first_editor relative-caret-position="75">
+            <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/iOS/OC-Category.md">
+    <entry file="file://$PROJECT_DIR$/Blog/Android/Android蓝牙.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="808">
-            <caret line="570" lean-forward="true" selection-start-line="570" selection-end-line="570" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/iOS/OC-MultiThread.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="703">
-            <caret line="57" column="130" selection-start-line="57" selection-start-column="130" selection-end-line="57" selection-end-column="130" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/iOS/OC-NSDictionary.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="720">
-            <caret line="48" column="74" selection-start-line="48" selection-start-column="74" selection-end-line="48" selection-end-column="74" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/iOS/OC-NSRunLoop.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="390">
-            <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/iOS/OC-RunTime.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="808">
-            <caret line="789" lean-forward="true" selection-start-line="789" selection-end-line="789" />
+          <first_editor relative-caret-position="165">
+            <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           </first_editor>
           <second_editor />
         </state>
@@ -460,26 +372,68 @@
     <entry file="file://$PROJECT_DIR$/Blog/iOS/OC-算法.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="300">
-            <caret line="20" column="82" selection-start-line="20" selection-start-column="82" selection-end-line="20" selection-end-column="82" />
+          <first_editor relative-caret-position="330">
+            <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/iOS/OC-进制转换.md">
+    <entry file="file://$PROJECT_DIR$/Blog/iOS/iOS通讯.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor />
+          <first_editor relative-caret-position="75">
+            <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/iOS/SVN工具.md">
+    <entry file="file://$PROJECT_DIR$/Blog/Java/Java算法.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="778">
-            <caret line="128" column="75" selection-start-line="128" selection-start-column="75" selection-end-line="128" selection-end-column="75" />
+          <first_editor relative-caret-position="135">
+            <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/Java/Java服务器.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="587">
+            <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/iOS/OC-MultiThread.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="535">
+            <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/CPP/QT开发.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="195">
+            <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/iOS/iOS组件化.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="542">
+            <caret line="225" column="77" selection-start-line="225" selection-start-column="77" selection-end-line="225" selection-end-column="77" />
           </first_editor>
           <second_editor />
         </state>
@@ -488,59 +442,24 @@
     <entry file="file://$PROJECT_DIR$/Blog/iOS/Blog.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="570">
-            <caret line="38" column="95" selection-start-line="38" selection-start-column="95" selection-end-line="38" selection-end-column="95" />
+          <first_editor relative-caret-position="450">
+            <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/iOS/GIT工具.md">
+    <entry file="file://$PROJECT_DIR$/Blog/Linux/GIT服务器.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="585">
-            <caret line="39" column="39" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
+          <first_editor relative-caret-position="510">
+            <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/Java/Java学习.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/Java/Java算法.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/Linux/Linxu常见指令.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="373">
-            <caret line="141" lean-forward="true" selection-start-line="141" selection-end-line="141" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/Linux/MySQL.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="778">
-            <caret line="59" column="62" selection-start-line="59" selection-start-column="62" selection-end-line="59" selection-end-column="62" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Blog/Linux/SQL.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -584,55 +503,24 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Blog/Python/PythonWeb框架.md">
+=======
+    <entry file="file://$PROJECT_DIR$/Blog/CPP/CPP设计模式.md">
+>>>>>>> 313b13286a72a399b462a018ea1a0ce2aa5c51c4
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="120">
-            <caret line="8" column="75" selection-start-line="8" selection-start-column="75" selection-end-line="8" selection-end-column="75" />
+            <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/Python/Python爬虫.md">
+    <entry file="file://$PROJECT_DIR$/Blog/iOS/Mac常见指令.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/Python/Python算法.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="90">
-            <caret line="6" column="68" selection-start-line="6" selection-start-column="68" selection-end-line="6" selection-end-column="68" />
+          <first_editor relative-caret-position="150">
+            <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
           </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/Web/HTML5.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/Web/Markdown.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="763">
-            <caret line="315" column="66" selection-start-line="315" selection-start-column="66" selection-end-line="315" selection-end-column="66" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/Web/VUE.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
           <second_editor />
         </state>
       </provider>
@@ -640,13 +528,24 @@
     <entry file="file://$PROJECT_DIR$/Blog/Essays/Poetry.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="627">
-            <caret line="44" column="11" lean-forward="true" selection-start-line="44" selection-start-column="11" selection-end-line="44" selection-end-column="11" />
+          <first_editor relative-caret-position="255">
+            <caret line="17" column="26" selection-start-line="17" selection-end-line="18" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/iOS/iOS蓝牙.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="585">
+            <caret line="39" selection-start-line="39" selection-end-line="39" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Blog/Android/Android蓝牙.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -692,6 +591,13 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="75">
             <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
+=======
+    <entry file="file://$PROJECT_DIR$/Blog/Python/Python爬虫.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="1965">
+            <caret line="131" selection-start-line="131" selection-end-line="131" />
+>>>>>>> 313b13286a72a399b462a018ea1a0ce2aa5c51c4
           </first_editor>
           <second_editor />
         </state>
@@ -705,5 +611,20 @@
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

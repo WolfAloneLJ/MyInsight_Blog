@@ -21,4 +21,7 @@ QT信号
 [【Qt5.8】Qt5.8中串口类QSerialPort](https://blog.csdn.net/dengjin20104042056/article/details/82151545)  
 [Qt 串口类QSerialPort 使用笔记](https://blog.csdn.net/liyuanbhu/article/details/45540825)  
 [C++_之Qt的信号和槽的详解](https://www.cnblogs.com/wanghui1234/p/8964968.html)  
-[Qt/C++ 360安全卫士主界面动态按钮demo](https://blog.csdn.net/what951006/article/details/51542497)  
+[Qt/C++ 360安全卫士主界面动态按钮demo](https://blog.csdn.net/what951006/article/details/51542497)    
+[Qt编写串口通信程序全程图文解说](https://www.cnblogs.com/bhlsheji/p/4042538.html)  
+[qt开发环境 - 简易二进制文件打开，串口自发自收](https://blog.csdn.net/zn2857/article/details/78010235)  
+[Qt 定时器Timer使用](https://www.cnblogs.com/joeblackzqq/p/3660588.html)  

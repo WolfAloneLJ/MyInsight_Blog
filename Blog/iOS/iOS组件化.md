@@ -222,4 +222,5 @@ http://limboy.me/tech/2016/03/10/mgj-components.html
 ### 参考
 
 [iOS组件化方案选型](https://www.jianshu.com/p/f6907156cc70)  
-[iOS 从零到一搭建组件化项目框架](https://www.jianshu.com/p/59c2d2c4b737)
+[iOS 从零到一搭建组件化项目框架](https://www.jianshu.com/p/59c2d2c4b737)  
+[Swift 路由机制设计](https://www.cnblogs.com/purple-sweet-pottoes/p/7101087.html)  
