@@ -14,6 +14,11 @@
 
 
 
+
+
+
+
+
 ### AFNetworking源码分析
 
 
@@ -29,4 +34,7 @@
 ### iOS socket通信
 [Swift - 使用vapor socks库进行socket通信（基于TCP、UDP协议）](http://www.hangge.com/blog/cache/detail_1588.html)  
 [Swift - 使用socket进行通信（附聊天室样例）](http://www.hangge.com/blog/cache/detail_756.html)  
-[IBM-Swift](https://github.com/IBM-Swift/BlueSocket/tree/master)
+[IBM-Swift](https://github.com/IBM-Swift/BlueSocket/tree/master)  
+[用最新的 Alamofire（swift 4.1） （带参数）post方法上传图片到服务器](https://blog.csdn.net/du532835032/article/details/79995445)  
+[Swift3.0 Alamofire网络请求的封装（get,post,upload图片上传）](https://blog.csdn.net/C_calary/article/details/53193747)  
+[Swift3.0 Alamofire网络请求的封装（get,post,upload图片上传）转](https://www.cnblogs.com/xingsmile/p/6247411.html)  
