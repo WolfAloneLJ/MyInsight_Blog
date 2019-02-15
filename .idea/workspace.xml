@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28887f6f-075e-4c9b-9d14-5dd5ee8998dc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Blog/Python/Python爬虫.md" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/Python/Python爬虫.md" afterDir="false" />
-    </list>
+    <list default="true" id="28887f6f-075e-4c9b-9d14-5dd5ee8998dc" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Blog/Python/Python爬虫.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SECOND">
-              <first_editor relative-caret-position="1965">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-368">
                 <caret line="131" selection-start-line="131" selection-end-line="131" />
               </first_editor>
               <second_editor />
@@ -212,14 +210,15 @@
       <workItem from="1548921350172" duration="9731000" />
       <workItem from="1549426119201" duration="7438000" />
       <workItem from="1549724149128" duration="6000" />
+      <workItem from="1549876346281" duration="818000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17175000" />
+    <option name="totallyTimeSpent" value="17993000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="777" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49927008" weight="0.09289176" />
@@ -468,8 +467,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Blog/Python/Python爬虫.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor relative-caret-position="1965">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-368">
             <caret line="131" selection-start-line="131" selection-end-line="131" />
           </first_editor>
           <second_editor />
