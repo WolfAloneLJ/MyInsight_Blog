@@ -20,7 +20,7 @@
 
 2.1  单例
 ```
-static<#class#> *singleClass =nil;
+static <#class#> *singleClass =nil;
 
 + (instancetype)shareInstance{
 
@@ -28,11 +28,11 @@ staticdispatch_once_t onceToken;
 
 dispatch_once(&onceToken, ^{
 
-<#code to be executed once#>
+    <#code to be executed once#>
 
 });
 
-return<#expression#>
+return <#expression#>
 
 }
 ```
