@@ -34,3 +34,16 @@
 [iOS AudioQueue实时录音](https://www.jianshu.com/p/84a0df439431)  
 [AudioQueue 播放和录音](https://blog.csdn.net/lyy_whg/article/details/9919785)  
 
+
+[ios利用mic采集Pcm转为AAC，AudioQueue、AudioUnit(流式),audioqueue](http://www.code4app.com/thread-27323-1-1.html)  
+[ios利用mic采集Pcm转为AAC，AudioQueue、AudioUnit(流式)](https://www.jianshu.com/p/e2d072b9e4d8)  
+[音频队列服务编程指南(Audio Queue Services Programming Guide)(三)](https://blog.csdn.net/just_we_0727/article/details/8373440?utm_source=blogxgwz7)  
+
+[Using Audio Queue -- Recorder -- (Part 1)](https://github.com/lancy/Octopress/blob/8cc59c2c118110d85c730e061073c29f979c319a/source/_posts/using_audio_queue.md)
+
+[【音频】G711编码原理](https://blog.csdn.net/q2519008/article/details/80900838)    
+[iOS AVAudioRecorder录音,转MP3,播放](https://www.jianshu.com/p/72887a79e949)  
+
+
+
+
