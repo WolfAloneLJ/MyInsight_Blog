@@ -46,5 +46,7 @@
 
 
 [audioqueue 播放以及录制pcm数据](https://github.com/xixi9527/AudioqueuePlayer)  
+[XYRealTimeRecord](https://github.com/wszxy/XYRealTimeRecord)  
+[audioqueue 播放以及录制pcm数据](https://github.com/xixi9527/AudioqueuePlayer)  
 
 
