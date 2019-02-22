@@ -45,5 +45,6 @@
 [iOS AVAudioRecorder录音,转MP3,播放](https://www.jianshu.com/p/72887a79e949)  
 
 
+[audioqueue 播放以及录制pcm数据](https://github.com/xixi9527/AudioqueuePlayer)  
 
 
