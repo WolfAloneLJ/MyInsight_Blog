@@ -43,5 +43,31 @@
 ### zhouyugang总结
 [iOS常用公共方法](https://www.jianshu.com/p/997f96d2a0b5)  
 [图文解释XCode常用快捷键的使用](http://www.cnblogs.com/langtianya/p/3888157.html)  
+[iOS开发 Xcode8中遇到的问题及改动](https://www.jianshu.com/p/90d5323cf510)  
+[iOS 9: UIStackView入门](http://www.cocoachina.com/ios/20150623/12233.html)  
+[对iOS10新增Api的详细探究](http://www.cnblogs.com/dsxniubility/p/5596973.html)  
+[苹果ATS（强制HTTPS）审核新政解码 ](https://yq.aliyun.com/articles/62563)  
+[xcode7的那些坑－“Your binary is not optimized for iPhone 5” (ITMS-90096) when submitting](https://blog.csdn.net/wsjshx/article/details/49558627)  
+[【iOS10】iOS10之适配问题汇总](https://my.oschina.net/Misayalvyuan/blog/746352)  
+[使用Xcode6和IOS8SDK以后遇到的问题](http://www.cnblogs.com/dagehaoshuang/p/4040618.html)  
+[iOS9 适配系列教程](https://github.com/ChenYilong/iOS9AdaptationTips)  
+[iOS9 适配系列教程](http://www.cocoachina.com/ios/20150703/12392.html)  
+[整理 iOS 9 适配中出现的坑（图文）](http://www.cocoachina.com/ios/20151016/13715.html)  
+[iOS9适配 之 关于info.plist 第三方登录 添加URL Schemes白名单](https://www.jianshu.com/p/a8cce94d508e)  
+[【投稿】iOS 9之适配ATS](http://www.cocoachina.com/ios/20151021/13722.html)  
+[WWDC2016 Session笔记](http://ios.jobbole.com/86464/)  
+[玩转 iOS 10 推送 —— UserNotifications Framework（上）](https://www.jianshu.com/p/2f3202b5e758)  
+[玩转 iOS 10 推送 —— UserNotifications Framework（中）](https://www.jianshu.com/p/5a4b88874f3a)  
+[IOS 10 适配 系列_0_ iOS10 UserNotifications 框架解析](https://www.2cto.com/kf/201609/547148.html)  
+[iOS10 关于推送](https://blog.csdn.net/yydev/article/details/52105830)  
+[iOS 10 添加本地推送（Local Notification）](https://www.tuicool.com/articles/3EnAFza)  
+[iOS10通知框架UserNotification理解与应用](https://my.oschina.net/u/2340880/blog/747781)  
+[iOS技术：作为iOS开发者，你知道iOS10新增了哪些？](https://www.toutiao.com/i6303682254598046209/)  
+[iOS10-配置获取隐私数据权限声明](https://blog.csdn.net/coyote1994/article/details/52552094)  
+[iOS10上关于NSPhotoLibraryUsageDescription等问题](https://www.tuicool.com/articles/BfyMVnV)  
+[介绍 iOS7 引入的多任务处理机制之Background Fetch](https://blog.csdn.net/leikezhu1981/article/details/42153459)  
+
+
+
 
 
