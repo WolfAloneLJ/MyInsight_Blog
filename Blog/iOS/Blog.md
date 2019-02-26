@@ -35,3 +35,13 @@
 [CoreML初学感觉](https://www.jianshu.com/p/9ffdbc054b8a)  
 [InterviewQuestion](https://github.com/SwiftOldDriver/iOS-Weekly/blob/master/Reports/%231.md)  
 [iOS知识小集](https://github.com/awesome-tips/iOS-Tips)  
+
+
+
+
+
+### zhouyugang总结
+[iOS常用公共方法](https://www.jianshu.com/p/997f96d2a0b5)  
+[图文解释XCode常用快捷键的使用](http://www.cnblogs.com/langtianya/p/3888157.html)  
+
+

@@ -38,3 +38,4 @@
 [用最新的 Alamofire（swift 4.1） （带参数）post方法上传图片到服务器](https://blog.csdn.net/du532835032/article/details/79995445)  
 [Swift3.0 Alamofire网络请求的封装（get,post,upload图片上传）](https://blog.csdn.net/C_calary/article/details/53193747)  
 [Swift3.0 Alamofire网络请求的封装（get,post,upload图片上传）转](https://www.cnblogs.com/xingsmile/p/6247411.html)  
+[swift开发笔记：Alamofire 4.5 - 上传图片、视频到服务器(含后台代码)](https://www.jianshu.com/p/749f05625240)  
