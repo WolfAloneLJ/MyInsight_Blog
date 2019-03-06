@@ -28,8 +28,9 @@
 ### 参考:
 [Alamofire](https://github.com/Alamofire/Alamofire)是一个由Swift编写的优雅的网络开发框架。   
 [Alamofire 的设计之道](https://juejin.im/entry/5947ae51a0bb9f006bdd3241)  
-[iOS 源代码分析 --- Alamofire](https://github.com/Draveness/analyze/blob/master/contents/Alamofire/iOS%20%E6%BA%90%E4%BB%A3%E7%A0%81%E5%88%86%E6%9E%90%20----%20Alamofire.md)
-
+[iOS 源代码分析 --- Alamofire](https://github.com/Draveness/analyze/blob/master/contents/Alamofire/iOS%20%E6%BA%90%E4%BB%A3%E7%A0%81%E5%88%86%E6%9E%90%20----%20Alamofire.md)  
+[Alamofire源码解读系列(一)之概述和使用](http://www.cnblogs.com/machao/p/6430525.html)  
+[Alamofire源码解读系列(一)之概述和使用](https://www.jianshu.com/p/f39ad2a3c10b)  
 
 ### iOS socket通信
 [Swift - 使用vapor socks库进行socket通信（基于TCP、UDP协议）](http://www.hangge.com/blog/cache/detail_1588.html)  
