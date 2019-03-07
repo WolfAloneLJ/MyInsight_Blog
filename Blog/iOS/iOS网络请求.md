@@ -14,11 +14,6 @@
 
 
 
-
-
-
-
-
 ### AFNetworking源码分析
 
 
@@ -40,3 +35,7 @@
 [Swift3.0 Alamofire网络请求的封装（get,post,upload图片上传）](https://blog.csdn.net/C_calary/article/details/53193747)  
 [Swift3.0 Alamofire网络请求的封装（get,post,upload图片上传）转](https://www.cnblogs.com/xingsmile/p/6247411.html)  
 [swift开发笔记：Alamofire 4.5 - 上传图片、视频到服务器(含后台代码)](https://www.jianshu.com/p/749f05625240)  
+[一个网络测试工具](https://dongqihouse.github.io/2018/09/11/ping/)  
+[iOS--网络测试小工具（ping tarceroute）](https://www.jianshu.com/p/ecb6ca7dca5f)  
+[iOS ping - SimplePing 源码解读](https://www.jianshu.com/p/106e35daff87)  
+[iOS下的实际网络连接状态检测:RealReachability](https://blog.csdn.net/openglnewbee/article/details/50705146)  
