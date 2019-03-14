@@ -1,4 +1,4 @@
-##  iOS PushKit
+##  iOS的APNs和与VoIP
 
 
 ### 创建证书
@@ -61,3 +61,6 @@ Enter pass phrase for private_key.pem:
 [IOS Push 证书的重新生成](https://blog.csdn.net/think12/article/details/8863411)
 
 [IOS消息推送(VOIP)](https://blog.csdn.net/heyufei/article/details/53616961)
+
+[APNS与VoIP](https://www.jianshu.com/p/edbfd8d515de)
+

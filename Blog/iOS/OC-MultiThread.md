@@ -583,8 +583,20 @@ NSOperation 的使用相较于GCD是面向对象的，OC实现的，而GCD应该
 <br>
 1）创建 NSOperationQueue 队列，并未该队列设置相关属性
 <br>
-2）创建 NSOperation 子类对象，并将该对象提交给 NSOperationQueue 队列，该队列将会按顺序依次启动每个 NSOperation。
-<br>
+2）创建 NSOperation 子类对象，并将该对象提交给 NSOperationQueue 队列，该队列将会按顺序依次启动每个 NSOperation。  
+<br>  
+        
+        
+        
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+        
+                
+iOS几种延时方法比较
+
+
+
+
+
 
 
 
@@ -604,3 +616,8 @@ NSOperation 的使用相较于GCD是面向对象的，OC实现的，而GCD应该
 
 
 [多线程之GCD](https://blog.csdn.net/longshihua/article/details/50523051)  
+[iOS几种延迟执行方法的比较](https://www.jianshu.com/p/922f8ed5c458)  
+[iOS开发-多线程-GDC常用方法](https://www.cnblogs.com/dingjianjaja/p/5023337.html)  
+
+[IOS异步获取数据并刷新界面dispatch_async的使用方法](https://www.cnblogs.com/wangxiaorui/p/5390088.html)  
+
