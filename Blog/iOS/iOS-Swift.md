@@ -48,7 +48,7 @@ Struct 不能被序列化成 NSData 对象。
 [王巍-swifter开发的100tips]
 [iOS开发系列--Swift进阶](http://www.cnblogs.com/kenshincui/p/4824810.html)
 [Swift 字典模型互转总结](https://www.cnblogs.com/duzhaoquan/p/6228525.html)
-
 [Swift 浅谈Struct与Class](https://www.cnblogs.com/beckwang0912/p/8508299.html)
+[Swift 数据转模型之Codable使用](https://blog.csdn.net/yingBi2014/article/details/80282622)  
+[swift func 前加 class 和static的区别与联系](https://blog.csdn.net/allanGold/article/details/79651600)  
 
-[Swift 数据转模型之Codable使用](https://blog.csdn.net/yingBi2014/article/details/80282622)
