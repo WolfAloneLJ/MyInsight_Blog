@@ -21,7 +21,6 @@
 [Swift3.0 SQLite使用、性能优化、线程安全](https://www.jianshu.com/p/fdeadf4cb782)  
 [iOS 多线程中使用SQLite](https://blog.csdn.net/xuhen/article/details/78967846)  
 [ios sqlite3多线程操作](https://blog.csdn.net/nxjbill/article/details/77801947)  
-[SQLite 并发的四种处理方式](https://cloud.tencent.com/developer/article/1066770?fromSource=waitui)  
 
-
+[SQLite 并发的四种处理方式](https://bignerdcoding.com/archives/63.html)
 
