@@ -24,3 +24,8 @@
 
 [SQLite 并发的四种处理方式](https://bignerdcoding.com/archives/63.html)
 
+
+[使用 GRDB 在 Swift 中操作 SQLite 数据库](http://swiftcafe.io/post/grdb?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)     
+[GRDB.swift, 在应用程序开发中，一个用于SQLite数据库](https://www.helplib.com/GitHub/article_127687)  
+
+
