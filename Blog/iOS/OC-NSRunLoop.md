@@ -20,7 +20,28 @@ NSRunLoop类不具有线程安装性。如果你使用NSRunLoop类来修改 Run 
 #### Run Loop 的组成部分
 
 
+### Run Loop遇到的错误
+![Runloop 错误](../images/iOS/runloop/Runloop_Error.png "Error") 
+
+
+
 #### 参考
 [《iOS面试之道》读书笔记 - NSRunLoop](https://www.jianshu.com/p/4edcb2ab18d4)  
 [深入理解RunLoop](https://blog.ibireme.com/2015/05/18/runloop/)  
 [iOS RunLoop详解](https://www.jianshu.com/p/b80a8d4484e6)
+
+
+[iOS - RunLoop 底层源码详解及具体运用](https://www.jianshu.com/p/d6c5c0bf97fd)  
+[Run Loop 记录与源码注释]( https://github.com/Desgard/iOS-Source-Probe/blob/master/Objective-C/Foundation/Run%20Loop%20记录与源码注释.md)  
+[iOS RunLoop完全指南](http://www.voidcn.com/article/p-bctwptxv-bry.html)  
+[iOS RunLoop详解](https://www.jianshu.com/p/23e3ff9619c3)  
+[iOS-RunLoop充满灵性的死循环](https://blog.csdn.net/qq_30513483/article/details/52582482)  
+
+
+
+[- (BOOL)runMode:(NSString *)mode beforeDate:(NSDate *)limitDate 方法 详解](https://blog.csdn.net/wjsxiaoweige/article/details/38318733)  
+[iOS runloop 详解3 子线程runloop的启动与停止](https://blog.csdn.net/jeffasd/article/details/52023195)  
+[objective-c - csm在 runMode:beforeDate 期间崩溃：](https://ask.helplib.com/objective-c/post_1364200)  
+
+
+
