@@ -15,4 +15,9 @@
 [RSA使用NSString格式公钥加密](https://github.com/muzipiao/RSAEncrypt)         
 [iOS端RSA加密](https://www.jianshu.com/p/54c386275c08)     
 
+[Swift - 第三方加密库CryptoSwift使用详解3（AES加密与解密）](https://www.hangge.com/blog/cache/detail_1869.html)  
+
+
+
+
 
