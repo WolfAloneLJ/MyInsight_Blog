@@ -43,5 +43,14 @@ NSRunLoop类不具有线程安装性。如果你使用NSRunLoop类来修改 Run 
 [iOS runloop 详解3 子线程runloop的启动与停止](https://blog.csdn.net/jeffasd/article/details/52023195)  
 [objective-c - csm在 runMode:beforeDate 期间崩溃：](https://ask.helplib.com/objective-c/post_1364200)  
 
+[iOS runloop 详解3 子线程runloop的启动与停止](https://blog.csdn.net/jeffasd/article/details/52023195)  
+[NSRunLoop原理详解——不再有盲点](https://www.cnblogs.com/mddblog/p/6435510.html)  
+[iOS基础面试题之RunLoop篇](https://www.jianshu.com/p/848ea3817502)  
+[CFRunLoop源码分析笔记](https://blog.csdn.net/zhaochen_009/article/details/61614809)  
+
+
+[MJiOS底层笔记--Runloop](https://juejin.im/post/5c6cbb4b518825428d7f91f6)  
+
+
 
 
