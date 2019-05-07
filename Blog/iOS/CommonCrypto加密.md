@@ -174,4 +174,8 @@ func md5() -> String {
 
 #### 参考:
 [AES128加密解密（swift版本）](https://www.jianshu.com/p/8e94136857be)  
+[SwCrypt](https://github.com/soyersoyer/SwCrypt)  
+[CommonCrypto in Swift](https://github.com/DigitalLeaves/CommonCrypto-in-Swift)    
+[如何在 Swift 中使用 CommonCrypto 类进行加密(I)](https://blog.csdn.net/cmbbill/article/details/48442879)  
+
 
