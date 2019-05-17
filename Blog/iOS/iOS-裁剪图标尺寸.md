@@ -17,9 +17,13 @@ m_dir=$dirname/${filename_array[i]}
 cp $filename $m_dir
 sips -Z ${size_array[i]} $m_dir
 done
+
+# 使用注意:  
+# 需要裁剪的icon图片建议使用512*512或者1024*1024的，命名为icon.png,且与脚本处在同一目录下；  
+# filename_array与size_array是一一对应的，需要什么名字什么尺寸的图标在这里面改就行了！  
+
+# 运行脚本 sh ./icon.sh 
+
 ```
 
-使用注意:  
-需要裁剪的icon图片建议使用512*512或者1024*1024的，命名为icon.png,且与脚本处在同一目录下；  
-filename_array与size_array是一一对应的，需要什么名字什么尺寸的图标在这里面改就行了！  
 

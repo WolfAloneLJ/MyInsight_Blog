@@ -301,3 +301,5 @@ sq是socket的线程，这个是可选的设置，如果你写null，GCDAsyncSoc
 ### 参考
 [iOS socket编程 第三方库 AsyncSocket(GCDAsyncSocket)](https://www.cnblogs.com/wanyakun/p/3403348.html)  
 [GCDAsyncSocket 简单使用](https://www.jianshu.com/p/65889f4f0bb1)  
+[iOS-Socket-UDP/TCP:客户端点对点和客户端对服务器数据收发](https://www.jianshu.com/p/2e408c3eaaa8)  
+[GCDAsyncUdpSocket局域网广播发送与接收，客户端与服务端实现](https://blog.csdn.net/lyh20133102/article/details/85696047)  
