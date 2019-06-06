@@ -15,4 +15,6 @@ XS MAX: iPhone11,4, iPhone11,6
 [wxc-mask](https://alibaba.github.io/weex-ui/#/cn/packages/wxc-mask/)  
 [通用样式](https://weex.apache.org/zh/docs/styles/common-styles.html#盒模型)  
 [记一次 Weex 的 iPhone X 适配](https://www.jianshu.com/p/512613cce08f)  
-[]()
+[Weex开发Input标签扩展](https://blog.csdn.net/qq_27731445/article/details/79501300)  
+
+

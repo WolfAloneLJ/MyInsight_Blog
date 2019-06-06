@@ -39,3 +39,5 @@
 [iOS--网络测试小工具（ping tarceroute）](https://www.jianshu.com/p/ecb6ca7dca5f)  
 [iOS ping - SimplePing 源码解读](https://www.jianshu.com/p/106e35daff87)  
 [iOS下的实际网络连接状态检测:RealReachability](https://blog.csdn.net/openglnewbee/article/details/50705146)  
+[如何获取 iOS 的网络流量数据](https://www.jianshu.com/p/aa8b08997080)  
+
