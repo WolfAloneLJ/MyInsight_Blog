@@ -60,4 +60,3 @@ String getString(String key) :通过执行key获取指定的value
 2.装饰者模式(静态代理)  
 3.动态代理  
 
-
