@@ -90,3 +90,7 @@
 ### 6.编码
 属性文件采用ISO-8859-1编码方式，该编码方式不支持中文，中文字符将被转化为Unicode编码方式显示。
 
+### 参考
+[属性文件操作之Properties与ResourceBundle](https://www.cnblogs.com/tonghun/p/7124245.html)  
+
+
