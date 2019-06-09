@@ -1,14 +1,13 @@
-## JDBC
-
+## 第七讲 JDBC
 
 ### 回顾:
-sql
-	sql分类:
-		DDL:
-			对象:数据库和表
-			关键词:create alter drop truncate
-			创建数据库:create database day06;
-			删除数据库: drop database day06;
+sql  
+	sql分类:  
+		DDL:  
+			对象:数据库和表  
+			关键词:create alter drop truncate  
+			创建数据库:create database day06;  
+			删除数据库: drop database day06;  
 			创建表:create table user(
 				id int primark key  auto_increment,
 				username varchar(20)
@@ -55,100 +54,107 @@ sql
 			 6.确定显示那些数据. select
 		DCL:用户 权限 事务
 ////////////////////////
-auto_increment 自增
-truncate 干掉表,重新创建 和delete的区别
-数据类型:
-	int 和 varchar(size):可变长度
-	date time  datetime timestamp
-////////////////////////////////////
-多表的操作:
-	表与表之间的关系:  
-		一对多:  
-			在多表的一方添加一个外键,外键的名称一般是主表名称_id,外键的类型和主表的主键的类型保持一致
-			为了保证数据的有效性和完整性,
-				需要在多表上添加外键约束
-					格式:
-						alter table 多表 add [constraint [外键的名称]] foreign key(外键名称) references 主表名称(主键);
-		多对多:
-			添加一张中间表,存放两张表的主键,就可以将多对多拆分成两个一对多了
-			为了保证数据的有效性和完整性,
-				需要在中间表添加两个外键约束
-		一对一:(了解)
-			1.两个实体合二为一(字段比较少)
-			2.将一张表的主键添加外键约束即可
-/////////////////////////////
-多表的查询:
-	内连接:
-		显式:
-			select a.*,b.* from a join b on 条件;
-		隐式:
-			select a.*,b.* from a,b where 条件;
-	外连接:
-		左外连接:
-			select a.*,b.* from a left join b on 条件;
-			以a为主,展示所有数据,根据条件关联查询b表,满足条件则展示,不满足的话以null显示
-	子查询::
-		一个查询依赖于另一个查询.
+auto_increment 自增  
+truncate 干掉表,重新创建 和delete的区别  
+数据类型:  
+	int 和 varchar(size):可变长度  
+	date time  datetime timestamp  
+////////////////////////////////////  
+多表的操作:  
+	表与表之间的关系:    
+		一对多:    
+			在多表的一方添加一个外键,外键的名称一般是主表名称_id,外键的类型和主表的主键的类型保持一致  
+			为了保证数据的有效性和完整性,  
+				需要在多表上添加外键约束  
+					格式:  
+						alter table 多表 add [constraint [外键的名称]] foreign key(外键名称) references 主表名称(主键);  
+		多对多:  
+			添加一张中间表,存放两张表的主键,就可以将多对多拆分成两个一对多了  
+			为了保证数据的有效性和完整性,  
+				需要在中间表添加两个外键约束  
+		一对一:(了解)  
+			1.两个实体合二为一(字段比较少)  
+			2.将一张表的主键添加外键约束即可  
+/////////////////////////////  
+多表的查询:  
+	内连接:  
+		显式:  
+			select a.*,b.* from a join b on 条件;  
+		隐式:  
+			select a.*,b.* from a,b where 条件;  
+	外连接:  
+		左外连接:  
+			select a.*,b.* from a left join b on 条件;  
+			以a为主,展示所有数据,根据条件关联查询b表,满足条件则展示,不满足的话以null显示  
+	子查询::  
+		一个查询依赖于另一个查询.  
 
 
 ### 案例1-通过jdbc完成单表的curd操作:
-需求:
-	对分类表完成操作.
-技术分析:
-	jdbc
-///////////////////////
-jdbc:
-	java操作数据库.jdbc是oracle公司指定的一套规范(一套接口)
-	驱动:jdbc的实现类.由数据库厂商提供.
-	我们就可以通过一套规范操作不同的数据库了(多态)
-	jdbc作用:
-		连接数据库
-		发送sql语句
-		处理结果
+需求:  
+	对分类表完成操作.  
+技术分析:  
+	jdbc  
+///////////////////////  
+jdbc:  
+	java操作数据库.jdbc是oracle公司指定的一套规范(一套接口)  
+	驱动:jdbc的实现类.由数据库厂商提供.  
+	我们就可以通过一套规范操作不同的数据库了(多态)  
+	jdbc作用:  
+		连接数据库  
+		发送sql语句  
+		处理结果  
 	
-jdbc操作步骤:★
-	1.数据库和表
-	2.创建一个项目
-	3.导入驱动jar包
-	4.编码:
-		注册驱动
-		获取连接
-		编写sql
-		创建预编译的语句执行者
-		设置参数
-		执行sql
-		处理结果
-		释放资源
+jdbc操作步骤:★  
+	1.数据库和表  
+	2.创建一个项目  
+	3.导入驱动jar包  
+	4.编码:  
+		注册驱动  
+		获取连接  
+		编写sql  
+		创建预编译的语句执行者  
+		设置参数  
+		执行sql  
+		处理结果  
+		释放资源  
 
-	初始化数据库和表:
-		CREATE DATABASE day07;
-		USE day07;	
+初始化数据库和表:  
+```mysql
+CREATE DATABASE day07;  
+USE day07;	
 		
-		create table category(
-			cid varchar(20) primary key,
-			cname varchar(20)
-		);
+create table category(
+  cid varchar(20) primary key,
+  cname varchar(20)
+);
 		
-		insert into category values('c001','电器');
-		insert into category values('c002','服饰');
-		insert into category values('c003','化妆品');
-		insert into category values('c004','书籍');
+  insert into category values('c001','电器');
+  insert into category values('c002','服饰');
+  insert into category values('c003','化妆品');
+  insert into category values('c004','书籍');
+```
+
+
+IDE打开之后    
+1.修改字符集 utf-8  
+2.新建 java项目  
+3.使用的jdk为自己的jdk 不用使用内置  
+
+使用junit单元测试  
+要求:  
+1.方法是public void xxx(){}  
+2.在方法上添加 @Test  
+3.在@Test 按下 ctrl+1(快速锁定错误)  
+4.在方法上右键 run as  -->junit 就可以执行方法了.  
+
 	
-	IDE打开之后
-		1.修改字符集 utf-8
-		2.新建 java项目
-		3.使用的jdk为自己的jdk 不用使用内置
-	
-	使用junit单元测试
-		要求:
-			1.方法是public void xxx(){}
-			2.在方法上添加 @Test
-			3.在@Test 按下 ctrl+1(快速锁定错误)
-			4.在方法上右键 run as  -->junit 就可以执行方法了.
+
+
 jdbc-api详解:
 	所有的包 都是 java.sql 或者 javax.sql
 	
-	DriverManager:管理了一组jdbc的操作 类
+DriverManager:管理了一组jdbc的操作 类
 		常用方法:
 			了解:注册驱动	
 				static void registerDriver(Driver driver) :
@@ -169,15 +175,15 @@ jdbc-api详解:
 						方式3:
 							对象.getClass();
  
-			掌握:获取连接
-				static Connection getConnection(String url, String user, String password) 
-					参数1:告诉我们连接什么类型的数据库及连接那个数据库
-								协议:数据库类型:子协议 参数
-						mysql:	jdbc:mysql://localhost:3306/数据库名称
-						oracle:	jdbc:oracle:thin@localhost:1521@实例
+掌握:获取连接
+static Connection getConnection(String url, String user, String password) 
+参数1:告诉我们连接什么类型的数据库及连接那个数据库
+协议:数据库类型:子协议 参数
+mysql:	jdbc:mysql://localhost:3306/数据库名称
+oracle:	jdbc:oracle:thin@localhost:1521@实例
 						
-					参数2:账户名 root
-					参数3:密码
+参数2:账户名 root  
+参数3:密码
 	
 	
 	(了解)Driver:java.sql 接口 驱动
