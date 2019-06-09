@@ -98,14 +98,17 @@ tomcat:★
 
 ### 案例1-编写配置文件,编写一个服务器软件,按照指定的全限定名,根据路径,让服务器创建这个对象,调用指定的方法
 需求:
-	<a1>
-		<c>hello</c>
-		<d>com.itheima.HelloServlet</d>
-	</a1>
-	<b1>
-		<c>hello</c>
-		<e>/hello</e>
-	</b1>
+```
+<a1>
+	<c>hello</c>
+	<d>com.itheima.HelloServlet</d>
+</a1>
+<b1>
+	<c>hello</c>
+	<e>/hello</e>
+</b1>
+```
+
 技术分析:
 	xml
 	解析xml

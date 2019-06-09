@@ -258,7 +258,8 @@ c2(no)->op2->e
 ### 参考
 [Markdown语法图文全面详解(10分钟学会)](https://blog.csdn.net/u014061630/article/details/81359144)  
 [markdown基本语法](https://www.jianshu.com/p/191d1e21f7ed)			  
-  
+[markdown的流程图、时序图、甘特图画法](https://www.jianshu.com/p/a9ff5a9cdb25)  
+[Markdown绘制甘特图教程](https://www.jianshu.com/p/a0dabf0b6815)    
 
 
 
