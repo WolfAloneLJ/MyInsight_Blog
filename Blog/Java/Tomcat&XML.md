@@ -22,51 +22,49 @@ jdbc:
 			if(rs.next()){  
 				rs.getXxx(int|String)  
 			}  
-		9.释放资源  
-	/////////////////////////////////  
-	properties:    
-		形式 key=value  
-		获取资源文件里面的内容 ResourceBundle  
-		文件放在src下:
-			ResourceBundle bundle = ResourceBundle.getBundle("不带后缀名的文件名");  
+		9.释放资源   
+	properties:      
+		形式 key=value    
+		获取资源文件里面的内容 ResourceBundle    
+		文件放在src下:  
+			ResourceBundle bundle = ResourceBundle.getBundle("不带后缀名的文件名");    
 			获取值:  
-				String value=bundle.getString(key)  
-	//////////////////////////  
+			String value = bundle.getString(key)    
 	
 连接池:  
-	必须实现 javax.sql.DataSource 接口  
-		获取连接:getConnnection();  
-		归还连接:conn.close();  
-	方法增前的方式:  
-		1.继承  
-		2.静态代理  
-		3.动态代理  
-	静态代理步骤:  
-		a.要求装饰者和被装饰者实现同一个接口或者继承同一个类  
-		b.要求装饰者要有被装饰者的引用  
-		c.对需要加强的方法进行加强  
-		d.对不需要加强的方法调用原来的方法  
-	常见的连接池:  
-		DBCP:  
-			使用步骤:  
-				1.导入jar包(两个jar包)   
-				2.编码:  
-					a.硬编码  
-						new BasicDataSource()  
-					b.配置文件  
-						Properties prop=new Properties()  
-						prop.load(is);  
-						new BasicDataSourceFactory().createDataSource(Properties prop);  
-		C3P0:  
-			使用步骤:  
-				1.导入jar包(1个)  
-				2.编码:  
-					b.配置文件  
-						配置文件的名称:c3p0.properties 或者 c3p0-config.xml  
-						配置文件的位置:src目录下  
-						编码中通过构造器创建:  
-							new ComboPooledDataSource();   
-	/////////////////////////////  
+	必须实现 javax.sql.DataSource 接口    
+		获取连接:getConnnection();    
+		归还连接:conn.close();    
+	方法增前的方式:    
+		1.继承    
+		2.静态代理    
+		3.动态代理    
+	静态代理步骤:    
+		a.要求装饰者和被装饰者实现同一个接口或者继承同一个类    
+		b.要求装饰者要有被装饰者的引用    
+		c.对需要加强的方法进行加强    
+		d.对不需要加强的方法调用原来的方法    
+	常见的连接池:    
+		DBCP:    
+			使用步骤:    
+				1.导入jar包(两个jar包)     
+				2.编码:    
+					a.硬编码    
+						new BasicDataSource()    
+					b.配置文件    
+						Properties prop=new Properties()    
+						prop.load(is);    
+						new BasicDataSourceFactory().createDataSource(Properties prop);    
+		C3P0:    
+			使用步骤:    
+				1.导入jar包(1个)    
+				2.编码:    
+					b.配置文件    
+						配置文件的名称:c3p0.properties 或者 c3p0-config.xml    
+						配置文件的位置:src目录下    
+						编码中通过构造器创建:    
+							new ComboPooledDataSource();     
+	  
 dbutils:  
 	apache组织提供的一个工具类,jdbc框架.  
 	dbutils的使用步骤:  
@@ -82,19 +80,19 @@ dbutils:
 				query(..)  
 				update(..)  
 				
-		DbUtils:类 释放资源和控制事务  
-		ResultSetHandler:接口 封装结果集  
-			BeanHandler:将查询的第一条结果封装成指定的bean对象  
-			BeanListHandler:将查询的每一条结果封装成指定的bean对象,将所有的对象放入list中返回  
+		DbUtils:类 释放资源和控制事务    
+		ResultSetHandler:接口 封装结果集    
+			BeanHandler:将查询的第一条结果封装成指定的bean对象    
+			BeanListHandler:将查询的每一条结果封装成指定的bean对象,将所有的对象放入list中返回    
 			MapListHandler:将查询的每一条结果封装成map,key是字段名,value是值,将所有的map放入list中返回  
-			ScalarHandler:针对于聚合函数   
+			ScalarHandler:针对于聚合函数     
 			
-////////////////////////////////////////////////
+
 xml:
 	可以编写简单的xml文件
 	可以按照指定的约束文件编写xml文件  
 tomcat:★  
-///////////////////////
+
 
 ### 案例1-编写配置文件,编写一个服务器软件,按照指定的全限定名,根据路径,让服务器创建这个对象,调用指定的方法
 需求:
@@ -110,107 +108,117 @@ tomcat:★
 ```
 
 技术分析:
-	xml
-	解析xml
-	根据全限定名创建一个对象,调用方法
-////////////////////////
+	xml  
+	解析xml  
+	根据全限定名创建一个对象,调用方法  
+  
 xml:
-	可扩展的标签语言  
-	标签自定义.  
-	作用:存储数据.(配置文件)  
+	可扩展的标签语言    
+	标签自定义.    
+	作用:存储数据.(配置文件)    
 	书写规范:  
-		1.区分大小写  
-		2.应该有一个根标签  
-		3.标签必须关闭  
-			<xx></xx>  
-			<xx/>   
-		4.属性必须用引号引起来,  
-			<xx att="value"/>  
-		5.标签体中的空格或者换行或者制表符等内容都是作为数据内容存在的  
-			<xx>aa</xx>  
-			<xx>    aa   </xx>  
-		6.特殊字符必须转义  
-			< > &   
-		满足上面规范的文件我们称之为是一个格式良好的xml文件.可以通过浏览器浏览  
-	后缀名:  
-		.xml  
-xml组成部分:  
-	声明:   
-		作用:告诉别人我是一个xml文件  
-		格式:	  
-			<?xml .....  ?>  
-		例如:  
-			<?xml version="1.0" encoding="UTF-8"?>  
-			<?xml version='1.0' encoding='utf-8' standalone="yes|no"?>  
-		要求:  
-			必须在xml文件的第一行  
-			必须顶格写  
-	元素(标签):  
-		格式:  
-			<xx></xx>  
-			<xx/>  
-		要求:  
-			1.必须关闭  
-			2.标签名不能 xml Xml XML 等等开头  
-			3.标签名中不能出现" "或者":"等特殊字符.  
-	属性:  
-		格式:  
-			<xx 属性名="属性值"/>  
-		要求:  
-			属性必须用引号引起来  
-	注释:  
-		和html一样  
-		<!-- 注释内容 -->  
-	CDATA:  
-		xml文件的特殊字符必须转义  
-		通过cdataky 保证数据原样输出  
-			格式:  
-				<![CDATA[  
-					原样输出的内容  
-				]]>  
-/////////////////////////  
-xml解析:  
-	解析方式:  
-		1.sax:特点:逐行解析,只能查询.   
+		1.区分大小写    
+		2.应该有一个根标签    
+		3.标签必须关闭    
+			<xx></xx>    
+			<xx/>     
+		4.属性必须用引号引起来,    
+			<xx att="value"/>    
+		5.标签体中的空格或者换行或者制表符等内容都是作为数据内容存在的    
+			<xx>aa</xx>    
+			<xx>    aa   </xx>    
+		6.特殊字符必须转义    
+			< > &     
+		满足上面规范的文件我们称之为是一个格式良好的xml文件.可以通过浏览器浏览    
+	后缀名:    
+		.xml    
+xml组成部分:    
+	声明:     
+		作用:告诉别人我是一个xml文件    
+		格式:  	  
+			<?xml .....  ?>    
+		例如:    
+			<?xml version="1.0" encoding="UTF-8"?>    
+			<?xml version='1.0' encoding='utf-8' standalone="yes|no"?>    
+		要求:    
+			必须在xml文件的第一行    
+			必须顶格写    
+	元素(标签):    
+		格式:    
+			<xx></xx>    
+			<xx/>    
+		要求:    
+			1.必须关闭    
+			2.标签名不能 xml Xml XML 等等开头    
+			3.标签名中不能出现" "或者":"等特殊字符.    
+	属性:    
+		格式:    
+			<xx 属性名="属性值"/>    
+		要求:    
+			属性必须用引号引起来    
+	注释:    
+		和html一样    
+		<!-- 注释内容 -->    
+	CDATA:    
+		xml文件的特殊字符必须转义    
+		通过cdataky 保证数据原样输出    
+			格式:    
+				<![CDATA[    
+					原样输出的内容    
+				]]>    
+    
+xml解析:    
+	解析方式:    
+		1.sax:特点:逐行解析,只能查询.     
 		2.dom:特点:一次性将文档加载到内容中,形成一个dom树.可以对dom树curd操作  
-	解析技术:  
-		JAXP：sun公司提供支持DOM和SAX开发包  
-		JDom：dom4j兄弟  
-		jsoup：一种处理HTML特定解析开发包  
-		★dom4j：比较常用的解析开发包，hibernate底层采用。  
-	dom4j技术进行查询操作.  
-		使用步骤:  
-			1.导入jar包  
-			2.创建一个核心对象 SAXReader  
-				new SAXReader();  
-			3.将xml文档加载到内存中形成一棵树  
-				Document doc=reader.read(文件)  
-			4.获取根节点  
-				Element root=doc.getRootElement();  
-			5.通过根节点就可以获取其他节点(文本节点,属性节点,元素节点)  
-				获取所有的子元素  
-					List<Element> list=root.elements()   
-				获取元素的指定属性内容  
-					String value=root.attributeValue("属性名");  
-				获取子标签标签体:遍历list 获取到每一个子元素  
-					String text=ele.elementText("子标签名称")  
-					
-	xpath解析技术:(扩展)  
-		依赖于dom4j
-			使用步骤:
-				1.导入jar包(dom4j和jaxen-1.1-beta-6.jar)
-				2.加载xml文件到内存中
-				3.使用api
-					selectNode("表达式");
-					selectSingleNode("表达式");
-			表达式的写法:
-				/ 从根节点选取 
-				// 从匹配选择的当前节点选择文档中的节点，而不考虑它们的位置 
-				例如一个标签下有一个id属性且有值  id=2;
-					//元素名[@属性名='属性值']
-					//元素名[@id='2']  
+	解析技术:    
+		JAXP：sun公司提供支持DOM和SAX开发包    
+		JDom：dom4j兄弟    
+		jsoup：一种处理HTML特定解析开发包    
+		★dom4j：比较常用的解析开发包，hibernate底层采用。    
+	dom4j技术进行查询操作.    
+		使用步骤:    
+			1.导入jar包    
+			2.创建一个核心对象 SAXReader    
+				new SAXReader();    
+			3.将xml文档加载到内存中形成一棵树    
+				Document doc=reader.read(文件)    
+			4.获取根节点    
+				Element root=doc.getRootElement();      
+			5.通过根节点就可以获取其他节点(文本节点,属性节点,元素节点)    
+				获取所有的子元素    
+					List<Element> list=root.elements()     
+				获取元素的指定属性内容    
+					String value=root.attributeValue("属性名");    
+				获取子标签标签体:遍历list 获取到每一个子元素    
+					String text=ele.elementText("子标签名称")    
+	
+	
+	
+	
 				
-//////////////////////////////  
+	
+	
+	
+				
+		
+				
+	xpath解析技术:(扩展)  
+		依赖于dom4j  
+			使用步骤:  
+				1.导入jar包(dom4j和jaxen-1.1-beta-6.jar)  
+				2.加载xml文件到内存中  
+				3.使用api  
+					selectNode("表达式");  
+					selectSingleNode("表达式");  
+			表达式的写法:  
+				/ 从根节点选取   
+				// 从匹配选择的当前节点选择文档中的节点，而不考虑它们的位置   
+				例如一个标签下有一个id属性且有值  id=2;  
+					//元素名[@属性名='属性值']  
+					//元素名[@id='2']    
+				
+    
 反射:  
 	1.获取对应的class对象  
 		方式1:★  
@@ -232,13 +240,13 @@ xml解析:
 			a.add(10,30);  
 		例如:  
 			method.invoke(a,10,30)  
-/////////////////////////////////  
+    
 xml约束:  
 	作用:规定xml中可以出现那些元素及那些属性,以及他们出现的顺序.  
 	约束的分类:  
 		DTD约束:struts hiebernate等等  
 		SCHEMA约束:tomcat spring等等  
-/////////////////////////  
+    
 DTD约束:  
 	和xml的关联	(一般都会提供好,复制过来即可,有时候连复制都不需要.)  
 		方式1:内部关联  
@@ -283,7 +291,7 @@ xml的学习目标:
 	编写一个简单的xml文件  
 	可以根据约束文件写出相应xml文件.  
 		按f2或者 alt+/提示写出内容即可  
-///////////////////////////  
+    
 SCHEMA约束:  
 	一个xml文档中可以添加多个schema约束  
 	xml和schema的关联.  
@@ -306,15 +314,15 @@ SCHEMA约束:
 			若在案例中直接使用 table 代表的是桌子  
 		在一个xml文件中只能有一个不起别名;  
 注意:  
-	schema约束本身也是xml文件.  
+	schema约束本身也是xml文件.    
 	
-////////////////////////////////////////////////////	  
+  	  
 ### 案例2-通过eclipse能发布自己的项目.  
 #### 技术分析:    
 	eclipse:ide    
 	tomcat:服务器  
-	项目:web项目  
-//////////////////////////////  
+	项目:web项目    
+    
 服务器:  
 	硬件服务器和软件服务器  
 web服务器:  
@@ -369,9 +377,9 @@ web通信机制:
 						   redirectPort="8443" />
 				修改port后面的值就可以了.注意:1024以下的端口号留给系统用的
 				80端口是留给http协议用的.我们可以使用这个端口号
-		3.有可能出现的问题(在环境变量中配置CATALINA_HOME)
-			删除
-	/////////////////////
+		3.有可能出现的问题(在环境变量中配置CATALINA_HOME)  
+			删除  
+
 	tomcat目录结构:(了解)
 		bin:存放的可执行程序
 		conf:配置文件
@@ -379,8 +387,8 @@ web通信机制:
 		logs:日志 注意:catalina
 		temp:临时文件
 		★★webapps:存放项目的目录
-		★work:存放jsp文件在运行时产生的java和class文件
-	////////////////////////
+		★work:存放jsp文件在运行时产生的java和class文件  
+
 	web项目的目录结构:★★★
 		myweb(项目名称)   web2.5版本标准的目录结构
 			|
@@ -397,8 +405,8 @@ web通信机制:
 		http://主机:端口号/项目名称/资源路径
 		例如:我的项目 myweb 
 			资源 myweb有一个1.html
-		http://localhost:80/myweb/1.html
-	/////////////////////////////
+		http://localhost:80/myweb/1.html  
+
 	常用的项目发布方式:(虚拟目录映射)
 		★方式1:将项目放到tomcat/webapps下
 		(了解)方式2:修改 tomcat/conf/server.xml
@@ -410,8 +418,8 @@ web通信机制:
 		(了解)方式3:
 			在tomcat/conf/引擎目录/主机目录下 新建一个xml文件
 				文件的名称就是项目名 文件的内容如下:
-					<Context docBase="G:\myweb"/>
-	////////////////////
+					<Context docBase="G:\myweb"/>  
+
 	eclipse和tomcat的整合★ ★
 		参考 day08.xls或者 day08.doc文档
 	
@@ -439,8 +447,8 @@ xml:
 	用来控制xml文档中可以出现那些元素和属性,以及他们出现的顺序  
 分类:  
 	DTD约束:struts hiebernate   
-	SCHEMA约束:tomcat 项目 spring  
-//////////////////  
+	SCHEMA约束:tomcat 项目 spring    
+  
 
 dtd约束:  
 	1.会和xml关联.  
@@ -448,14 +456,14 @@ dtd约束:
 		按f2或者alt+/  
 		? * + | () ,  
 注意:  
-	一个xml只能出现一个dtd约束  
-////////////////////////  
+	一个xml只能出现一个dtd约束    
+  
 SCHEMA:  
 	一个xml文件中可以出现多个schema约束  
 	通过名称空间将约束添加的    
 		xmlns="名称空间"   
-		xmlns:别名="名称空间"    
-/////////////////////////  
+		xmlns:别名="名称空间"      
+  
 
 xml-解析  
 	dom:一次性将整个xml文件加载到内存.可以curd操作  
@@ -468,15 +476,16 @@ dom4j技术查询xml
 		Element root= doc.getRootElement();  
 	4.通过根节点获取其他节点  
 		获取属性节点   
-			String value=root.attributeValue("属性名");  
-		获取所有的子元素  
-			List<Element> list=root.elements();  
-		获取一个元素的子元素的标签体  
-			String text=ele.elementText("子元素");  
-	Xpath:扩展:  
-		selectNodes("") 获取多个  
-		selectSingleNode("") 获取一个  
-/////////////////////////////////  
+			String value=root.attributeValue("属性名");    
+		获取所有的子元素    
+			List<Element> list=root.elements();    
+		获取一个元素的子元素的标签体    
+			String text=ele.elementText("子元素");    
+	Xpath:扩展:    
+		selectNodes("") 获取多个    
+		selectSingleNode("") 获取一个      
+		  
+    
 反射:  
 	1.获取class对象  
 		方式3:  
@@ -488,7 +497,8 @@ dom4j技术查询xml
 		Method m=clazz.getMethod("方法名称",Class ... 参数类型);  
 	4.执行方法  
 		m.invoke(实例对象,参数...);//相当于   实力对象.m(参数...)  
-/////////////////////////////
+		  
+
 web的概念  
 	web:网页  
 	web资源:  
