@@ -43,9 +43,3 @@ Xftp的连接
 [JAVA开发血泪之路：一步步搭建spring框架](https://blog.csdn.net/yu616568/article/details/70739976)  
 
 
-
-[Java Web中的mapper，service，controller，model](https://blog.csdn.net/qq_41647999/article/details/83314842)  
-[使用javax.persistence注解配置PO对象](https://www.cnblogs.com/hongwz/p/5402172.html)  
-[springmvc加vue实现前后端数据的跨域访问](https://www.cnblogs.com/aa1314/p/8289657.html)  
-[idea开发工具springmvc加vue.js实现MySQL数据库的查询操作](https://www.cnblogs.com/aa1314/p/8276245.html)  
-
