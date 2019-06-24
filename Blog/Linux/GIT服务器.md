@@ -50,5 +50,5 @@ git:x:1001:1001:,,,:/home/git:/usr/bin/git-shell
 [ubuntu完美搭建git服务器](https://blog.csdn.net/Liuqz2009/article/details/78396625)  
 
 
-
+[rebase 用法小结](https://www.jianshu.com/p/4a8f4af4e803)
 

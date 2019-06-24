@@ -30,4 +30,11 @@
 [Xcode 6制作动态及静态通用Framework（解决不支持 armv7s arm64 armv7）](https://blog.csdn.net/hcb1230/article/details/43530765)  
 [iOS开发～制作同时支持armv7,armv7s,arm64,i386,x86_64的静态库.a以及 FrameWork 的创建](https://www.cnblogs.com/lurenq/p/7068468.html)  
 
+### 设置版本号
+[设置Framework版本号](https://blog.csdn.net/MerryGOOT/article/details/54600134)  
+
+[在iOS开发中，给项目添加新的.framework](https://www.cnblogs.com/JuneWang/p/4860987.html)  
+[iOS封装功能生成 .framework](https://www.cnblogs.com/oc-bowen/p/7478461.html)  
+[ios 发布framework 到cocoapods](https://www.jianshu.com/p/c72914c3446b) 
+[上传iOS Framework到CocoaPods](https://www.jianshu.com/p/954646c47068)  
 
