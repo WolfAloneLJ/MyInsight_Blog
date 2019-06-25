@@ -18,3 +18,5 @@ XS MAX: iPhone11,4, iPhone11,6
 [Weex开发Input标签扩展](https://blog.csdn.net/qq_27731445/article/details/79501300)  
 
 
+[weex拖动排序模型](https://www.jianshu.com/p/c33261d223c6)  
+[wxc-result](https://alibaba.github.io/weex-ui/#/cn/packages/wxc-result/)  
