@@ -52,3 +52,8 @@ git:x:1001:1001:,,,:/home/git:/usr/bin/git-shell
 
 [rebase 用法小结](https://www.jianshu.com/p/4a8f4af4e803)
 
+[Ubuntu上搭建Git服务器](https://www.cnblogs.com/huntaiji/p/6287707.html)  
+[Ubuntu16 搭建Git 服务器](https://www.cnblogs.com/charliePU/p/7528226.html)  
+
+
+
