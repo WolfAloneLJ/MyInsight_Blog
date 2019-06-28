@@ -8,6 +8,10 @@
 [JavaScript splice() 方法](http://www.w3school.com.cn/jsref/jsref_splice.asp)  
 
 
+[JavaScript中的枚举](https://www.cnblogs.com/hailexuexi/p/4672666.html)  
+
+
+
 
 
 
