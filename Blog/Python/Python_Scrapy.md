@@ -21,3 +21,4 @@
 
 
 
+[scrapy爬虫数据存入mysql数据库](https://blog.csdn.net/ljm_9615/article/details/76715696)  
