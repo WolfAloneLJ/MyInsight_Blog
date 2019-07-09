@@ -104,3 +104,25 @@ iOS中的静态库有 .a 和 .framework两种形式；动态库有.dylib 和 .fr
 
 [【转】iOS静态库 【.a 和framework】【超详细】](https://blog.csdn.net/weixin_34026276/article/details/86228593)  
 [iOS开发-如何判断framework是动态库或静态库以及framework静态库转.a静态库](https://www.jianshu.com/p/77343def4574)  
+
+
+### 打包混编工程
+[Swift C/C++ 混编 -- module.modulemap](https://www.jianshu.com/p/691438e37df7)  
+[关于 module.modulemap 使用](https://www.jianshu.com/p/ce49d8f32f77)  
+[iOS（swift）：Framework工程调用C或者OC文件方法——关于module.modulemap的使用。](https://blog.csdn.net/qq26983255/article/details/89107699)  
+[制作基于Swift 的Framework（通过module桥接引用oc.framework）](https://blog.csdn.net/s12117719679/article/details/79743861)  
+[iOS（swift）：Framework工程调用C或者OC文件方法——关于module.modulemap的使用。](https://blog.csdn.net/qq26983255/article/details/89107699)  
+[swift framework中引入第三方的framework或者.a](https://blog.csdn.net/weixin_34388207/article/details/86993982)  
+
+
+### 报错
+[xCode编译“Undefined symbols for architecture arm64”](https://www.jianshu.com/p/6110ee9dd354)  
+[XCode8下一个undefined symbols for architecture arm64问题的解决](https://blog.csdn.net/qpx0033/article/details/56497461)  
+[排雷记录：Swift +Objective-C混合Framework的一些问题](https://blog.csdn.net/cooldragon/article/details/50172649)  
+[swift framework中引入第三方的framework或者.a](https://www.jianshu.com/p/1eaa63388594)  
+
+### 静态库转换
+[【转】把第三方.a或.framework添加到自己的静态库中](https://blog.csdn.net/weixin_34244102/article/details/87095850)  
+
+[illegal text-relocation错误解决](https://blog.csdn.net/shengpeng3344/article/details/52998224)  
+
