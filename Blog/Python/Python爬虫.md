@@ -289,7 +289,5 @@ class XhSpider(scrapy.Spider):
 
 [Scrapy 0.24 文档](https://scrapy-chs.readthedocs.io/zh_CN/0.24/)   
 [Scrapy简单入门及实例讲解](http://www.cnblogs.com/kongzhagen/p/6549053.html)  
-
-
-
+[scrapy 伪装代理和fake_userAgent的使用](https://www.cnblogs.com/seablog/p/7050552.html)  
 
