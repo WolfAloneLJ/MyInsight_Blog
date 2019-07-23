@@ -47,3 +47,7 @@ hash函数设计的好坏影响着数据的查找访问效率。
 [iOS NSDictionary(字典)~实现原理](https://blog.csdn.net/shihuboke/article/details/78454401)         
 [NSDictionary实现原理](https://blog.csdn.net/linshaolie/article/details/41494303)              
 [NSDictionary 内部结构、实现原理](https://www.jianshu.com/p/d4b5542740d5)          
+
+
+[Swift4: Codable->字典转模型的具体实现](https://www.jianshu.com/p/722ff1f7fbc1)  
+
