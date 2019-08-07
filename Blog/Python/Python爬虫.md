@@ -291,3 +291,5 @@ class XhSpider(scrapy.Spider):
 [Scrapy简单入门及实例讲解](http://www.cnblogs.com/kongzhagen/p/6549053.html)  
 [scrapy 伪装代理和fake_userAgent的使用](https://www.cnblogs.com/seablog/p/7050552.html)  
 
+[python爬虫设置代理ip池——方法（一）](https://blog.csdn.net/weixin_40372371/article/details/80154707)  
+[Python爬虫代理IP（代理池）——加载和使用](https://blog.csdn.net/qq_33472765/article/details/80662917)  
