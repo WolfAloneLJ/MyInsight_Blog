@@ -287,9 +287,10 @@ class XhSpider(scrapy.Spider):
 
 ### 参考：
 
-[Scrapy 0.24 文档](https://scrapy-chs.readthedocs.io/zh_CN/0.24/)   
-[Scrapy简单入门及实例讲解](http://www.cnblogs.com/kongzhagen/p/6549053.html)  
-[scrapy 伪装代理和fake_userAgent的使用](https://www.cnblogs.com/seablog/p/7050552.html)  
-
 [python爬虫设置代理ip池——方法（一）](https://blog.csdn.net/weixin_40372371/article/details/80154707)  
 [Python爬虫代理IP（代理池）——加载和使用](https://blog.csdn.net/qq_33472765/article/details/80662917)  
+
+[python爬虫下载网站磁力链接](https://blog.csdn.net/qq1124794084/article/details/53869255)  
+[fake-useragent Maximum amount of retries reached解决方案](https://blog.csdn.net/s740556472/article/details/83691122)  
+[python爬虫入门（一）urllib和urllib2](https://www.cnblogs.com/derek1184405959/p/8448875.html)  
+
