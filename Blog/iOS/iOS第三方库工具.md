@@ -26,13 +26,13 @@
 8. 安装第三方库
 `pod install`
 
-更新仓库
-`pod update` 
-`pod update --verbose`
-更新所有的仓库
-`pod repo update --verbose`
-更新制定的仓库
-`pod update ** --verbose --no-repo-update`
+更新仓库  
+`pod update`   
+`pod update --verbose`  
+更新所有的仓库    
+`pod repo update --verbose`  
+更新制定的仓库  
+`pod update ** --verbose --no-repo-update`  
 
 禁止升级 CocoaPods 的 spec 仓库，否则会卡在 Analyzing dependencies，非常慢
 `pod update --verbose --no-repo-update`

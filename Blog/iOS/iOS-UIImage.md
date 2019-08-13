@@ -14,3 +14,5 @@
 [How to apply multiple transforms in Swift](https://stackoverflow.com/questions/30929986/how-to-apply-multiple-transforms-in-swift)  
 [Fix Swift Orientation](https://www.jianshu.com/p/6b03ab4ded9c)  
 
+网页:  
+[ios手机竖屏拍照图片旋转90°问题解决方法 ](https://www.cnblogs.com/ranyonsue/p/10830688.html)  
