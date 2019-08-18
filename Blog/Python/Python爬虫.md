@@ -308,12 +308,17 @@ class XhSpider(scrapy.Spider):
 
 [大麦网演唱会抢票程序](https://github.com/Oliver0047/Concert_Ticket)  
 
+[京东抢购助手](https://github.com/tychxn/jd-assistant)  
+[Python爬虫—京东在线抢购](https://blog.csdn.net/linuxpassion/article/details/52346958)  
+
 
 
 [Python爬虫代理IP池(proxy pool)](https://github.com/jhao104/proxy_pool)  
 
 [微信机器人 / 可能是最优雅的微信个人号 API ](https://github.com/youfou/wxpy)  
 [wxpy: 用 Python 玩微信](https://wxpy.readthedocs.io/zh/latest/)  
+[利用python开发app实战](https://www.cnblogs.com/CoXieLearnPython/p/9231949.html)  
+[Python 开发过那些牛逼的 App](https://blog.csdn.net/sinat_38682860/article/details/86689218)  
 
 
 

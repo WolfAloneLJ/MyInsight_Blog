@@ -42,4 +42,39 @@
 [AttributeError: 'unicode' object has no attribute 'xpath'](https://www.cnblogs.com/cpc-dingyi/p/5783990.html)  
 [AttributeError: 'unicode' object has no attribute 'xpath issue](https://stackoverflow.com/questions/31586169/attributeerror-unicode-object-has-no-attribute-xpath-issue)  
 
+[Scrapy爬虫改为Scrapy-Redis增量式爬虫](https://blog.csdn.net/Hepburn_li/article/details/81480616)  
+[Python爬虫scrapy-redis分布式实例（一）](https://www.cnblogs.com/xinyangsdut/p/7631222.html)  
+
+[Scrapy spider中函数与callback之间传递参数](https://www.jianshu.com/p/f451b496d1ae)  
+
+
+[scrapy爬虫数据存入mysql数据库](https://blog.csdn.net/ljm_9615/article/details/76715696)  
+[scrapy爬虫框架将数据保存Mysql数据库中](https://blog.csdn.net/u013082989/article/details/52589791)  
+[scrapy爬虫框架中数据库（mysql）的异步写入](https://blog.csdn.net/zhouls007/article/details/82683405)  
+[使用python3+scrapy爬虫，并将结果保存到MYSQL数据库中（附代码）](https://blog.csdn.net/B_Ben/article/details/88918646)  
+[scrapy爬虫框架中数据库（mysql）的异步写入](https://blog.csdn.net/zhouls007/article/details/82683405)  
+
+[掘金 Scrapy](https://juejin.im/search?query=scrapy%20mysql&type=all)  
+[爬虫学习之基于 Scrapy 的网络爬虫](https://juejin.im/entry/5785a27c165abd0062b962b6)  
+
+[使用python3+scrapy爬虫，并将结果保存到MYSQL数据库中（附代码）](https://blog.csdn.net/B_Ben/article/details/88918646)  
+[python3使用scrapy爬取数据保存到mysql](https://blog.csdn.net/u010151698/article/details/79371234)  
+
+[Scrapy Tutorial](https://docs.scrapy.org/en/latest/intro/tutorial.html)  
+
+[ Scrapy教程](http://www.scrapyd.cn/jiaocheng/)  
+
+[Scrapy采花大盗小爬虫实战之：勾魂、酥胸、惹火、尤物……](http://www.scrapyd.cn/example/176.html)  
+
+[Scrapy存入MySQL（五）：实战Scrapy中文网存入MySQL](http://www.scrapyd.cn/jiaocheng/170.html)  
+[Scrapy存储到Mysql（二）：超好用MySQL可视化工具Navicat使用详解](http://www.scrapyd.cn/jiaocheng/166.html)  
+
+[使用scrapy爬取妹子图（一）](https://blog.csdn.net/aaronjny/article/details/73603727)  
+[妹子图(meizitu.com)爬虫](https://github.com/AaronJny/spider_for_meizitu)  
+
+[Scrapy 实战之爬取妹子图](https://blog.csdn.net/qq_33570092/article/details/83317342)  
+[用scrapy爬取"妹子图网"的图片，附上源代码](https://blog.csdn.net/haungzonglong/article/details/86617408)  
+[Scrapy框架爬取海量妹子图](https://blog.csdn.net/sinat_38682860/article/details/82226555)  
+
+[scrapy使用多个item以及指定item进行json输出](https://blog.csdn.net/zhan006/article/details/84107542)  
 

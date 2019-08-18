@@ -25,3 +25,10 @@ QT信号
 [Qt编写串口通信程序全程图文解说](https://www.cnblogs.com/bhlsheji/p/4042538.html)  
 [qt开发环境 - 简易二进制文件打开，串口自发自收](https://blog.csdn.net/zn2857/article/details/78010235)  
 [Qt 定时器Timer使用](https://www.cnblogs.com/joeblackzqq/p/3660588.html)  
+
+[test03](https://github.com/hqw123/test03)  
+[freedownload](https://github.com/tienhv/freedownload)  
+[FDM](https://github.com/minico/FDM)  
+
+
+

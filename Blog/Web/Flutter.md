@@ -37,4 +37,9 @@
 [Flutter学习二：本地资源使用+网络图片加载](https://blog.csdn.net/qq_36791265/article/details/85338466)  
 [fullter异常记录](https://www.jianshu.com/p/5ccbdd7bc519)  
 
+[Flutter豆瓣客户端](https://github.com/kaina404/FlutterDouBan)  
+
+[Flutter完整开发实战详解(一、Dart语言和Flutter基础) | 掘金技术征文](https://juejin.im/post/5b631d326fb9a04fce524db2)   
+
+[Flutter Github客户端App](https://github.com/CarGuo/GSYGithubAppFlutter)  
 
