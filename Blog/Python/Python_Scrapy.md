@@ -22,3 +22,24 @@
 
 
 [scrapy爬虫数据存入mysql数据库](https://blog.csdn.net/ljm_9615/article/details/76715696)  
+
+[Scrapy爬取图片教程](https://blog.csdn.net/weixin_41122339/article/details/80842042)  
+
+[随笔分类 - 爬虫_Spider](https://www.cnblogs.com/kongzhagen/category/922549.html)  
+
+[第8章 scrapy进阶开发(2)](https://www.cnblogs.com/jinxiao-pu/p/6815845.html)  
+[scrapy爬虫](https://www.cnblogs.com/jinxiao-pu/default.html?page=4)  
+[Scrapy爬取美女图片续集 (原创)](https://www.cnblogs.com/qiyeboy/p/5449266.html)  
+
+[ pythonのscrapy抓取网站数据](https://www.cnblogs.com/pengpengzhang/p/9475253.html)  
+[scrapy使用extract()输出unicode转为中文的方法](https://blog.csdn.net/u011378313/article/details/79904195)  
+[scrapy避免直接输出unicode](https://blog.csdn.net/u013571243/article/details/52698935)  
+[scrapy框架提取标签内文本的几种方法](https://blog.csdn.net/weixin_42657078/article/details/81434023)  
+[Scrapy选中标签中的文本](https://blog.csdn.net/ScapeD/article/details/82053704)  
+[scrapy提取不在标签内文字](https://blog.csdn.net/u014665013/article/details/78211491)  
+
+
+[AttributeError: 'unicode' object has no attribute 'xpath'](https://www.cnblogs.com/cpc-dingyi/p/5783990.html)  
+[AttributeError: 'unicode' object has no attribute 'xpath issue](https://stackoverflow.com/questions/31586169/attributeerror-unicode-object-has-no-attribute-xpath-issue)  
+
+

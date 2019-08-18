@@ -67,6 +67,15 @@
 [iOS10上关于NSPhotoLibraryUsageDescription等问题](https://www.tuicool.com/articles/BfyMVnV)  
 [介绍 iOS7 引入的多任务处理机制之Background Fetch](https://blog.csdn.net/leikezhu1981/article/details/42153459)  
 
+[使用 Quick Look 框架对文件进行预览](https://bignerdcoding.com/archives/5.html)  
+[iOS沙盒与文件管理](https://blog.csdn.net/fww330666557/article/details/50786748)  
+[iOS 获取沙盒文件路径及 写入/删除 沙盒文件](https://www.jianshu.com/p/0dbe875d7723)  
+[iOS 沙盒（sandbox）结构 使用 实例](https://www.cnblogs.com/cbw1987/p/5906076.html)  
+
+[Swift 2 throws 全解析 - 从原理到实践](https://onevcat.com/2016/03/swift-throws/)
+[Swift 中 throws 异常抛出](https://blog.csdn.net/kangguang/article/details/80423491)  
+
+
 
 
 

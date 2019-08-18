@@ -42,4 +42,41 @@ Xftp的连接
 [Java中最常见的5种Web服务器介绍](https://blog.csdn.net/singit/article/details/70991542)    
 [JAVA开发血泪之路：一步步搭建spring框架](https://blog.csdn.net/yu616568/article/details/70739976)  
 
+[java springmvc+bui+bootstrap后台管理系统搭建](https://www.cnblogs.com/xiaoliao/p/7750756.html)  
+[Java后台登录注册管理系统](https://blog.csdn.net/binbinqq86/article/details/81746294)  
+
+[Spring+JDBC实例](https://www.yiibai.com/spring/maven-spring-jdbc-example.html)  
+[java框架篇---spring IOC 实现原理](https://www.cnblogs.com/oumyye/p/4471111.html)  
+
+[springmvc-mybatis-learning](https://github.com/brianway/springmvc-mybatis-learning)  
+
+[springmvc+mybatis学习笔记(汇总)](https://blog.csdn.net/h3243212/article/details/51016271)  
+[springmvc+mybatis学习笔记(汇总)](https://my.oschina.net/brianway/blog/649946)  
+[使用IntelliJ IDEA开发SpringMVC网站（一）开发环境](https://my.oschina.net/gaussik/blog/385697)  
+
+[Spring+Springmvc+Mybatis](https://github.com/JackyFuu/SSM-Maven-Heima)  
+
+
+[Spring Boot+Vue从零开始搭建系统（三）：项目前后端分离_实现简单登录demo](https://segmentfault.com/a/1190000014211773)  
+[SpringMVC+VUE开发环境搭建](https://blog.csdn.net/weixin_37390956/article/details/82631054)  
+[Vue（使用webpack）与java后端（使用springmvc与tomcat8）整合测试与部署方案](https://blog.csdn.net/qq_33256688/article/details/78418110)  
+[将springmvc配置成一个REST服务器的过程](https://blog.csdn.net/qq_33256688/article/details/78578397)    
+[使用SpringMVC实现REST风格的CRUD功能](https://blog.csdn.net/xiangwanpeng/article/details/53148328)  
+[SpringMVC的REST风格的四种请求方式](https://blog.csdn.net/long0801/article/details/77679189)  
+[用Spring构建一个RESTful Web Service](https://www.cnblogs.com/forjava/p/4488483.html)  
+[优雅的SpringMVC和Restful](https://www.cnblogs.com/JJDJJ/p/7459472.html)  
+
+[Spring Boot实战：拦截器与过滤器](https://www.cnblogs.com/paddix/p/8365558.html)  
+[使用IDEA创建一个简单的SpringBoot（Maven）项目](https://blog.csdn.net/qq_35206244/article/details/81671387)  
+[Idea简单创建一个springboot的maven项目](https://blog.csdn.net/yilei_forwork/article/details/81666333)  
+
+[Java后台+数据库+Java web前端（新手）](https://www.cnblogs.com/sengzhao666/p/10145587.html)  
+[IDEA使用C3P0和JDBC链接MySQL8.0.11](https://blog.csdn.net/z15732621582/article/details/80959232)  
+[IDEA使用c3p0连接池连接mysql8.0.13](https://blog.csdn.net/weixin_42039699/article/details/84799365)  
+
+
+
+
+
+
 

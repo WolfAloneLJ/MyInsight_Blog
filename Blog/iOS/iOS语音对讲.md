@@ -573,3 +573,12 @@ NSLog(@"%s",__FUNCTION__);
 [audioqueue 播放以及录制pcm数据](https://github.com/xixi9527/AudioqueuePlayer)  
 
 
+[音频队列服务编程指南(Audio Queue Services Programming Guide)(二)](https://blog.csdn.net/jiangyiaxiu/article/details/9190035)  
+
+[AudioQueueServiceDemo](https://github.com/brownfeng/AudioQueueServiceDemo)  
+
+
+[Music147_2012](https://github.com/kumezaki/Music147_2012)  
+
+
+

@@ -62,3 +62,4 @@ Struct 不能被序列化成 NSData 对象。
 [swift 指针学习记录](https://www.jianshu.com/p/103591adc3d1)  
 [Swift Pointer 使用指南](https://www.cnblogs.com/feng9exe/p/9188197.html)  
 
+[Swift 中的 7 个陷阱以及如何避免](https://bignerdcoding.com/archives/2.html)  

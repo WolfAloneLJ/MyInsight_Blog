@@ -16,3 +16,6 @@
 [Python连接MySQL数据库之pymysql模块使用](https://www.cnblogs.com/chongdongxiaoyu/p/8951433.html)  
 
 
+[如何将图片储存在MySQL数据库中](https://blog.csdn.net/yugemengjing/article/details/78389352)  
+[往MySQL中存储图片](https://blog.csdn.net/hope2jiang/article/details/590733)  
+[关于图片或者文件在数据库的存储方式归纳](https://blog.csdn.net/a407479/article/details/51644602)  

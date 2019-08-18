@@ -294,3 +294,26 @@ class XhSpider(scrapy.Spider):
 [fake-useragent Maximum amount of retries reached解决方案](https://blog.csdn.net/s740556472/article/details/83691122)  
 [python爬虫入门（一）urllib和urllib2](https://www.cnblogs.com/derek1184405959/p/8448875.html)  
 
+[python爬虫：又和geckodriver折腾了一番（火狐浏览器）](https://blog.csdn.net/weixin_41576911/article/details/79203844)  
+[geckodriver](https://github.com/mozilla/geckodriver/releases)  
+[ChormeDrive以及Firefox浏览器驱动GeckoDriver下载安装步骤](https://blog.csdn.net/qq_42543250/article/details/81290876)  
+[GeckoDriver的安装和使用](https://www.cnblogs.com/xuyingzhong/p/9345487.html)  
+
+
+[自制抢票小助手（大麦）](https://github.com/yinziyu/getTicket)  
+[基于python和selenium实现的大麦网自动刷新抢票脚本](https://github.com/JnuMxin/damaiAuto)  
+[大麦网演唱会抢票程序](https://github.com/Oliver0047/Concert_Ticket)  
+[基于python3的大麦网抢票器](https://github.com/MakiNaruto/Automatic_ticket_purchase)  
+[大麦网自动抢票工具](https://github.com/Entromorgan/Autoticket)  
+
+[大麦网演唱会抢票程序](https://github.com/Oliver0047/Concert_Ticket)  
+
+
+
+[Python爬虫代理IP池(proxy pool)](https://github.com/jhao104/proxy_pool)  
+
+[微信机器人 / 可能是最优雅的微信个人号 API ](https://github.com/youfou/wxpy)  
+[wxpy: 用 Python 玩微信](https://wxpy.readthedocs.io/zh/latest/)  
+
+
+
