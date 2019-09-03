@@ -164,3 +164,8 @@ func aes128AndBase64(_ options: CCOptions?, _ operation: CCOperation, _ keyData:
 [如何在 Swift 中使用 CommonCrypto 类进行加密(I)](https://blog.csdn.net/cmbbill/article/details/48442879)  
 
 
+[SwiftCrypto SHA加密](https://github.com/jernejstrasner/SwiftCrypto)   
+[How to Hash sha256 in swift 4 with a secret key?](https://stackoverflow.com/questions/48406005/how-to-hash-sha256-in-swift-4-with-a-secret-key?rq=1)  
+[Swift - 如何实现字符串的HMAC_SHA1加密](https://www.cnblogs.com/luoxiaofu/p/5472826.html)  
+
+[ios-hmacsha256+base64格式密钥](https://www.jianshu.com/p/b46539280594)  
