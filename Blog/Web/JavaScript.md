@@ -13,5 +13,6 @@
 
 [JS数组去重](https://segmentfault.com/a/1190000017931539)  
 
+[JavaScript中数组元素删除的七大方法汇总](https://www.cnblogs.com/yun1108/p/9505294.html)  
 
 
