@@ -48,3 +48,8 @@
 
 [Python网络爬虫--Scrapy使用IP代理池](https://www.jianshu.com/p/da94a2a24de8)  
 
+[Scrapy抓取Ajax动态页面](https://www.jianshu.com/p/1e35bcb1cf21)  
+[利用scrapy-splash爬取JS生成的动态页面](https://blog.csdn.net/weixin_41579863/article/details/81568101)  
+[在scrapy中使用phantomJS实现异步爬取](https://blog.csdn.net/whueratsjtuer/article/details/79198863)  
+[scrapy利用scrapy-splash爬取JS动态生成的标签](https://blog.csdn.net/qq_38003892/article/details/80191572)  
+
