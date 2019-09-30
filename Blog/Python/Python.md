@@ -1,3 +1,9 @@
+## Python 
+
+能使用Python交互模式的时候，建议使用iPython进行交互
+
+
+
 
 
 [Python continue 语句](https://www.runoob.com/python/python-continue-statement.html)  
