@@ -11,6 +11,7 @@
 [SunRnn](https://github.com/wandouduoduo/SunRnn)  
 [Python爬虫代理IP池](https://github.com/jhao104/proxy_pool)  
 
-
-
-
+[Role of RL in Text Generation by GAN(强化学习在生成对抗网络文本生成中扮演的角色)](https://zhuanlan.zhihu.com/p/29168803)  
+[SCUT神经网络-Magellan小分队](https://zhuanlan.zhihu.com/c_126470847)  
+[GAN+文本生成：让文本以假乱真](https://blog.csdn.net/ycy0706/article/details/80425091)  
+[【转】RL-GAN For NLP: 强化学习在生成对抗网络文本生成中扮演的角色](https://blog.csdn.net/imsuhxz/article/details/82734272)  

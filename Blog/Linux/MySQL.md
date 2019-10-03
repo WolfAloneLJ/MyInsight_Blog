@@ -59,3 +59,7 @@ ps -aux | grep mysqld
 [ubuntu16.04下安装mysql详细步骤](https://blog.csdn.net/itxiaolong3/article/details/77905923)  
 [数据库一般不用来存储图片](https://www.cnblogs.com/mlgjb/p/8794659.html)  
 
+[在Windows上安装 MySQL 8.0 教程（默认选项 Developer Default 安装）](https://blog.csdn.net/qq_36761831/article/details/82384775)  
+[Windows10下安装MySQL8.0](https://www.cnblogs.com/tangyb/p/8971658.html)  
+[MySQL：MySQL Workbench的使用](https://www.cnblogs.com/hahayixiao/p/9849742.html)  
+
