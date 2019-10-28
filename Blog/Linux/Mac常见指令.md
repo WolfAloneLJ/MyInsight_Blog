@@ -51,6 +51,8 @@ Homebrew帮助信息
 brew -h
 ```
 
+brew upgrade
+
 ### nmp包管理
 
 
