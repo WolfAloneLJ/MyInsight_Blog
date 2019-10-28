@@ -787,3 +787,8 @@ call - 调用函数
 [12- Runtime基础使用场景-拦截替换方法(class_addMethod ,class_replaceMethod和method_exchangeImplementations)](https://www.jianshu.com/p/a6b675f4d073)  
 [OC最实用的runtime总结，面试、工作你看我就足够了！](https://www.jianshu.com/p/ab966e8a82e2)  
 [runtime详解](https://www.jianshu.com/p/46dd81402f63)  
+
+
+[Method Swizzling](https://nshipster.cn/method-swizzling/)  
+[Swift5.0的Runtime机制浅析](https://www.jianshu.com/p/158574ab8809)  
+[Swift5.0 的 Runtime 机制浅析](https://juejin.im/post/5d29fb63e51d4510aa01159d)  

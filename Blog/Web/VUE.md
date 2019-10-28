@@ -17,3 +17,6 @@
 [Vue.js ui框架大全，总有一款适合你](https://www.cnblogs.com/sunsets/p/10093157.html)  
 
 [使用Vue文本插值当文本溢出时如何自动换行](https://blog.csdn.net/princek123/article/details/88693857)  
+
+[vue中如何定义全局变量 和全局函数](https://blog.csdn.net/zhaofeiweb/article/details/82901007)  
+
