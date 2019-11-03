@@ -84,12 +84,41 @@ $ pip install -r requirements.txt
 ### 模板
 
 
+### Web表单
+在Flask中，为了处理web表单，我们一般用Flask-WTF扩展，它封装了WTFroms，并且它有验证表单数据的功能。
 
-### 数据库
 
 
 
- 
+
+### Flask中使用数据库
+#### Flask-SQLAlchemy扩展
+* SQLALchemy实际上是对数据库的抽象，让开发者不用直接和SQL语句打交道，而是通过Python对象来操作数据库，
+在舍弃一些性能开销的同时，换来的是开发效率的较大提升。
+* SQLALchemy是一个关系型数据库框架，它提供了高层的ORM和底层的原生数据库的操作。
+sqlalchemy是一个简化了SQLALchemy操作的flask扩展
+
+#### 安装flask-sqlalchemy
+`pip install flask-sqlalchemy`
+
+如果连接的是mysql数据库，需要安装`mysqldb`
+ `pip install flask-mysqldb`
+
+#### 使用Flask-SQLAlchemy管理数据库
+在Flask-SQLAlchemy中，数据库使用URL指定，而且程序使用的数据库必须保存到Flask配置对象的SQLALCHEMY_DATABASE_URI键中
+
+##### Flask的数据库设置:
+`app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:mysql@127.0.0.1:3306/test'`
+
+其他设置
+```shell script
+# 动态追踪修改设置，如未设置只会提示警告，不建议开启
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+# 查询时会显示原始SQL语句
+app.config['SQLALCHEMY_ECHO'] = True
+```
+
+
 
 #### 参考
 
