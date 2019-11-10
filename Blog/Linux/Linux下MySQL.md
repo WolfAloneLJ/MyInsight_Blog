@@ -12,6 +12,7 @@
  ### 参考
  [已解决：mysql无法远程访问10061错误，各种方式授权后也无效（ubuntu 16.04LTS mysql 5.7.13）](https://blog.csdn.net/xx1710/article/details/52446703)  
  
+ [在Ubuntu上安装mysql](https://blog.csdn.net/zxjohnson/article/details/79360716)  
  
  
  

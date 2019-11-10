@@ -187,5 +187,6 @@ sudo rm /var/lib/dpkg/lock
 
 [ubuntu 16.04常见错误--Could not get lock /var/lib/dpkg/lock解决](https://www.cnblogs.com/ace-wu/p/6623150.html)   
 
+[vmware设置共享文件夹](https://blog.csdn.net/mingtianwendy/article/details/78393583) 
 
 

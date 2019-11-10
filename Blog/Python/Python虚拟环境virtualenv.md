@@ -53,4 +53,7 @@ python2 -m pip install XXXX # python2版本安装包
 
 [Ubuntu中Python3虚拟环境的搭建](https://www.cnblogs.com/HeZhengfa/p/10486841.html)  
 
-
+[Anaconda+用conda创建python虚拟环境](https://www.cnblogs.com/swje/p/7642929.html)  
+[Anaconda和Pycharm的关系？](https://www.zhihu.com/question/268979235)  
+[Windows 下 Python 虚拟环境全解](https://www.jianshu.com/p/3b9b218b66a3)  
+[在ubuntu中使用virtualenv创建python2和python3的虚拟环境](https://blog.csdn.net/qingche456/article/details/65465760)  
