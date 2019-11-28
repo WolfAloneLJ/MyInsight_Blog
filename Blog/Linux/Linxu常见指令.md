@@ -189,4 +189,11 @@ sudo rm /var/lib/dpkg/lock
 
 [vmware设置共享文件夹](https://blog.csdn.net/mingtianwendy/article/details/78393583) 
 
+### net-tools VS iproute2
+激活/禁用网络接口 
+* `ifconfig eth0 up/down`  
+* `ip link set up/down eth0`
+
+[Linux网络管理常用命令：net-tools VS iproute2](https://www.cnblogs.com/wonux/p/6268134.html)  
+
 
