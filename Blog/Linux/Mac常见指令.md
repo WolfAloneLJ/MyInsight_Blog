@@ -105,5 +105,7 @@ rm -Rf ~/Library/Android*
 [MAC 下查看.a 以及 .framework 支持的架构](https://blog.csdn.net/u012224226/article/details/50848311)
 
 
+[Mac 的硬件重置作用及方法](https://bbs.feng.com/read-htm-tid-12403651.html)  
+[如何重置Mac OS X上的蓝牙硬件模块以排除有挑战性的蓝牙问题](https://mos86.com/18746.html)  
 
 

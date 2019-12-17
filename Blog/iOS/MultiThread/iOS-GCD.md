@@ -8,3 +8,5 @@
 [[Swift]多线程--GCD](https://www.jianshu.com/p/bd1336c18aa3)  
 [Swift4 - GCD的使用](https://blog.csdn.net/longshihua/article/details/79756676)  
 [swift---GCD的基本使用](https://blog.csdn.net/wujakf/article/details/98502738)  
+
+[dispatch_async 与 dispatch_get_global_queue 区别](https://www.jianshu.com/p/ff4a2ea7021e)  
