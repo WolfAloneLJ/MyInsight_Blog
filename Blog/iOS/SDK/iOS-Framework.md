@@ -128,3 +128,7 @@ iOS中的静态库有 .a 和 .framework两种形式；动态库有.dylib 和 .fr
 
 [优雅的开发Swift和Objective C混编的Framework](http://www.cocoachina.com/articles/19022)  
 [Swift制作Framework，提供给OC项目和Swift项目通用](https://www.jianshu.com/p/1ad5bede88bd)  
+
+
+[制作 Swift 版的 Framework](https://www.jianshu.com/p/d3a1ac66a9e6)  
+[手把手教你高效快捷的创建Swift Framework](https://www.jianshu.com/p/51c5376c5a36)  
