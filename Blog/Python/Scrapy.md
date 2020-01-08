@@ -53,3 +53,17 @@
 [在scrapy中使用phantomJS实现异步爬取](https://blog.csdn.net/whueratsjtuer/article/details/79198863)  
 [scrapy利用scrapy-splash爬取JS动态生成的标签](https://blog.csdn.net/qq_38003892/article/details/80191572)  
 
+[scrapy多线程开启](https://blog.csdn.net/Da___Vinci/article/details/86562643)  
+[[Python]多线程网址爬虫：控制线程数，爬虫深度](https://blog.csdn.net/u012063507/article/details/72831751)  
+[python3 网络爬虫（七）针对scrapy并发请求的一点看法（提速篇）](https://blog.csdn.net/Fight_Huang/article/details/76627539)  
+[python3 网络爬虫（一）反爬虫之我见](https://blog.csdn.net/Fight_Huang/article/details/73992441)  
+[Python破解反爬虫的两种方法](https://blog.csdn.net/weixin_41179709/article/details/83278877)  
+[scrapy在爬网页的时候是自动采用多线程的吗？](https://www.zhihu.com/question/26062225)  
+
+[爬虫 第三篇 （语言选择python还是java还是其他）](https://blog.csdn.net/keep_learn/article/details/49894873)  
+[Scrapy 爬虫(3)：爬取数据不保存，就是耍流氓](https://blog.csdn.net/iodjSVf8U1J7KYc/article/details/85818000)   
+[Scrapy爬取下来的数据不全，为什么总会有遗漏？](https://bbs.csdn.net/topics/392186241?list=61882125)  
+[scrapy 爬取数据时踩到的几个坑](https://blog.csdn.net/xiaodongxiexie/article/details/89358954)  
+
+[scrapy怎么提高性能？-写给自己看爬虫系列5](https://www.jianshu.com/p/3bf386066289)  
+

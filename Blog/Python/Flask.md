@@ -123,4 +123,9 @@ app.config['SQLALCHEMY_ECHO'] = True
 #### 参考
 
 
+[Flask 服务器设置host=0.0.0.0之后外部仍然无法访问](https://blog.csdn.net/henkun/article/details/88410213)  
+[Flask启动app.run(host='0.0.0.0',port=5000)，外网依然不能访问](https://blog.csdn.net/San_South/article/details/80659919)  
+[python实现Flask启动app.run(host='0.0.0.0',port=5000)](https://blog.csdn.net/qq_26591517/article/details/86423838)  
+[Flask启动app.run(host='0.0.0.0',port=5000)，外网依然不能访问](https://blog.csdn.net/San_South/article/details/80659919)  
+
 
