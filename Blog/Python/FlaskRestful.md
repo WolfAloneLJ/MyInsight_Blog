@@ -18,3 +18,7 @@
 
 [Flask RESTful API开发 返回值和状态码技巧](https://www.jianshu.com/p/284c2261cc3a)  
 [Flask RESTful 返回数据 乱码](https://blog.csdn.net/Crazy_zh/article/details/80704513)  
+
+[使用 Flask-RESTful 设计 RESTful API](https://www.jianshu.com/p/81cd461c7e8f)  
+[Python的Flask框架开发RESTful API](https://www.jianshu.com/p/ed1f819a7b58)  
+

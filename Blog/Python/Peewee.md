@@ -8,3 +8,4 @@
 [Peewee批量插入数据](https://www.jianshu.com/p/bd51bcdce67d)  
 [PEEWEE基本使用](https://www.cnblogs.com/yxi-liu/p/8514763.html#zengshangai)  
 [peewee基本操作](https://www.cnblogs.com/zhengze/p/10365564.html)  
+[PY => Python-ORM之peewee：模型-字段-索引-约束-事务（一）](https://segmentfault.com/a/1190000020265149)  

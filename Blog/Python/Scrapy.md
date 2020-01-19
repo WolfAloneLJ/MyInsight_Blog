@@ -67,3 +67,6 @@
 
 [scrapy怎么提高性能？-写给自己看爬虫系列5](https://www.jianshu.com/p/3bf386066289)  
 
+[用scrapy框架下载图片时可能存在的问题](https://blog.csdn.net/JLaiRen/article/details/84945173)  
+
+
