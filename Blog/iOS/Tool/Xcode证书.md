@@ -13,4 +13,5 @@
  
 5.  生成Certificates证书
 
-
+#### 参考:  
+[Xcode 证书生成、设置、应用](https://www.cnblogs.com/itgezhu/p/11081581.html)  
