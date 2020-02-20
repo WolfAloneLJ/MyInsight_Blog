@@ -3,6 +3,9 @@
 
 
 
+#### 同步主仓库的代码到fork仓库
+
+
 
 
 
@@ -15,3 +18,6 @@
 [ssh-keygen 不是内部或外部命令](https://blog.csdn.net/zy_281870667/article/details/50443403)  
 
 
+[如何让fork到自己仓库的源代码跟主代码同步](https://blog.csdn.net/u011692780/article/details/90180997)  
+[Git同步主仓库的代码到fork仓库](https://www.edoou.com/articles/1571454062238901)  
+[fork 了别人的仓库后如何保持同步更新](https://blog.csdn.net/jsjsjs1789/article/details/86722086?utm_source=distribute.pc_relevant.none-task)  

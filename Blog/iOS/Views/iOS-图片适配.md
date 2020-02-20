@@ -21,11 +21,11 @@ if(分辨率1){
 1.创建一个LaunchImage类型的图片集合  
 2.将创建的LaunchImage.launchimage从命名为first_open_01.imageset  
 3.根据分辨率将指定图片拖入到指定位置  
-![图片适配](../images/iOS/iOS图片适配1.png)
+![图片适配](../../images/iOS/iOS图片适配1.png)
 
 
 4.由于有引导页有多张图片，可以使用同样方法创建多个first_open_02.imageset，first_open_03.imageset，
-![图片适配](../images/iOS/iOS图片适配2.png)
+![图片适配](../../images/iOS/iOS图片适配2.png)
 
 对应尺寸这里绘制了一张表(markdown格式)：
 
