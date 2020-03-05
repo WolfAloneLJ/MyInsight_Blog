@@ -7,3 +7,5 @@
 [Xcode11 使用终端上传ipa](https://www.jianshu.com/p/56d57eef81de)  
 [Xcode11 使用xcrun altool上传IPA包](https://www.jianshu.com/p/26b8dccb5f26)  
 [xcode 上传app商店流程记录](https://blog.csdn.net/osuckseed/article/details/101834204)  
+
+[Xcode11，Transporter上传卡在——正在验证 APP - 正在通过App Store进行认证](https://www.jianshu.com/p/c0d85c003b3e)  
