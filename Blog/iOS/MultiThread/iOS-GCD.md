@@ -10,3 +10,6 @@
 [swift---GCD的基本使用](https://blog.csdn.net/wujakf/article/details/98502738)  
 
 [dispatch_async 与 dispatch_get_global_queue 区别](https://www.jianshu.com/p/ff4a2ea7021e)  
+
+
+[iOS多线程(手把手教你进阶)](https://www.jianshu.com/p/a26e46d04b32) 
